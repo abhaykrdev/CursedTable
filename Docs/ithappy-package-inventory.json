@@ -1,0 +1,1818 @@
+[
+  {
+    "guid": "00b6eab831214087a4b44dc3cb328521",
+    "path": "Assets/ithappy/Casino_Free/Materials/Emission.mat"
+  },
+  {
+    "guid": "01413bce071b44b19189922a45b47cd7",
+    "path": "Assets/ithappy/Casino_Free/Meshes"
+  },
+  {
+    "guid": "024aa6e6ebc94d359d99e745116a77d9",
+    "path": "Assets/ithappy/Casino_Free/Scripts/Slot_Machine/SlotCharacterSpawner.cs"
+  },
+  {
+    "guid": "027c9d47829a476b856a1019adfc8257",
+    "path": "Assets/ithappy/Casino_Free/Prefabs/Ready_Characters/31_Cashier.prefab"
+  },
+  {
+    "guid": "03d6eab965fd40bea54ef25321de180d",
+    "path": "Assets/ithappy/Casino_Free/Animations/Senior_Hand_Prop_Mask.mask"
+  },
+  {
+    "guid": "04abe451edd34820a890c9e9a0169523",
+    "path": "Assets/ithappy/Casino_Free/Animations/Senior"
+  },
+  {
+    "guid": "055ba30430564dc487d4ddbe216212fa",
+    "path": "Assets/ithappy/Casino_Free/Meshes/Assets/Gold_Ingot_01.fbx"
+  },
+  {
+    "guid": "05c31e5ec80848e9a8c60e15a3326b6c",
+    "path": "Assets/ithappy/Casino_Free/Prefabs/Senior_Base.prefab"
+  },
+  {
+    "guid": "0615c5ca4b2b45deac5c9928937edeaf",
+    "path": "Assets/ithappy/Casino_Free/Icons/75.png"
+  },
+  {
+    "guid": "06ab990e7b324df8aab42bda7d609646",
+    "path": "Assets/ithappy/Casino_Free/Scripts/Editor/AssetLoader.cs"
+  },
+  {
+    "guid": "07e0ea33015d4eafa708cfa08d781690",
+    "path": "Assets/ithappy/Casino_Free/Scripts/Character_Controller/ThirdPersonCamera.cs"
+  },
+  {
+    "guid": "0814067108f64bb88c9263357ca305b2",
+    "path": "Assets/ithappy/Casino_Free"
+  },
+  {
+    "guid": "0839ae30088a4b42809aa48517d633d5",
+    "path": "Assets/ithappy/Casino_Free/Meshes/Frame"
+  },
+  {
+    "guid": "08e63c6fe8c444c39aea9487deca5510",
+    "path": "Assets/ithappy/Casino_Free/Prefabs/Assets/SafeBox_01.prefab"
+  },
+  {
+    "guid": "0929d421e05245239c276ef4ec780097",
+    "path": "Assets/ithappy/Casino_Free/Scripts/Editor/SlotValidation/SlotToggledRule.cs"
+  },
+  {
+    "guid": "0963e1c220cf4d96aead838394c7b87a",
+    "path": "Assets/ithappy/Casino_Free/Skyboxes"
+  },
+  {
+    "guid": "0ac8839224eb4b6e9995aad70bed16d9",
+    "path": "Assets/ithappy/Casino_Free/Prefabs/Assets/Couch_05.prefab"
+  },
+  {
+    "guid": "0b202f180ad140819f827ed50b629f34",
+    "path": "Assets/ithappy/Casino_Free/Icons/Keyboard_01.png"
+  },
+  {
+    "guid": "0ec8d13edd8349448a1c550bacf04bc7",
+    "path": "Assets/ithappy/Casino_Free/Animations/Animation_Controllers/Idle.anim"
+  },
+  {
+    "guid": "0f45a78bad644fcb93e3e83980969fc1",
+    "path": "Assets/ithappy/Casino_Free/Scripts/Editor/Randomizer/Steps"
+  },
+  {
+    "guid": "0fb3c5f48ad049e79e726ffb6b1b1aaa",
+    "path": "Assets/ithappy/Casino_Free/Meshes/Characters/Adult_Male_Security_Pants.fbx"
+  },
+  {
+    "guid": "100ad42be33a4248a555d48047a8ee92",
+    "path": "Assets/ithappy/Casino_Free/Meshes/Assets/Slot_01.fbx"
+  },
+  {
+    "guid": "10f6d6183246430aa1e85a348cc1e091",
+    "path": "Assets/ithappy/Casino_Free/Animations/Animation_Controllers/AC_Walk_B.anim"
+  },
+  {
+    "guid": "112e8bbf1bdc4319973b2f18a213af75",
+    "path": "Assets/ithappy/Casino_Free/Scripts/Character_Controller/Moving/States/JumpState.cs"
+  },
+  {
+    "guid": "1157a0282cf943e392905009ee9ffd74",
+    "path": "Assets/ithappy/Casino_Free/Animations/Adult/Adult_Female_Sit_01_Talk.anim"
+  },
+  {
+    "guid": "119b9397632a4405977624d3dfab01a3",
+    "path": "Assets/ithappy/Casino_Free/Animations/Animation_Controllers/AC_Run_B.anim"
+  },
+  {
+    "guid": "127cc1aa1ef74156b79b3e2783a7f7a6",
+    "path": "Assets/ithappy/Casino_Free/Meshes/Assets/Lamp_05.fbx"
+  },
+  {
+    "guid": "128f47ada3ce499f933ae6ffc05f8260",
+    "path": "Assets/ithappy/Casino_Free/Meshes/Assets/Fruits_01.fbx"
+  },
+  {
+    "guid": "13a8da3ac11e48b188999344be9adce6",
+    "path": "Assets/ithappy/Casino_Free/Meshes/Adult_Base.fbx"
+  },
+  {
+    "guid": "13b478dd194949f7ade8f2fdf9c91538",
+    "path": "Assets/ithappy/Casino_Free/Icons/18_Security.png"
+  },
+  {
+    "guid": "144d44a14ff04ee2804d3a34c43487fe",
+    "path": "Assets/ithappy/Casino_Free/Prefabs/Characters/Senior_Male_Jacket_03.prefab"
+  },
+  {
+    "guid": "14b535681e9c475783c2d6d024e762dd",
+    "path": "Assets/ithappy/Casino_Free/Meshes/Assets/Column_17.fbx"
+  },
+  {
+    "guid": "15a17964bb7a45c195ed833f5c4aeaa4",
+    "path": "Assets/ithappy/Casino_Free/Meshes/Characters/Adult_Male_Face_Usual.fbx"
+  },
+  {
+    "guid": "163d5360a93c4513ba8e3fe01ba043b4",
+    "path": "Assets/ithappy/Casino_Free/Materials/Color.mat"
+  },
+  {
+    "guid": "169a9fa1f96343e39df1e569cbe5771c",
+    "path": "Assets/ithappy/Casino_Free/Meshes/Characters/Senior_Male_Hat_06.fbx"
+  },
+  {
+    "guid": "1765add7ad634056bda516961d60f90e",
+    "path": "Assets/ithappy/Casino_Free/Scripts/Other"
+  },
+  {
+    "guid": "177997d339d24ab59f3274d9329c735b",
+    "path": "Assets/ithappy/Casino_Free/Prefabs/Characters/Adult_Female_Face_Usual.prefab"
+  },
+  {
+    "guid": "18208b0ca2154ef4b8eba78dd0553536",
+    "path": "Assets/ithappy/Casino_Free/Textures/Chain_BaseColor.png"
+  },
+  {
+    "guid": "18582516e01d4694a05ce976628d3da7",
+    "path": "Assets/ithappy/Casino_Free/Textures/Slots.png"
+  },
+  {
+    "guid": "19e7a3408e024a238a18286e47893120",
+    "path": "Assets/ithappy/Casino_Free/Meshes/Characters/Adult_Male_Hat_Hairstyle_01.fbx"
+  },
+  {
+    "guid": "1a48b25b723a495cad0879d4806a0ddf",
+    "path": "Assets/ithappy/Casino_Free/Prefabs/Ready_Characters"
+  },
+  {
+    "guid": "1a6afd63027f256488fcbaaf43bf865d",
+    "path": "Assets/ithappy/Casino_Free/Render_Pipeline_Convert/Unity_6_URP_source.unitypackage"
+  },
+  {
+    "guid": "1a7595cab70e43ab90b6158b2c4d3b5e",
+    "path": "Assets/ithappy/Casino_Free/Materials/Screens_1.mat"
+  },
+  {
+    "guid": "1a7789bdf7004ed3b6919e11c709181b",
+    "path": "Assets/ithappy/Casino_Free/Animations/Animation_Controllers/Controller.controller"
+  },
+  {
+    "guid": "1c08611bc313480ab71b847365a4f918",
+    "path": "Assets/ithappy/Casino_Free/Prefabs/Characters/Adult_Female_Body_02.prefab"
+  },
+  {
+    "guid": "1ce85415163b43d68f1dc47b66230595",
+    "path": "Assets/ithappy/Casino_Free/Scripts/Editor/Character/PreviewCreator.cs"
+  },
+  {
+    "guid": "1d63a712cef44766ba889853e71f7c9c",
+    "path": "Assets/ithappy/Casino_Free/Prefabs/Characters/Adult_Male_Body_02.prefab"
+  },
+  {
+    "guid": "1dbe69b5fdd544e4882e9c6b1d9cd0d8",
+    "path": "Assets/ithappy/Casino_Free/Scripts/Slot_Machine"
+  },
+  {
+    "guid": "1e95bd30a7caa984b9250c258e665d53",
+    "path": "Assets/ithappy/Casino_Free/Scenes/HDRP_Scenes"
+  },
+  {
+    "guid": "1ea5f83f076145f586c472964c647afa",
+    "path": "Assets/ithappy/Casino_Free/Meshes/Assets/Card_39.fbx"
+  },
+  {
+    "guid": "1eb3b31e8bca4c9e844d899b666167b2",
+    "path": "Assets/ithappy/Casino_Free/Scripts/Editor/Randomizer/Steps/Impl/GlassesStep.cs"
+  },
+  {
+    "guid": "1eea97a9515c4ad593b2380479b589d1",
+    "path": "Assets/ithappy/Casino_Free/Prefabs/Assets/ATM_01.prefab"
+  },
+  {
+    "guid": "204b27e693144c9e8a15b6254b21aa65",
+    "path": "Assets/ithappy/Casino_Free/Icons/Fence_08.png"
+  },
+  {
+    "guid": "21cf9caf46674ff495fe9af424bbbdea",
+    "path": "Assets/ithappy/Casino_Free/Prefabs/Games/Slot_04.prefab"
+  },
+  {
+    "guid": "21d8907cbfbe76b47aa7ed4723783958",
+    "path": "Assets/ithappy/Casino_Free/Render_Pipeline_Convert/Unity_6_HDRP_source.unitypackage"
+  },
+  {
+    "guid": "22e0d4b8420a4cf2b55c95772bc95f68",
+    "path": "Assets/ithappy/Casino_Free/Animations/Animation_Controllers/Adult_Female_Sit_01_Talk.controller"
+  },
+  {
+    "guid": "24104adf87184cacb86d3dff832531ce",
+    "path": "Assets/ithappy/Casino_Free/Animations/Animation_Controllers/AC_Walk_FL.anim"
+  },
+  {
+    "guid": "2421851ed0714db581195ad70115941a",
+    "path": "Assets/ithappy/Casino_Free/Meshes/Characters/Senior_Male_Jacket_03.fbx"
+  },
+  {
+    "guid": "2496cd2718fd45ef8330626d4bc07009",
+    "path": "Assets/ithappy/Casino_Free/Meshes/Characters/Adult_Male_Hat_10.fbx"
+  },
+  {
+    "guid": "24ec057774914d0ea86b62a15a5fd63c",
+    "path": "Assets/ithappy/Casino_Free/Meshes/Senior_Base.fbx"
+  },
+  {
+    "guid": "250665e1e40646749aad61167bccb2e2",
+    "path": "Assets/ithappy/Casino_Free/Prefabs/Characters/Adult_Female_Actor_Outwear.prefab"
+  },
+  {
+    "guid": "25c7e6539ec24ed7a95647b3c3ebc31e",
+    "path": "Assets/ithappy/Casino_Free/Materials"
+  },
+  {
+    "guid": "26088f277c7f4b22ab5200c6038ae2c7",
+    "path": "Assets/ithappy/Casino_Free/Prefabs/Characters/PlusSize_Male_Shoes_05.prefab"
+  },
+  {
+    "guid": "26fb050e8fca4ff68511295cf0b4bf4b",
+    "path": "Assets/ithappy/Casino_Free/Animations/Animation_Controllers/AC_Crouch_FL.anim"
+  },
+  {
+    "guid": "273e1bf1b9714b278c86f4e84cdae03d",
+    "path": "Assets/ithappy/Casino_Free/Meshes/Assets/ATM_01.fbx"
+  },
+  {
+    "guid": "2753469649214373ba03d0a08d03ef88",
+    "path": "Assets/ithappy/Casino_Free/Animations/Animation_Controllers/AC_Walk_L.anim"
+  },
+  {
+    "guid": "278b814322e942a0aaf863fc2ed5dd2d",
+    "path": "Assets/ithappy/Casino_Free/Textures/Cash.png"
+  },
+  {
+    "guid": "27d7af361def4e1e816d6b9623869465",
+    "path": "Assets/ithappy/Casino_Free/VFX/FX_Textures/Circle02.png"
+  },
+  {
+    "guid": "2825fa299ecf4acda382ffe9a9e85442",
+    "path": "Assets/ithappy/Casino_Free/Prefabs/Ready_Characters/200.prefab"
+  },
+  {
+    "guid": "28371673e60f41519678ed0885338a6f",
+    "path": "Assets/ithappy/Casino_Free/Meshes/Assets/Slot_Machine_Aquarium_01.fbx"
+  },
+  {
+    "guid": "286438267c9b4364a5e0a8338ddb09e5",
+    "path": "Assets/ithappy/Casino_Free/Icons/Armchair_02.png"
+  },
+  {
+    "guid": "28d9a8f76db7499d964d01ab02075f60",
+    "path": "Assets/ithappy/Casino_Free/Animations/Adult/Adult_Slot_Win.anim"
+  },
+  {
+    "guid": "28e731fbbcbc47dc99351547735e5749",
+    "path": "Assets/ithappy/Casino_Free/Meshes/Assets/Book_01.fbx"
+  },
+  {
+    "guid": "28ecde124b114884ab8e474df94f86e0",
+    "path": "Assets/ithappy/Casino_Free/VFX/FX_Textures/Flare03.png"
+  },
+  {
+    "guid": "290369d31e154393b274e82c7681b4bd",
+    "path": "Assets/ithappy/Casino_Free/Meshes/Assets/Slot_02.fbx"
+  },
+  {
+    "guid": "2905708b26ee446c859bd2d7011b01c4",
+    "path": "Assets/ithappy/Casino_Free/Prefabs/Adult_Base.prefab"
+  },
+  {
+    "guid": "2a10a00cc0ed488b80b29792710c997e",
+    "path": "Assets/ithappy/Casino_Free/Prefabs/Games/Slot_Machine_Aquarium_01.prefab"
+  },
+  {
+    "guid": "2abaf4c0a63849b7845a719cdf6cac07",
+    "path": "Assets/ithappy/Casino_Free/Prefabs"
+  },
+  {
+    "guid": "2b4aa1b8b6314c8cb0953776ba8a4298",
+    "path": "Assets/ithappy/Casino_Free/Prefabs/Assets/Table_01.prefab"
+  },
+  {
+    "guid": "2bd8c31ec07847de9df8f966981d9d3d",
+    "path": "Assets/ithappy/Casino_Free/Meshes/Characters/Senior_Male_Face_Usual.fbx"
+  },
+  {
+    "guid": "2c24865641c94d42a767aa0e6bf5c189",
+    "path": "Assets/ithappy/Casino_Free/Prefabs/Ready_Characters/3_Actor.prefab"
+  },
+  {
+    "guid": "2cb70a9e48524acab307c6263af03deb",
+    "path": "Assets/ithappy/Casino_Free/Meshes/Characters/Adult_Female_Actor_Skirt.fbx"
+  },
+  {
+    "guid": "2ea7058f834f434197f6f76119919c3d",
+    "path": "Assets/ithappy/Casino_Free/Prefabs/Characters/Adult_Male_Face_Usual.prefab"
+  },
+  {
+    "guid": "2fcc5be77dd94b7196c8349e02a835b8",
+    "path": "Assets/ithappy/Casino_Free/Scripts/Editor/LayerMaskUtility.cs"
+  },
+  {
+    "guid": "3071862a3657492e81c08f6ac92a7437",
+    "path": "Assets/ithappy/Casino_Free/Animations/Adult_Hand_Prop_Mask.mask"
+  },
+  {
+    "guid": "30a12c26ee22487daf2e861b8299007d",
+    "path": "Assets/ithappy/Casino_Free/Animations/Animation_Controllers/AC_Run_R.anim"
+  },
+  {
+    "guid": "3170aaabf85845be8b72cceff9602b4e",
+    "path": "Assets/ithappy/Casino_Free/Scripts/Slot_Machine/SlotMachineFeedback.cs"
+  },
+  {
+    "guid": "31982da9454345e9b9009fb7a789e431",
+    "path": "Assets/ithappy/Casino_Free/Scripts/Character_Controller/Moving/States/WalkState.cs"
+  },
+  {
+    "guid": "32d840675e2e4e0baf3eeab9e862b0a6",
+    "path": "Assets/ithappy/Casino_Free/VFX/FX_Textures"
+  },
+  {
+    "guid": "33dfebdb859d4dcabbfea311a257afa3",
+    "path": "Assets/ithappy/Casino_Free/Animations/Animation_Controllers/Crouch_Idle_LookAround.anim"
+  },
+  {
+    "guid": "352409f5b5e64531a62d5286c01366cc",
+    "path": "Assets/ithappy/Casino_Free/Animations/Animation_Controllers/AC_Run_FR.anim"
+  },
+  {
+    "guid": "357c406ae3484f4c986988c0ffc7deea",
+    "path": "Assets/ithappy/Casino_Free/Scripts/Editor/Randomizer/Steps/IRandomizerStep.cs"
+  },
+  {
+    "guid": "35915eaf1ad7435884bde36419ca4633",
+    "path": "Assets/ithappy/Casino_Free/Prefabs/Assets/Fence_08.prefab"
+  },
+  {
+    "guid": "3597e47a4806450f84715cf52ab4f4c5",
+    "path": "Assets/ithappy/Casino_Free/Materials/Fabric_3.mat"
+  },
+  {
+    "guid": "35cd14580b194ab9a3cd42a3c6ba8a3a",
+    "path": "Assets/ithappy/Casino_Free/Animations/Senior/Senior_Walk.anim"
+  },
+  {
+    "guid": "3671c0855ce0492c8c98f2dc916c41f8",
+    "path": "Assets/ithappy/Casino_Free/Meshes/Assets/Table_01.fbx"
+  },
+  {
+    "guid": "36adfb5bf65b42d8a08d568bba2c28b6",
+    "path": "Assets/ithappy/Casino_Free/Meshes/Assets/Slot_Machine_01.fbx"
+  },
+  {
+    "guid": "37f7c6f8e1f144639c9015bda77788ff",
+    "path": "Assets/ithappy/Casino_Free/Icons/Flower_03.png"
+  },
+  {
+    "guid": "3843256753bf4feb8519a8f4e6596e0b",
+    "path": "Assets/ithappy/Casino_Free/Textures/Textures_4.png"
+  },
+  {
+    "guid": "384bd0fe00a44be69a2cf31344627627",
+    "path": "Assets/ithappy/Casino_Free/Scripts/Editor"
+  },
+  {
+    "guid": "389568b3ea264d21a0509367d35ea960",
+    "path": "Assets/ithappy/Casino_Free/Meshes/Assets/Card_53.fbx"
+  },
+  {
+    "guid": "394fbb4098b948f6be962acf3473db79",
+    "path": "Assets/ithappy/Casino_Free/Meshes/Characters/Adult_Male_Body_02_Optimized.fbx"
+  },
+  {
+    "guid": "39efa56bf614492096a7938931773717",
+    "path": "Assets/ithappy/Casino_Free/Animations/Adult/Adult_Slot_Sitting.anim"
+  },
+  {
+    "guid": "3a960e20053b468293a141a588160428",
+    "path": "Assets/ithappy/Casino_Free/Animations/Animation_Controllers/AC_Crouch_FR.anim"
+  },
+  {
+    "guid": "3b1683d1a64d444b9cc5db66c2641004",
+    "path": "Assets/ithappy/Casino_Free/Meshes/Assets/Chair_06.fbx"
+  },
+  {
+    "guid": "3b8dac73aa02d0f4a8e47e1f08d22c52",
+    "path": "Assets/ithappy/Casino_Free/Render_Pipeline_Convert/Render_Pipeline_Instructions_Unity_6.txt"
+  },
+  {
+    "guid": "3b944299dad84986ae1cb989d138df16",
+    "path": "Assets/ithappy/Casino_Free/Icons/Cash_01.png"
+  },
+  {
+    "guid": "3be4cb8982d34338843a296b3b2409cb",
+    "path": "Assets/ithappy/Casino_Free/Prefabs/Assets/Floor_01.prefab"
+  },
+  {
+    "guid": "3bfefc42c74b4ea1ba0885bf318c2b59",
+    "path": "Assets/ithappy/Casino_Free/Textures/Carpet_4.png"
+  },
+  {
+    "guid": "3c049c0c5f2c43898a58857e69bc155d",
+    "path": "Assets/ithappy/Casino_Free/Prefabs/Assets/Cash_01.prefab"
+  },
+  {
+    "guid": "3f36ff1562d44bb9ae0960a7d2aa2e4c",
+    "path": "Assets/ithappy/Casino_Free/Scripts/Editor/AssetsPath.cs"
+  },
+  {
+    "guid": "412d25ff82a446b4ab362fbedd901c16",
+    "path": "Assets/ithappy/Casino_Free/Icons/Table_06.png"
+  },
+  {
+    "guid": "41cb761d2fe64730b1f7bafb82e47b97",
+    "path": "Assets/ithappy/Casino_Free/Materials/Suit_Fabric.mat"
+  },
+  {
+    "guid": "4285b573dfb7452bb3f76ed0fb81b867",
+    "path": "Assets/ithappy/Casino_Free/Prefabs/Characters/Adult_Female_Hairstyle_04.prefab"
+  },
+  {
+    "guid": "43883f33ba724d289584a41bf8087b01",
+    "path": "Assets/ithappy/Casino_Free/Scripts/Editor/Randomizer/Steps/Impl/SlotStepBase.cs"
+  },
+  {
+    "guid": "43ae89ab6275475884cb45880463ea3f",
+    "path": "Assets/ithappy/Casino_Free/Prefabs/Assets/Card_48.prefab"
+  },
+  {
+    "guid": "44006460d8c54839ad58d6bdc4b9d77e",
+    "path": "Assets/ithappy/Casino_Free/Animations/Animation_Controllers/AC_Crouch_BL.anim"
+  },
+  {
+    "guid": "44b046f0b51f4e3887ca62afbe4c8f22",
+    "path": "Assets/ithappy/Casino_Free/Icons/ATM_03.png"
+  },
+  {
+    "guid": "44b5612e0d2b4da9a96322daef05b3f1",
+    "path": "Assets/ithappy/Casino_Free/Textures/Screens_2.png"
+  },
+  {
+    "guid": "44b787853de84b308267d8f3d6c6864a",
+    "path": "Assets/ithappy/Casino_Free/Prefabs/Assets/Book_01.prefab"
+  },
+  {
+    "guid": "46564fe888a7434d9fd30895212646a2",
+    "path": "Assets/ithappy/Casino_Free/Meshes/Assets/Flower_03.fbx"
+  },
+  {
+    "guid": "46c1870bc097d2647bbb6601aebd839d",
+    "path": "Assets/ithappy/Casino_Free/Scenes/Built-In_Scenes/Demonstration_Profiles"
+  },
+  {
+    "guid": "4775b9e8338a45f8abe2758cd8c2e799",
+    "path": "Assets/ithappy/Casino_Free/Prefabs/Assets/Lamp_05.prefab"
+  },
+  {
+    "guid": "4785c0ac7f7349ab9ed7171317b7aa40",
+    "path": "Assets/ithappy/Casino_Free/Scripts/Editor/Randomizer/Steps/Impl/CostumesStep.cs"
+  },
+  {
+    "guid": "481e07a77a524ccfb7bbf7011b94595f",
+    "path": "Assets/ithappy/Casino_Free/Meshes/Characters/Senior_Male_Shoes_06.fbx"
+  },
+  {
+    "guid": "4825553bd27148f19d3b06d39998eafb",
+    "path": "Assets/ithappy/Casino_Free/Scripts/Editor/Randomizer/Steps/Impl/HairstyleSingleStep.cs"
+  },
+  {
+    "guid": "486f7a9c5cc14153814ee23e4006d8a7",
+    "path": "Assets/ithappy/Casino_Free/Meshes/Assets/Keyboard_01.fbx"
+  },
+  {
+    "guid": "4986fefce5f84141884b39839db05e42",
+    "path": "Assets/ithappy/Casino_Free/Animations/Adult"
+  },
+  {
+    "guid": "499ac7680dfb4d1780ce6fc8e3e18560",
+    "path": "Assets/ithappy/Casino_Free/Meshes/Characters/Senior_Male_Hat_Mustache_01.fbx"
+  },
+  {
+    "guid": "49ef84a8bd124c7eaea3566bcc6a3e37",
+    "path": "Assets/ithappy/Casino_Free/Meshes/Characters/Adult_Female_Actor_Hat.fbx"
+  },
+  {
+    "guid": "4ac608bd97914e43b0e06b095aa0b566",
+    "path": "Assets/ithappy/Casino_Free/Meshes/Assets/Gold_Ingot_02.fbx"
+  },
+  {
+    "guid": "4b53f548995c4fcc86a972637929dd92",
+    "path": "Assets/ithappy/Casino_Free/Textures/Lines.png"
+  },
+  {
+    "guid": "4bfc804d3cd748479228e1c10061caf2",
+    "path": "Assets/ithappy/Casino_Free/Animations/Animation_Controllers/Adult_Security_Idle_1.controller"
+  },
+  {
+    "guid": "4c4e18ab3a834c8e903a3d9d3fc3eb5e",
+    "path": "Assets/ithappy/Casino_Free/Meshes/Characters/PlusSize_Male_Face_Usual.fbx"
+  },
+  {
+    "guid": "4ce85a2ee0974a6186d3ee0ebde55425",
+    "path": "Assets/ithappy/Casino_Free/Animations/Adult/Adult_Slot_Lose.anim"
+  },
+  {
+    "guid": "4d17cc6e01a64046917502049414cd2e",
+    "path": "Assets/ithappy/Casino_Free/Scripts/Editor/Randomizer/Steps/Impl/PantsStep.cs"
+  },
+  {
+    "guid": "4de605c1d5384d979d7b13f61eaa8fd5",
+    "path": "Assets/ithappy/Casino_Free/Prefabs/Assets/Cash_02.prefab"
+  },
+  {
+    "guid": "4de6b970ed4f42dd90eeb590cfc0c1d2",
+    "path": "Assets/ithappy/Casino_Free/Scripts/Editor/Character/CustomizableCharacter.cs"
+  },
+  {
+    "guid": "4fb4e931620e4b4590ae7db421a6568c",
+    "path": "Assets/ithappy/Casino_Free/Materials/Floor_Carpet_4.mat"
+  },
+  {
+    "guid": "504824b3993541fbbe25dbf2ed5bef37",
+    "path": "Assets/ithappy/Casino_Free/Scripts/Editor/MaterialManagement/MaterialOnDemand.cs"
+  },
+  {
+    "guid": "51de609a21aa4f989c357adf7725ec81",
+    "path": "Assets/ithappy/Casino_Free/Scripts/Editor/Randomizer/Steps/Impl/StepBase.cs"
+  },
+  {
+    "guid": "52472bd3731b4f15bef7164784783a32",
+    "path": "Assets/ithappy/Casino_Free/Prefabs/Characters/Senior_Male_Face_Usual.prefab"
+  },
+  {
+    "guid": "52804aeb13344bebb4010b5792d344cd",
+    "path": "Assets/ithappy/Casino_Free/Prefabs/AC_Animations.prefab"
+  },
+  {
+    "guid": "53a3be27e1e142ae96316a5c2ff31201",
+    "path": "Assets/ithappy/Casino_Free/Meshes/Assets/Cash_01.fbx"
+  },
+  {
+    "guid": "53bd97106ad242b185d623965636a32f",
+    "path": "Assets/ithappy/Casino_Free/Meshes/Assets/Cash_Machine_01.fbx"
+  },
+  {
+    "guid": "55173ca0bf5e4c77bbdc96369d0d302a",
+    "path": "Assets/ithappy/Casino_Free/Scripts/Editor/MaterialManagement"
+  },
+  {
+    "guid": "551bed93e29e43cba7a07a68331cf297",
+    "path": "Assets/ithappy/Casino_Free/Materials/Screens_2.mat"
+  },
+  {
+    "guid": "5531845a87ee40ac8d4fc1cc2159c2e5",
+    "path": "Assets/ithappy/Casino_Free/Icons/SafeBox_01.png"
+  },
+  {
+    "guid": "559d76cdc45a43378a317635acd4cc2a",
+    "path": "Assets/ithappy/Casino_Free/Animations/Animation_Controllers/AC_Walk_BR.anim"
+  },
+  {
+    "guid": "55e46d4ef5714f10b41355b1617052f6",
+    "path": "Assets/ithappy/Casino_Free/Prefabs/Ready_Characters/209.prefab"
+  },
+  {
+    "guid": "5634f9a3c6f24387bc6b8ca067f05598",
+    "path": "Assets/ithappy/Casino_Free/Prefabs/Characters/Adult_Male_Pants_15.prefab"
+  },
+  {
+    "guid": "56777e97f4fb421f973daad16422efdb",
+    "path": "Assets/ithappy/Casino_Free/Prefabs/Assets/Table_06.prefab"
+  },
+  {
+    "guid": "571d51fe3f994b339be4c3ee3a5bf93a",
+    "path": "Assets/ithappy/Casino_Free/Scripts/Editor/PartsEditor.cs"
+  },
+  {
+    "guid": "574bd2d429dc403ab3aecefc20dcb0b6",
+    "path": "Assets/ithappy/Casino_Free/VFX/FX_Prefabs/Confetti/Confetti_directional_multicolor.prefab"
+  },
+  {
+    "guid": "57b09b3ae0244db3ac820bea0eddbd2d",
+    "path": "Assets/ithappy/Casino_Free/Scripts/Editor/SlotValidation/SlotValidator.cs"
+  },
+  {
+    "guid": "57e093ebf2b54a198f592f1e031b704c",
+    "path": "Assets/ithappy/Casino_Free/Meshes/Assets/Couch_05.fbx"
+  },
+  {
+    "guid": "580f77db2f0f4a34a9b0ec2c0b1098d1",
+    "path": "Assets/ithappy/Casino_Free/Prefabs/Games/Slot_08.prefab"
+  },
+  {
+    "guid": "58682e0596be4f38be4b17248f4ad5c4",
+    "path": "Assets/ithappy/Casino_Free/Scripts/Editor/SlotLibrary.cs"
+  },
+  {
+    "guid": "587ec3eeb7d14d4d97105f142e089aad",
+    "path": "Assets/ithappy/Casino_Free/Render_Pipeline_Convert"
+  },
+  {
+    "guid": "58a00cbfea744e92a96f23a202dd41ef",
+    "path": "Assets/ithappy/Casino_Free/Scripts/Editor/Randomizer/Steps/Impl/FaceAccessoriesStep.cs"
+  },
+  {
+    "guid": "58a90b1b600c4a6d8c7921a009352bfb",
+    "path": "Assets/ithappy/Casino_Free/Scenes"
+  },
+  {
+    "guid": "591fae4c204840ec8943cdc1c3112693",
+    "path": "Assets/ithappy/Casino_Free/Textures/Screens_1.png"
+  },
+  {
+    "guid": "59c3c9316ec046a7bb032da82eddf073",
+    "path": "Assets/ithappy/Casino_Free/Meshes/Characters/Senior_Male_Pants_10.fbx"
+  },
+  {
+    "guid": "5a0601bcc76849eb9cd3ac70a10cf865",
+    "path": "Assets/ithappy/Casino_Free/Prefabs/Assets/Cash_10.prefab"
+  },
+  {
+    "guid": "5a0fd8e8e35248b98367379dcf961321",
+    "path": "Assets/ithappy/Casino_Free/Animations/Animation_Controllers/AC_Crouch_BR.anim"
+  },
+  {
+    "guid": "5a6884fc13cc4d888e0f4c43126fdc80",
+    "path": "Assets/ithappy/Casino_Free/Meshes/Assets/ATM_03.fbx"
+  },
+  {
+    "guid": "5a72fcf5168f46cd8d5db288f0dbb6ac",
+    "path": "Assets/ithappy/Casino_Free/Prefabs/Characters/Senior_Male_Hat_06.prefab"
+  },
+  {
+    "guid": "5ad2413f8e994724820dad9d56a04cfc",
+    "path": "Assets/ithappy/Casino_Free/Prefabs/Assets/Chair_Office_Part_01.prefab"
+  },
+  {
+    "guid": "5c3dfbc4cbc440c3acc0a4244269576a",
+    "path": "Assets/ithappy/Casino_Free/Prefabs/Characters/PlusSize_Male_Shorts_03.prefab"
+  },
+  {
+    "guid": "5d7f3ca9412c465c899f4863544b441c",
+    "path": "Assets/ithappy/Casino_Free/Scripts/Character_Controller/Moving/States/CrouchingState.cs"
+  },
+  {
+    "guid": "5e0cf488f17349e583af391446f809bb",
+    "path": "Assets/ithappy/Casino_Free/Scripts/Character_Controller/Moving/States"
+  },
+  {
+    "guid": "5e71027a7944d314db538591760e2c6c",
+    "path": "Assets/ithappy/Casino_Free/Scenes/HDRP_Scenes/Demonstration.unity"
+  },
+  {
+    "guid": "5eb2fcc4613543da99ea75d732347daf",
+    "path": "Assets/ithappy/Casino_Free/Meshes/Characters/Adult_Female_Actor_HeelShoes.fbx"
+  },
+  {
+    "guid": "5fcd5370de184416a7b435b3a68adaba",
+    "path": "Assets/ithappy/Casino_Free/VFX"
+  },
+  {
+    "guid": "5fd1fbe8c97e4506b4b4b7933d90f300",
+    "path": "Assets/ithappy/Casino_Free/Scripts/Editor/Character/FullBodySlot.cs"
+  },
+  {
+    "guid": "608c2c453e644093b3a4b5b5fd12c09f",
+    "path": "Assets/ithappy/Casino_Free/Prefabs/Characters/PlusSize_Male_Hairstyle_08.prefab"
+  },
+  {
+    "guid": "608da81124d44323947d86a186e32d75",
+    "path": "Assets/ithappy/Casino_Free/Animations/Animation_Controllers/AC_Walk_BL.anim"
+  },
+  {
+    "guid": "609121e2900c4e38910f7dc68747cd6a",
+    "path": "Assets/ithappy/Casino_Free/Scripts/Editor/Randomizer/Steps/Impl/HatStep.cs"
+  },
+  {
+    "guid": "614378d57e25435f8212f5c480523c28",
+    "path": "Assets/ithappy/Casino_Free/Meshes/Assets/Monitor_02.fbx"
+  },
+  {
+    "guid": "6144aa4769844e6faaf922d175ff1208",
+    "path": "Assets/ithappy/Casino_Free/Prefabs/Games/Slot_06.prefab"
+  },
+  {
+    "guid": "61680b000c9b4bb6b0c1624ee615ba56",
+    "path": "Assets/ithappy/Casino_Free/Icons/Slot_Machine_Aquarium_01.png"
+  },
+  {
+    "guid": "61a2198f833b41648363b2724101fa5d",
+    "path": "Assets/ithappy/Casino_Free/VFX/FX_Models/Confetti.fbx"
+  },
+  {
+    "guid": "61b58f7404cb4fa2b17641eab4a4b17b",
+    "path": "Assets/ithappy/Casino_Free/Meshes/Assets/Card_48.fbx"
+  },
+  {
+    "guid": "6253fddf07bd416b9065516d67050726",
+    "path": "Assets/ithappy/Casino_Free/Scripts/Character_Controller/Moving/LookWeight.cs"
+  },
+  {
+    "guid": "6364b3ff5b064d9c920aab3e988fc2d4",
+    "path": "Assets/ithappy/Casino_Free/Animations/Animation_Controllers/Jump_Idle.anim"
+  },
+  {
+    "guid": "638d19f25c73415981db53b2af0786e4",
+    "path": "Assets/ithappy/Casino_Free/Animations/Plus-Size"
+  },
+  {
+    "guid": "64b3d1602e5640b3813cd549e900bd45",
+    "path": "Assets/ithappy/Casino_Free/Scripts/Extensions"
+  },
+  {
+    "guid": "64e44cf5a51f49c8a6153de5359620f3",
+    "path": "Assets/ithappy/Casino_Free/Scripts/Editor/Character/SlotBase.cs"
+  },
+  {
+    "guid": "6571b9dc793b4b19bee0894588d0f08b",
+    "path": "Assets/ithappy/Casino_Free/Meshes/Assets/Cash_07.fbx"
+  },
+  {
+    "guid": "65815fc143ad47d4b3cade3afd7c7125",
+    "path": "Assets/ithappy/Casino_Free/Animations"
+  },
+  {
+    "guid": "65c309e97fc94f21811bb0c634969ee7",
+    "path": "Assets/ithappy/Casino_Free/Icons/Cash_Machine_01.png"
+  },
+  {
+    "guid": "67a8d039e37a4460a734972702822511",
+    "path": "Assets/ithappy/Casino_Free/Animations/Animation_Controllers/Idle_LookAround.anim"
+  },
+  {
+    "guid": "67ae56e209e24564a5de515d66a51ddf",
+    "path": "Assets/ithappy/Casino_Free/Icons/36.png"
+  },
+  {
+    "guid": "67b3cc490e154fd580f71b92c406c398",
+    "path": "Assets/ithappy/Casino_Free/Scripts/Editor/Randomizer/RandomCharacterGenerator.cs"
+  },
+  {
+    "guid": "687317e8ff364a6e9e80c4448a5a15b7",
+    "path": "Assets/ithappy/Casino_Free/Icons/Floor_01.png"
+  },
+  {
+    "guid": "689cb8bae75f44be9d7756f4e45fb135",
+    "path": "Assets/ithappy/Casino_Free/Meshes/Assets/Chair_Office_Part_01.fbx"
+  },
+  {
+    "guid": "696d1a48a9b641b6aa0b4a4e5b165696",
+    "path": "Assets/ithappy/Casino_Free/Scripts/Editor/Randomizer/Steps/Impl/HairstyleStep.cs"
+  },
+  {
+    "guid": "6ac07943a10f4b6980aa6ce54c186315",
+    "path": "Assets/ithappy/Casino_Free/Scripts/Character_Controller/Moving/MovementHandler.cs"
+  },
+  {
+    "guid": "6b4437fe0f9f4d478d9ec3c29ddc68a1",
+    "path": "Assets/ithappy/Casino_Free/Prefabs/Characters/Adult_Female_Cashier_Pants.prefab"
+  },
+  {
+    "guid": "6b51e5b64dd54e4380585e53b113bb4d",
+    "path": "Assets/ithappy/Casino_Free/Icons/Cash_07.png"
+  },
+  {
+    "guid": "6c3eed3745214967ac56772cefa2cf67",
+    "path": "Assets/ithappy/Casino_Free/Textures/Chain_Normal.png"
+  },
+  {
+    "guid": "6cc9878e4db54291bb06f48b62969eb3",
+    "path": "Assets/ithappy/Casino_Free/Icons/ATM_01.png"
+  },
+  {
+    "guid": "6ef3c131f5f84335bc6ab240bd09ea27",
+    "path": "Assets/ithappy/Casino_Free/Animations/Adult/Adult_Security_Idle_1.anim"
+  },
+  {
+    "guid": "6f0364f827fd453080e8dfc708ec3d7a",
+    "path": "Assets/ithappy/Casino_Free/Textures/Cards.png"
+  },
+  {
+    "guid": "6f5a5e18ec3f443f8bd0399c5a46a3d0",
+    "path": "Assets/ithappy/Casino_Free/Animations/Animation_Controllers/Adult_Security_Call.controller"
+  },
+  {
+    "guid": "6fe9280783a242cda6e40ecffc67b1ef",
+    "path": "Assets/ithappy/Casino_Free/Icons/Book_01.png"
+  },
+  {
+    "guid": "727cb7a1defa458a8403bb4418a54e51",
+    "path": "Assets/ithappy/Casino_Free/Icons/Fence_09.png"
+  },
+  {
+    "guid": "73c1f2551ac74ce6ac0128cecda6df16",
+    "path": "Assets/ithappy/Casino_Free/Scripts/Character_Controller/Moving/States/IdleState.cs"
+  },
+  {
+    "guid": "73d96d3300bf499b935532b18ff0e3d1",
+    "path": "Assets/ithappy/Casino_Free/Icons/Couch_05.png"
+  },
+  {
+    "guid": "746ee6a4ce3f441ca83f0127b3f14ff3",
+    "path": "Assets/ithappy/Casino_Free/Scripts/Character_Controller/PlayerInput.cs"
+  },
+  {
+    "guid": "7593a3f58c8245369d51de355a0c737c",
+    "path": "Assets/ithappy/Casino_Free/Meshes/Assets/Cash_10.fbx"
+  },
+  {
+    "guid": "75b41812b60144b1b8428992b33e3169",
+    "path": "Assets/ithappy/Casino_Free/Prefabs/Assets/Card_39.prefab"
+  },
+  {
+    "guid": "75fe30ade6144759827a8a53dd32c2a5",
+    "path": "Assets/ithappy/Casino_Free/VFX/FX_Materials/Circles_AB.mat"
+  },
+  {
+    "guid": "764944de05144cf2bcf246a4b1b1295a",
+    "path": "Assets/ithappy/Casino_Free/Animations/Animation_Controllers/AC_Run_BL.anim"
+  },
+  {
+    "guid": "7676caacd0934be1b1b1fc80866570eb",
+    "path": "Assets/ithappy/Casino_Free/Prefabs/Characters/Adult_Male_Security_Pants.prefab"
+  },
+  {
+    "guid": "7713d92972e145fdb6266e8a20e061e1",
+    "path": "Assets/ithappy/Casino_Free/Prefabs/Characters/Adult_Male_Hat_Hairstyle_01.prefab"
+  },
+  {
+    "guid": "777da08768bb41a78f913c0bf304e106",
+    "path": "Assets/ithappy/Casino_Free/Meshes/Characters/Adult_Female_Actor_Outwear.fbx"
+  },
+  {
+    "guid": "77a57d5b2d7348b8ba5eb5dca82fa4fe",
+    "path": "Assets/ithappy/Casino_Free/Scripts/Editor/Randomizer/Steps/Impl"
+  },
+  {
+    "guid": "7871d0bf18534fcb9388995446d06f53",
+    "path": "Assets/ithappy/Casino_Free/Textures/Fabric_Normal.png"
+  },
+  {
+    "guid": "7a0c429631774fa5828b728a00d091a9",
+    "path": "Assets/ithappy/Casino_Free/Scripts/Editor/Randomizer/Steps/Impl/HatSingleStep.cs"
+  },
+  {
+    "guid": "7b0f4c5851d448208624f520c780ab0d",
+    "path": "Assets/ithappy/Casino_Free/Animations/Adult/Adult_Security_Call.anim"
+  },
+  {
+    "guid": "7c4b3eb2dd0141b484511221f7b7aeae",
+    "path": "Assets/ithappy/Casino_Free/Scripts/Extensions/StringExtensions.cs"
+  },
+  {
+    "guid": "7c6d72bf847b4ed7895522b001f602ab",
+    "path": "Assets/ithappy/Casino_Free/Prefabs/Characters/PlusSize_Male_Shirt_06.prefab"
+  },
+  {
+    "guid": "7cc0f168a18c4236b344bc034bdf3f82",
+    "path": "Assets/ithappy/Casino_Free/Icons/63.png"
+  },
+  {
+    "guid": "7e21eae40b7248b19a333c3bf2e352dd",
+    "path": "Assets/ithappy/Casino_Free/Meshes/Characters/Adult_Female_Cashier_Shoes.fbx"
+  },
+  {
+    "guid": "7e8c424c2af8488f8de5ddaa4bcfe88e",
+    "path": "Assets/ithappy/Casino_Free/Icons"
+  },
+  {
+    "guid": "7ee35fcc6ef54b278b85ed2f1222ba27",
+    "path": "Assets/ithappy/Casino_Free/Meshes/Characters/Adult_Male_Shoes_12.fbx"
+  },
+  {
+    "guid": "81294f1b1cf24c9aabb6600b022407ac",
+    "path": "Assets/ithappy/Casino_Free/Prefabs/Assets/SafeBox_Door_01.prefab"
+  },
+  {
+    "guid": "812a3200b65747be891b95b5460c645a",
+    "path": "Assets/ithappy/Casino_Free/Materials/Cards.mat"
+  },
+  {
+    "guid": "81872ef22c204730964e35babb043241",
+    "path": "Assets/ithappy/Casino_Free/Icons/Fence_07.png"
+  },
+  {
+    "guid": "84d9f6da1d8043da85892224bfc98890",
+    "path": "Assets/ithappy/Casino_Free/Prefabs/Characters/Senior_Male_Pants_10.prefab"
+  },
+  {
+    "guid": "865f3ad33d794954a10fb9ae4adbed55",
+    "path": "Assets/ithappy/Casino_Free/Prefabs/Assets/Fence_07.prefab"
+  },
+  {
+    "guid": "867eb3451f354074ba6c73aeff4bd29a",
+    "path": "Assets/ithappy/Casino_Free/Icons/Slot_Machine_01.png"
+  },
+  {
+    "guid": "868642e13e6c417682f001afb7a4f8f9",
+    "path": "Assets/ithappy/Casino_Free/Scripts/Editor/Character/SlotLibraryLoader.cs"
+  },
+  {
+    "guid": "869124ed58fa42cd81858805360d05e6",
+    "path": "Assets/ithappy/Casino_Free/VFX/FX_Models/Materials"
+  },
+  {
+    "guid": "86ecb5be8e2541d3b8a318b15f727109",
+    "path": "Assets/ithappy/Casino_Free/Icons/Screens_01.png"
+  },
+  {
+    "guid": "87901355faa94af491178ea1358f13c9",
+    "path": "Assets/ithappy/Casino_Free/Prefabs/Assets/Fence_09.prefab"
+  },
+  {
+    "guid": "884d9705813749deaa73100365193b6c",
+    "path": "Assets/ithappy/Casino_Free/Animations/Adult/Adult_ComputerWork.anim"
+  },
+  {
+    "guid": "89cf6df809924bcc97868c553a752595",
+    "path": "Assets/ithappy/Casino_Free/Scripts/Editor/Randomizer/Steps/Impl/OutwearStep.cs"
+  },
+  {
+    "guid": "89e78d4a408249b49cd44d994191ff26",
+    "path": "Assets/ithappy/Casino_Free/Meshes/Assets/SafeBox_01.fbx"
+  },
+  {
+    "guid": "8a70574ed3e74f18a08c6c7f9d36dc04",
+    "path": "Assets/ithappy/Casino_Free/Icons/Chair_06.png"
+  },
+  {
+    "guid": "8bdc1ab3685d4498adfd2abb0940574c",
+    "path": "Assets/ithappy/Casino_Free/Meshes/Characters/PlusSize_Male_Shorts_03.fbx"
+  },
+  {
+    "guid": "8c8981a0450c43ed831436606ff30d2d",
+    "path": "Assets/ithappy/Casino_Free/Animations/Animation_Controllers/AC_Run_L.anim"
+  },
+  {
+    "guid": "8caef1838dcf43afa0844a17d32de304",
+    "path": "Assets/ithappy/Casino_Free/Icons/Cash_10.png"
+  },
+  {
+    "guid": "8d8b2007f4d14c5da1fb271a1d0f9ace",
+    "path": "Assets/ithappy/Casino_Free/Meshes/Assets/Armchair_02.fbx"
+  },
+  {
+    "guid": "8e44cc9528b547e380f0659a396230b9",
+    "path": "Assets/ithappy/Casino_Free/Prefabs/Assets"
+  },
+  {
+    "guid": "8e652ddbc3ae4fb4b1c636e81902d9bd",
+    "path": "Assets/ithappy/Casino_Free/Scripts/Editor/Randomizer/Steps/Impl/ShortsStep.cs"
+  },
+  {
+    "guid": "8edebc77de5b4a389319218a7ca2894e",
+    "path": "Assets/ithappy/Casino_Free/Meshes/Assets/Fence_08.fbx"
+  },
+  {
+    "guid": "8ee4ffaeb7464125b8de3b03e93aeea8",
+    "path": "Assets/ithappy/Casino_Free/Prefabs/Characters/Adult_Female_Cashier_Shirt.prefab"
+  },
+  {
+    "guid": "904c19d856e848fa8f5b8ec500ba68c7",
+    "path": "Assets/ithappy/Casino_Free/Scripts/Editor/MaterialManagement/MaterialProvider.cs"
+  },
+  {
+    "guid": "90e44bb7861f4be9808412adc74cba4d",
+    "path": "Assets/ithappy/Casino_Free/Icons/Lamp_05.png"
+  },
+  {
+    "guid": "90ea33b53f194210ae84bb303bc3d68d",
+    "path": "Assets/ithappy/Casino_Free/Prefabs/Assets/Monitor_02.prefab"
+  },
+  {
+    "guid": "92058ad0c47944d08f5b2266b371feba",
+    "path": "Assets/ithappy/Casino_Free/Icons/Cash_11.png"
+  },
+  {
+    "guid": "92e76b2759814699929f149dcc2d2256",
+    "path": "Assets/ithappy/Casino_Free/Scripts/DemonstrationScene"
+  },
+  {
+    "guid": "9319d01e3ba340b6a4cf97e8076e030d",
+    "path": "Assets/ithappy/Casino_Free/Materials/Slots.mat"
+  },
+  {
+    "guid": "9364f079435c42fdada06c23fb5b2154",
+    "path": "Assets/ithappy/Casino_Free/Meshes/Characters/PlusSize_Male_Shoes_05.fbx"
+  },
+  {
+    "guid": "9498f6debfc1402280163a5ac885c773",
+    "path": "Assets/ithappy/Casino_Free/Icons/Chair_Office_01.png"
+  },
+  {
+    "guid": "94ebe4248e554b9a867c95b1ea9102cb",
+    "path": "Assets/ithappy/Casino_Free/Materials/Lines.mat"
+  },
+  {
+    "guid": "9624dfc94da64bb7a38a519c134af468",
+    "path": "Assets/ithappy/Casino_Free/Prefabs/Games/Slot_02.prefab"
+  },
+  {
+    "guid": "973fef26252e438498ed7700ac801877",
+    "path": "Assets/ithappy/Casino_Free/Meshes/Assets/Fence_07.fbx"
+  },
+  {
+    "guid": "97a83f87eb5548b6b5e3b81b2f8a427e",
+    "path": "Assets/ithappy/Casino_Free/Textures"
+  },
+  {
+    "guid": "995bd48d41064a88af27ac6ab0c6400b",
+    "path": "Assets/ithappy/Casino_Free/Icons/Tablecloth_01.png"
+  },
+  {
+    "guid": "9ab3b800dba54e8fac431141d07a371c",
+    "path": "Assets/ithappy/Casino_Free/Prefabs/Characters/Adult_Male_Security_Shirt.prefab"
+  },
+  {
+    "guid": "9abfb6cf39db41d0a4214a37ac678dc9",
+    "path": "Assets/ithappy/Casino_Free/Prefabs/Assets/Tablecloth_01.prefab"
+  },
+  {
+    "guid": "9adeb1331cb5437daa96672f50053962",
+    "path": "Assets/ithappy/Casino_Free/Prefabs/Characters/Adult_Male_Hat_10.prefab"
+  },
+  {
+    "guid": "9b70cef1e3884ea2bf6643e55d50cccd",
+    "path": "Assets/ithappy/Casino_Free/VFX/FX_Textures/confetti_large.png"
+  },
+  {
+    "guid": "9bcb2ecaf4cb4d74ac7a8e2656a46ead",
+    "path": "Assets/ithappy/Casino_Free/Prefabs/Assets/Card_44.prefab"
+  },
+  {
+    "guid": "9bd02b814abc4fed85826342152c9dda",
+    "path": "Assets/ithappy/Casino_Free/Meshes/Characters/Adult_Male_Security_Shirt.fbx"
+  },
+  {
+    "guid": "9c06546a24804741a8c85435e859bf4e",
+    "path": "Assets/ithappy/Casino_Free/Icons/Cash_02.png"
+  },
+  {
+    "guid": "9cf6730113fc42348968af8a1197a483",
+    "path": "Assets/ithappy/Casino_Free/Scripts/Editor/SlotSorter.cs"
+  },
+  {
+    "guid": "9e563d5e0943463cb588e7d9138cac08",
+    "path": "Assets/ithappy/Casino_Free/Prefabs/Characters/PlusSize_Male_Chain_01.prefab"
+  },
+  {
+    "guid": "9f6d41b4a2104c5a8edd2e39ae04cdd7",
+    "path": "Assets/ithappy/Casino_Free/Icons/1_Cashier.png"
+  },
+  {
+    "guid": "a00e3d281f3f483db5c69b41d8a6a52c",
+    "path": "Assets/ithappy/Casino_Free/Scripts/Editor/Randomizer/StepResult.cs"
+  },
+  {
+    "guid": "a0422b22d9844ac4b51d51a1c58e25da",
+    "path": "Assets/ithappy/Casino_Free/Prefabs/Games/Slot_01.prefab"
+  },
+  {
+    "guid": "a17e3b1615fa4a8699b7242eb0298304",
+    "path": "Assets/ithappy/Casino_Free/Prefabs/Assets/Armchair_02.prefab"
+  },
+  {
+    "guid": "a1919e46b3aa4f2899bcbf208c4dca17",
+    "path": "Assets/ithappy/Casino_Free/VFX/FX_Prefabs/Confetti"
+  },
+  {
+    "guid": "a343c1ffc3294de2b3523a0729584df9",
+    "path": "Assets/ithappy/Casino_Free/Prefabs/Characters/Senior_Male_Hat_Mustache_01.prefab"
+  },
+  {
+    "guid": "a3603df8b690400fbf0f716202be43da",
+    "path": "Assets/ithappy/Casino_Free/VFX/FX_Models"
+  },
+  {
+    "guid": "a461e67dec6e45ffaf88d1e17330eec5",
+    "path": "Assets/ithappy/Casino_Free/Prefabs/Games/Slot_Machine_Aquarium_Fish_01.prefab"
+  },
+  {
+    "guid": "a46d0566da2542c294108a298058d72e",
+    "path": "Assets/ithappy/Casino_Free/Prefabs/Assets/Keyboard_01.prefab"
+  },
+  {
+    "guid": "a48fbc152bbd4669a43f02917ab30ad3",
+    "path": "Assets/ithappy/Casino_Free/Scripts/Character_Controller"
+  },
+  {
+    "guid": "a4eec17f5bcf72541b156bff5c34258b",
+    "path": "Assets/ithappy/Casino_Free/Scenes/URP_Scenes/Demonstration.unity"
+  },
+  {
+    "guid": "a61951a396c34d10a6618d8b565e7185",
+    "path": "Assets/ithappy/Casino_Free/Scripts/Editor/Randomizer"
+  },
+  {
+    "guid": "a6d47fb65b9e46dc8000b508ad6a0960",
+    "path": "Assets/ithappy/Casino_Free/Sound/Callum Donaldson - Casino Tones - Win Bonus Chimes.wav"
+  },
+  {
+    "guid": "a717fa880d6e41548e8b42610acbf84f",
+    "path": "Assets/ithappy/Casino_Free/Prefabs/Assets/Chair_Office_01.prefab"
+  },
+  {
+    "guid": "a71c0ffaaee448a590acc7df6a239cab",
+    "path": "Assets/ithappy/Casino_Free/Prefabs/Characters/Adult_Male_Jacket_12.prefab"
+  },
+  {
+    "guid": "a80018f316a64988a3b904aa30035b9c",
+    "path": "Assets/ithappy/Casino_Free/Animations/Animation_Controllers/Jump_FInish.anim"
+  },
+  {
+    "guid": "a807af6acc6b496b868ba5d95893101f",
+    "path": "Assets/ithappy/Casino_Free/VFX/FX_Models/Materials/lambert2.mat"
+  },
+  {
+    "guid": "aa2b1cd6dbcc44b99c9d88767090b0d9",
+    "path": "Assets/ithappy/Casino_Free/Meshes/Assets/Card_44.fbx"
+  },
+  {
+    "guid": "aa9705c1e45a45db99300ba6ed691c57",
+    "path": "Assets/ithappy/Casino_Free/Scripts/Editor/GroupType.cs"
+  },
+  {
+    "guid": "aaea024624f94f9d9cc6ab96ea6efe67",
+    "path": "Assets/ithappy/Casino_Free/Meshes/Assets/Cash_11.fbx"
+  },
+  {
+    "guid": "ab0d371f1bf74fc19c74053e7611c9ad",
+    "path": "Assets/ithappy/Casino_Free/Meshes/Characters/Adult_Female_Cashier_Pants.fbx"
+  },
+  {
+    "guid": "ab6784f20015426da427ddd45b0c065c",
+    "path": "Assets/ithappy/Casino_Free/Scripts/Character_Controller/Moving/States/RunState.cs"
+  },
+  {
+    "guid": "acf5b71a9da2e5443a359c431447a269",
+    "path": "Assets/ithappy/Casino_Free/Scenes/HDRP_Scenes/Demonstration_HDRP_Profiles"
+  },
+  {
+    "guid": "ad086d502b03472db09791f1d66563a0",
+    "path": "Assets/ithappy/Casino_Free/Prefabs/Characters/Adult_Male_Shoes_12.prefab"
+  },
+  {
+    "guid": "ad66c55c1b1a4d279afc3565a7a34390",
+    "path": "Assets/ithappy/Casino_Free/Prefabs/Characters/Adult_Female_Actor_Skirt.prefab"
+  },
+  {
+    "guid": "ae35d646d42b41558e2a73a384c08bfa",
+    "path": "Assets/ithappy/Casino_Free/Prefabs/Games/Slot_Machine_02.prefab"
+  },
+  {
+    "guid": "aebf47cf4cd645aeb0ac7d21f10dec6d",
+    "path": "Assets/ithappy/Casino_Free/Prefabs/Games/Slot_05.prefab"
+  },
+  {
+    "guid": "aefdffd8c7e51554d99693a22c7b7eac",
+    "path": "Assets/ithappy/Casino_Free/Scenes/URP_Scenes/Demonstration_URP_Profiles/URP_Profile.asset"
+  },
+  {
+    "guid": "af6f34bd4c2f4886bbe10b4583480e86",
+    "path": "Assets/ithappy/Casino_Free/Skyboxes/Skybox_Textures"
+  },
+  {
+    "guid": "af702605e78b4e80925f321084423fe7",
+    "path": "Assets/ithappy/Casino_Free/Scripts/DemonstrationScene/DemonstrationSceneManager.cs"
+  },
+  {
+    "guid": "b051006275dc4d778d6c16b78c033d97",
+    "path": "Assets/ithappy/Casino_Free/Prefabs/Characters/Adult_Female_Actor_Hat.prefab"
+  },
+  {
+    "guid": "b0de1f2166474906bec47b348d91fa31",
+    "path": "Assets/ithappy/Casino_Free/Scripts"
+  },
+  {
+    "guid": "b1d10a358f0e41f1a83da79c28f39b52",
+    "path": "Assets/ithappy/Casino_Free/Prefabs/Characters/Adult_Male_Security_Glasses.prefab"
+  },
+  {
+    "guid": "b48c13c8b97b468baa3b480b491ed5f9",
+    "path": "Assets/ithappy/Casino_Free/Meshes/Characters/PlusSize_Male_Body_03.fbx"
+  },
+  {
+    "guid": "b54fd3ca45fa40c38492f07606831b1c",
+    "path": "Assets/ithappy/Casino_Free/Prefabs/Assets/Gold_Ingot_02.prefab"
+  },
+  {
+    "guid": "b5bb81387449fa7408c10cf7b1d175ff",
+    "path": "Assets/ithappy/Casino_Free/Scenes/Built-In_Scenes/Demonstration_Profiles/PostProcessVolume Profile.asset"
+  },
+  {
+    "guid": "b629d32a3a0b4f4390de029fc883db05",
+    "path": "Assets/ithappy/Casino_Free/Scripts/Character_Controller/Moving/AnimationHandler.cs"
+  },
+  {
+    "guid": "b6b133fd28ac40c289c93617393462bb",
+    "path": "Assets/ithappy/Casino_Free/Icons/Slot_Machine_02.png"
+  },
+  {
+    "guid": "b7eebae679c343fb9af9e55a153d5809",
+    "path": "Assets/ithappy/Casino_Free/Animations/Plus-Size_Hand_Prop_Mask.mask"
+  },
+  {
+    "guid": "b809db161883411c999243f948640825",
+    "path": "Assets/ithappy/Casino_Free/Meshes/Assets/Screens_01.fbx"
+  },
+  {
+    "guid": "b8207edbceae4453bc2e86bd76ba58e7",
+    "path": "Assets/ithappy/Casino_Free/Animations/Animation_Controllers/Adult_ComputerWork.controller"
+  },
+  {
+    "guid": "b856ca7935d25c84fa4855314e96eb85",
+    "path": "Assets/ithappy/Casino_Free/Render_Pipeline_Convert/Unity_6_Built-In_source.unitypackage"
+  },
+  {
+    "guid": "b8659d68bea24aa3aa8a73872a1d8cfb",
+    "path": "Assets/ithappy/Casino_Free/Prefabs/Assets/Cash_07.prefab"
+  },
+  {
+    "guid": "b94f5954331b47ea9e9ffad624fad9f6",
+    "path": "Assets/ithappy/Casino_Free/Scripts/Slot_Machine/Slot_Machine_Players.controller"
+  },
+  {
+    "guid": "b9d5ad4d966749b583ac1799568852f7",
+    "path": "Assets/ithappy/Casino_Free/Meshes/Characters/Adult_Female_Body_02.fbx"
+  },
+  {
+    "guid": "bb3053de5d954eeca0c4cbc29327fe3c",
+    "path": "Assets/ithappy/Casino_Free/Scripts/Character_Controller/Moving/States/MovingState.cs"
+  },
+  {
+    "guid": "bb3c77207a9d4fccbd999d9fcd0a9cc9",
+    "path": "Assets/ithappy/Casino_Free/Scripts/Editor/SlotType.cs"
+  },
+  {
+    "guid": "bcb4d94c0b9341049e6c033789ead82e",
+    "path": "Assets/ithappy/Casino_Free/Meshes/Characters/PlusSize_Male_Shirt_06.fbx"
+  },
+  {
+    "guid": "bd98b8796db34f46b62e21300f0e368b",
+    "path": "Assets/ithappy/Casino_Free/Animations/Animation_Controllers/AC_Walk_R.anim"
+  },
+  {
+    "guid": "bdf086cefba5455a8cad0b1c2290d1e8",
+    "path": "Assets/ithappy/Casino_Free/Meshes/Characters"
+  },
+  {
+    "guid": "be1217b636614d42b4454304ea6a63d1",
+    "path": "Assets/ithappy/Casino_Free/Scripts/Other/RotationScript.cs"
+  },
+  {
+    "guid": "be6e1215f0a24fb4b43a1de2bffcd568",
+    "path": "Assets/ithappy/Casino_Free/Scripts/Editor/Randomizer/Steps/Impl/FaceStep.cs"
+  },
+  {
+    "guid": "bfba528c68174c1fbd80369705889e2a",
+    "path": "Assets/ithappy/Casino_Free/Animations/Animation_Controllers/AC_Walk_F.anim"
+  },
+  {
+    "guid": "bfbe618e97d84712a447ee78a431d58d",
+    "path": "Assets/ithappy/Casino_Free/Meshes/Characters/Adult_Male_Pants_15.fbx"
+  },
+  {
+    "guid": "c042d60cc7664cbc88fad6b59dc22806",
+    "path": "Assets/ithappy/Casino_Free/Scripts/Slot_Machine/PresetUVSlotMachine.cs"
+  },
+  {
+    "guid": "c0b6eeb86de443c1acd6b171fb4fb2f0",
+    "path": "Assets/ithappy/Casino_Free/Scripts/Editor/SlotValidation"
+  },
+  {
+    "guid": "c10e3134a7094f58ac2d2100a5219d89",
+    "path": "Assets/ithappy/Casino_Free/Meshes/Characters/Senior_Male_Body_02.fbx"
+  },
+  {
+    "guid": "c14098e350824dc29631ede4fbfe155e",
+    "path": "Assets/ithappy/Casino_Free/Icons/Fruits_01.png"
+  },
+  {
+    "guid": "c1c57f244e59e84418df028d4b6d268e",
+    "path": "Assets/ithappy/Casino_Free/Scenes/Built-In_Scenes/Demonstration.unity"
+  },
+  {
+    "guid": "c2bab83e6a1d44cf85346fc19c0ee28c",
+    "path": "Assets/ithappy/Casino_Free/Scripts/Slot_Machine/CasinoCharacterManager.cs"
+  },
+  {
+    "guid": "c31ecd9e2fab4ad5a7c931d353e570dd",
+    "path": "Assets/ithappy/Casino_Free/Prefabs/Assets/Mouse_01.prefab"
+  },
+  {
+    "guid": "c31f5394872748a6b6b9a76982c9feb2",
+    "path": "Assets/ithappy/Casino_Free/Animations/Animation_Controllers/AC_Run_BR.anim"
+  },
+  {
+    "guid": "c477a4f3e76d4d098aac9aadcf2daab8",
+    "path": "Assets/ithappy/Casino_Free/Scripts/Editor/Character/SlotGroup.cs"
+  },
+  {
+    "guid": "c48cc49288534ccaae3eaca4895e9600",
+    "path": "Assets/ithappy/Casino_Free/Materials/Color_Glossy.mat"
+  },
+  {
+    "guid": "c4ef900f67bd451e99de2e24b60bd3c3",
+    "path": "Assets/ithappy/Casino_Free/Meshes/Assets/Tablecloth_01.fbx"
+  },
+  {
+    "guid": "c56cceefbd9a4b5886b4c2585534d7fc",
+    "path": "Assets/ithappy/Casino_Free/Animations/Animation_Controllers/AC_Run_F.anim"
+  },
+  {
+    "guid": "c60510c743bf44fcb05b5f94e7efaedd",
+    "path": "Assets/ithappy/Casino_Free/Meshes/Characters/Adult_Male_Body_02.fbx"
+  },
+  {
+    "guid": "c62bdf8a1f1d44c899baf15e5c687357",
+    "path": "Assets/ithappy/Casino_Free/Scripts/Character_Controller/Moving/CharacterMover.cs"
+  },
+  {
+    "guid": "c65802f6aa0a4323a81e43cd7fa39e05",
+    "path": "Assets/ithappy/Casino_Free/Materials/Glass.mat"
+  },
+  {
+    "guid": "c6f1235a6ba44a52a8bc9ca9f96c4589",
+    "path": "Assets/ithappy/Casino_Free/Meshes/Characters/PlusSize_Male_Hairstyle_08.fbx"
+  },
+  {
+    "guid": "c71c66542ee941ad9a9f92bcf1f6001f",
+    "path": "Assets/ithappy/Casino_Free/Meshes/Assets/Neon_Sign_01.fbx"
+  },
+  {
+    "guid": "c741d264de574d2294fda3c2ac042d30",
+    "path": "Assets/ithappy/Casino_Free/Prefabs/Assets/Fruits_01.prefab"
+  },
+  {
+    "guid": "c742324f558c4a7785db11befda2cd10",
+    "path": "Assets/ithappy/Casino_Free/Animations/Animation_Controllers/AC_Crouch_R.anim"
+  },
+  {
+    "guid": "c7744137c9af41dfa0f50bfb69dfd598",
+    "path": "Assets/ithappy/Casino_Free/Meshes/Characters/Adult_Female_Hairstyle_04.fbx"
+  },
+  {
+    "guid": "c79908c10c874f3f98673650e2a8eb94",
+    "path": "Assets/ithappy/Casino_Free/Skyboxes/Skybox_Textures/Skybox_5.png"
+  },
+  {
+    "guid": "c7a5056405f466343ae802adfc6fc5d5",
+    "path": "Assets/ithappy/Casino_Free/Scenes/URP_Scenes"
+  },
+  {
+    "guid": "ca857217c3e24d7cb291cb09c6daf9ef",
+    "path": "Assets/ithappy/Casino_Free/Scripts/Editor/Randomizer/Steps/Impl/SocksStep.cs"
+  },
+  {
+    "guid": "cb27994afd6e43a1ad01688c33cc9bcc",
+    "path": "Assets/ithappy/Casino_Free/Icons/Column_17.png"
+  },
+  {
+    "guid": "cb5a0dcdb95d4e01868a5237951226f7",
+    "path": "Assets/ithappy/Casino_Free/Meshes/Characters/Adult_Male_Security_Glasses.fbx"
+  },
+  {
+    "guid": "cb8e8765601f41e6995e1530776e8314",
+    "path": "Assets/ithappy/Casino_Free/Materials/Cash.mat"
+  },
+  {
+    "guid": "cbb87aa0da544b17916d7058f0e6ab21",
+    "path": "Assets/ithappy/Casino_Free/Icons/Gold_Ingot_01.png"
+  },
+  {
+    "guid": "cc442069ce244c84aadb1675567d287a",
+    "path": "Assets/ithappy/Casino_Free/Meshes/Assets/Slot_08.fbx"
+  },
+  {
+    "guid": "cce364b5ff8d4d62b53802cc4c15d389",
+    "path": "Assets/ithappy/Casino_Free/Prefabs/Characters/Adult_Male_Security_Shoes.prefab"
+  },
+  {
+    "guid": "cd203ae2b9af4cdf832b1cec4639e2f3",
+    "path": "Assets/ithappy/Casino_Free/Animations/Animation_Controllers"
+  },
+  {
+    "guid": "cd23c6ceb0884adb9e2247b257dbd1f8",
+    "path": "Assets/ithappy/Casino_Free/Animations/Adult/Adult_Walk.anim"
+  },
+  {
+    "guid": "cdc7f62ba88f48f2b8ba76af79d7e8ea",
+    "path": "Assets/ithappy/Casino_Free/Animations/Animation_Controllers/AC_Run_FL.anim"
+  },
+  {
+    "guid": "ce0726ad54d24060ab349f56a7e37420",
+    "path": "Assets/ithappy/Casino_Free/Meshes/Characters/PlusSize_Male_Chain_01.fbx"
+  },
+  {
+    "guid": "cef3565569aa4e65b1bbb0946d9eabed",
+    "path": "Assets/ithappy/Casino_Free/Prefabs/Characters/PlusSize_Male_Bracelet_01.prefab"
+  },
+  {
+    "guid": "d02ac731297449c39c34aa478e2f3c6a",
+    "path": "Assets/ithappy/Casino_Free/VFX/FX_Prefabs/Confetti/Confetti_blast_multicolor.prefab"
+  },
+  {
+    "guid": "d03775ff34454a0892f7af2a40dd47e4",
+    "path": "Assets/ithappy/Casino_Free/Materials/Chain.mat"
+  },
+  {
+    "guid": "d08087669d9d4725bd65d6fee2dcb038",
+    "path": "Assets/ithappy/Casino_Free/VFX/FX_Textures/Circle04.png"
+  },
+  {
+    "guid": "d088984d81984d829b3c1ce761ac74b5",
+    "path": "Assets/ithappy/Casino_Free/Prefabs/Characters/Adult_Female_Actor_HeelShoes.prefab"
+  },
+  {
+    "guid": "d0f2fe27b5d445fab9704cd16de50f73",
+    "path": "Assets/ithappy/Casino_Free/Prefabs/Assets/Chair_06.prefab"
+  },
+  {
+    "guid": "d1939d2bc2204afcb1ac5f222d48d8c6",
+    "path": "Assets/ithappy/Casino_Free/Meshes/Plus-Size_Base.fbx"
+  },
+  {
+    "guid": "d1c05d2031004aeb804fe6a1eedde053",
+    "path": "Assets/ithappy/Casino_Free/Meshes/Assets/Chair_Office_01.fbx"
+  },
+  {
+    "guid": "d28ab55ab6a444859cb245fdfe265361",
+    "path": "Assets/ithappy/Casino_Free/Meshes/Characters/Adult_Female_Hat_Hairstyle_05.fbx"
+  },
+  {
+    "guid": "d3f2593c7012410ebd729e1b0f3fa1d2",
+    "path": "Assets/ithappy/Casino_Free/Animations/Animation_Controllers/AC_Crouch_B.anim"
+  },
+  {
+    "guid": "d42cfede26fa42fc9d075d1faef2884b",
+    "path": "Assets/ithappy/Casino_Free/Prefabs/Characters"
+  },
+  {
+    "guid": "d4d0f2160f1d4e7cbebfac946a167b73",
+    "path": "Assets/ithappy/Casino_Free/Prefabs/Assets/ATM_03.prefab"
+  },
+  {
+    "guid": "d53253afbb83495d8227a1e539147d9d",
+    "path": "Assets/ithappy/Casino_Free/Scripts/Editor/Character/FullBodyVariant.cs"
+  },
+  {
+    "guid": "d56ac5cf3bbe41a3a549d6ce3080f111",
+    "path": "Assets/ithappy/Casino_Free/Prefabs/Assets/Column_17.prefab"
+  },
+  {
+    "guid": "d713bf2d47aa4ebabb3ea29e7f3140e3",
+    "path": "Assets/ithappy/Casino_Free/Prefabs/Assets/Flower_03.prefab"
+  },
+  {
+    "guid": "d881884d1ad04a78b73ebcf920c70a3c",
+    "path": "Assets/ithappy/Casino_Free/Animations/Animation_Controllers/Crouch_Idle.anim"
+  },
+  {
+    "guid": "d8d164224244422d9bf3a06870f85060",
+    "path": "Assets/ithappy/Casino_Free/Meshes/Assets/Table_06.fbx"
+  },
+  {
+    "guid": "da606b4c57004f5a9c108d8da3f4c7fd",
+    "path": "Assets/ithappy/Casino_Free/Animations/Animation_Controllers/AC_Crouch_F.anim"
+  },
+  {
+    "guid": "db132f19d5b64db688a2b9224eeb3abc",
+    "path": "Assets/ithappy/Casino_Free/Meshes/Assets/Mouse_01.fbx"
+  },
+  {
+    "guid": "db470c17c797430da08de22d2961367d",
+    "path": "Assets/ithappy/Casino_Free/Prefabs/Assets/Gold_Ingot_01.prefab"
+  },
+  {
+    "guid": "db5bcd91c77f46fb80b524b272143735",
+    "path": "Assets/ithappy/Casino_Free/Skyboxes/Skybox_5.mat"
+  },
+  {
+    "guid": "db7853c24ec94c378974640fca09f24d",
+    "path": "Assets/ithappy/Casino_Free/Prefabs/Plus-Size_Base.prefab"
+  },
+  {
+    "guid": "db903a77e521415093e43bdcd2686b60",
+    "path": "Assets/ithappy/Casino_Free/Scripts/Editor/Character/Slot.cs"
+  },
+  {
+    "guid": "dbae70500727488a91ff4a85491e20cf",
+    "path": "Assets/ithappy/Casino_Free/Icons/Gold_Ingot_02.png"
+  },
+  {
+    "guid": "dcb8f16a495e46e2b673459c6b340e60",
+    "path": "Assets/ithappy/Casino_Free/Prefabs/Characters/Adult_Male_Body_02_Optimized.prefab"
+  },
+  {
+    "guid": "dd0f96999cb54d8bbc10ba7073edc564",
+    "path": "Assets/ithappy/Casino_Free/Scripts/Editor/Character/SlotVariant.cs"
+  },
+  {
+    "guid": "dd3b17552bd44af3ae51a80330911648",
+    "path": "Assets/ithappy/Casino_Free/Sound/Callum Donaldson - Casino Tones - Ascending Win Chime.wav"
+  },
+  {
+    "guid": "ddd46033f6584c8fa2ae6db20533604b",
+    "path": "Assets/ithappy/Casino_Free/Prefabs/Assets/Card_53.prefab"
+  },
+  {
+    "guid": "dde5639a504943dfb806d171bbbc9d9f",
+    "path": "Assets/ithappy/Casino_Free/Prefabs/Characters/Adult_Female_Cashier_Shoes.prefab"
+  },
+  {
+    "guid": "de776c70173e415680ed6a3fb7bee9e1",
+    "path": "Assets/ithappy/Casino_Free/Scripts/Editor/Randomizer/Steps/Impl/ShoesStep.cs"
+  },
+  {
+    "guid": "de90ea64da6e40ca979d075658e0953a",
+    "path": "Assets/ithappy/Casino_Free/Scripts/Editor/SlotValidation/ISlotValidationRules.cs"
+  },
+  {
+    "guid": "de9ac164fcf5470d953ed09ee2cb725d",
+    "path": "Assets/ithappy/Casino_Free/Animations/Animation_Controllers/AC_Walk_FR.anim"
+  },
+  {
+    "guid": "dfc775436c804532840e9051b2ec8739",
+    "path": "Assets/ithappy/Casino_Free/Meshes/Assets/Slot_03.fbx"
+  },
+  {
+    "guid": "e10c0dbc9ee44127b5e51f9d0e612c9c",
+    "path": "Assets/ithappy/Casino_Free/Scripts/Editor/SlotValidation/FullBodyToggledRule.cs"
+  },
+  {
+    "guid": "e15ac5d388f54e44a1533637f59ed3d2",
+    "path": "Assets/ithappy/Casino_Free/Prefabs/Assets/Screens_01.prefab"
+  },
+  {
+    "guid": "e180a0cf01524f64b9917e5a9dd82276",
+    "path": "Assets/ithappy/Casino_Free/Meshes/Assets"
+  },
+  {
+    "guid": "e2298dc6891e4942b96aba311d60f530",
+    "path": "Assets/ithappy/Casino_Free/Meshes/Characters/Adult_Female_Face_Usual.fbx"
+  },
+  {
+    "guid": "e2362974a17849dbbcc0121bdb6d6436",
+    "path": "Assets/ithappy/Casino_Free/Meshes/Assets/Floor_01.fbx"
+  },
+  {
+    "guid": "e251042a0a8043309655a72606df8f51",
+    "path": "Assets/ithappy/Casino_Free/Scripts/Editor/Randomizer/Steps/Impl/MascotsStep.cs"
+  },
+  {
+    "guid": "e28515278d224cbebd8e9cd202c3a2a2",
+    "path": "Assets/ithappy/Casino_Free/Animations/Animation_Controllers/AC_Crouch_L.anim"
+  },
+  {
+    "guid": "e2ed621020d1483f9be72b193015395f",
+    "path": "Assets/ithappy/Casino_Free/Prefabs/Characters/Senior_Male_Hat_Hairstyle_01.prefab"
+  },
+  {
+    "guid": "e3518d9fdb694260995a29e465af5fbc",
+    "path": "Assets/ithappy/Casino_Free/Meshes/Assets/SafeBox_Door_01.fbx"
+  },
+  {
+    "guid": "e38a6744cb4a41b890a013060825a5a0",
+    "path": "Assets/ithappy/Casino_Free/Meshes/Frame/Frame.fbx"
+  },
+  {
+    "guid": "e3e050f056b140629fcbdd84fa3ee7ff",
+    "path": "Assets/ithappy/Casino_Free/Icons/Table_01.png"
+  },
+  {
+    "guid": "e3e8eaa6da4d4af98f15b91a44b8cd90",
+    "path": "Assets/ithappy/Casino_Free/Meshes/Characters/Adult_Male_Security_Shoes.fbx"
+  },
+  {
+    "guid": "e3fa4eb2dd8e4f95a4faa98769c411ac",
+    "path": "Assets/ithappy/Casino_Free/Prefabs/Games"
+  },
+  {
+    "guid": "e4da612fac4e4e969ff9b61853ff358c",
+    "path": "Assets/ithappy/Casino_Free/VFX/FX_Textures/Blast_directional.png"
+  },
+  {
+    "guid": "e4e1e140df404141837852bcbd2ffb06",
+    "path": "Assets/ithappy/Casino_Free/Prefabs/Assets/Cash_Machine_01.prefab"
+  },
+  {
+    "guid": "e5416a9b3f154517aeab94ecbb273f45",
+    "path": "Assets/ithappy/Casino_Free/VFX/FX_Prefabs"
+  },
+  {
+    "guid": "e54425d4dde94ef4bb6839dcd963e739",
+    "path": "Assets/ithappy/Casino_Free/Scripts/Editor/Randomizer/Steps/Impl/GlovesStep.cs"
+  },
+  {
+    "guid": "e5482d27bd654a86801d389fecb8f22a",
+    "path": "Assets/ithappy/Casino_Free/Prefabs/Assets/Cash_11.prefab"
+  },
+  {
+    "guid": "e567e0b3d2fe44b5b2f4997275a37b88",
+    "path": "Assets/ithappy/Casino_Free/Scripts/Character_Controller/Moving/States/IMoveStateSwitcher.cs"
+  },
+  {
+    "guid": "e5b7ca8e69109b048b2c60c1577702f7",
+    "path": "Assets/ithappy/Casino_Free/Scenes/HDRP_Scenes/Demonstration_HDRP_Profiles/HDRP_Profile.asset"
+  },
+  {
+    "guid": "e72f1d18ff484ce194e665b23ac12f7b",
+    "path": "Assets/ithappy/Casino_Free/Prefabs/Characters/PlusSize_Male_Face_Usual.prefab"
+  },
+  {
+    "guid": "e803643aefcc4ab9b66da6cb17599c01",
+    "path": "Assets/ithappy/Casino_Free/Meshes/Characters/PlusSize_Male_Bracelet_01.fbx"
+  },
+  {
+    "guid": "e89b606eb544418db90e82efd07c1d55",
+    "path": "Assets/ithappy/Casino_Free/Scripts/Slot_Machine/SlotMachineCharacterSpawner.cs"
+  },
+  {
+    "guid": "e8ff4906d368491682c612ec9c80cf41",
+    "path": "Assets/ithappy/Casino_Free/Prefabs/Games/Slot_Machine_01.prefab"
+  },
+  {
+    "guid": "e972aad183b64959a20c26bf38010a8b",
+    "path": "Assets/ithappy/Casino_Free/Prefabs/Ready_Characters/77_Security.prefab"
+  },
+  {
+    "guid": "ea5e3c1b83722c44997aad053584ba19",
+    "path": "Assets/ithappy/Casino_Free/Scenes/URP_Scenes/Demonstration_URP_Profiles"
+  },
+  {
+    "guid": "ea6855cf0f9d4aa28da862a0c9fb6d5c",
+    "path": "Assets/ithappy/Casino_Free/Prefabs/Assets/Frame.prefab"
+  },
+  {
+    "guid": "ebbd9155e84a4a55b2f7e3684026ead5",
+    "path": "Assets/ithappy/Casino_Free/Materials/Metal.mat"
+  },
+  {
+    "guid": "ed4bc9592ab64410a0d4e08e70b8156d",
+    "path": "Assets/ithappy/Casino_Free/Icons/Monitor_02.png"
+  },
+  {
+    "guid": "edb1f95b7e9440bea93017e64b3603e2",
+    "path": "Assets/ithappy/Casino_Free/Meshes/Assets/Slot_04.fbx"
+  },
+  {
+    "guid": "edf57586d2a647f2ac0ee8de4464c0e0",
+    "path": "Assets/ithappy/Casino_Free/Scripts/Editor/SlotName.cs"
+  },
+  {
+    "guid": "ee2d106b1176492aaa255b7f69b4513c",
+    "path": "Assets/ithappy/Casino_Free/VFX/FX_Materials"
+  },
+  {
+    "guid": "eef01caa8fca4f98b94527a01efd344c",
+    "path": "Assets/ithappy/Casino_Free/Prefabs/Characters/Senior_Male_Body_02.prefab"
+  },
+  {
+    "guid": "ef4e5e95736640bca05981998ef3d14c",
+    "path": "Assets/ithappy/Casino_Free/Sound"
+  },
+  {
+    "guid": "efae80dba7b7495bb7d5fd012ce4650e",
+    "path": "Assets/ithappy/Casino_Free/Textures/Carpet_Normal.png"
+  },
+  {
+    "guid": "f012cee962624917a6f4c368605f321c",
+    "path": "Assets/ithappy/Casino_Free/Scripts/Editor/Randomizer/Steps/Impl/OutfitStep.cs"
+  },
+  {
+    "guid": "f0794924b193428fbf4748aa64f1de4b",
+    "path": "Assets/ithappy/Casino_Free/Scripts/Editor/MaterialManagement/MaterialPaths.cs"
+  },
+  {
+    "guid": "f354557b12634423aa9b7183d846d310",
+    "path": "Assets/ithappy/Casino_Free/Prefabs/Characters/PlusSize_Male_Body_03.prefab"
+  },
+  {
+    "guid": "f382a6c2eb9345b4ab6c9c68c17caa29",
+    "path": "Assets/ithappy/Casino_Free/Meshes/Assets/Slot_06.fbx"
+  },
+  {
+    "guid": "f583ca0a387b4311babda51652f23b1b",
+    "path": "Assets/ithappy/Casino_Free/Scripts/Editor/Character"
+  },
+  {
+    "guid": "f5981641e0ed436d882c156efb6fe41d",
+    "path": "Assets/ithappy/Casino_Free/Meshes/Characters/Senior_Male_Hat_Hairstyle_01.fbx"
+  },
+  {
+    "guid": "f5d1ef8b790a40e0a830ade788b07ee3",
+    "path": "Assets/ithappy/Casino_Free/Meshes/Assets/Slot_07.fbx"
+  },
+  {
+    "guid": "f79522db6b574c38a8b76f7b365372e5",
+    "path": "Assets/ithappy/Casino_Free/Meshes/Assets/Slot_05.fbx"
+  },
+  {
+    "guid": "f79af559af5d40b6a0d151957746d49b",
+    "path": "Assets/ithappy/Casino_Free/Prefabs/Games/Slot_07.prefab"
+  },
+  {
+    "guid": "f8a6c1663ac545a589a4032fd59e645e",
+    "path": "Assets/ithappy/Casino_Free/Meshes/Assets/Cash_02.fbx"
+  },
+  {
+    "guid": "f91f56a3238d4a9c89444a9a0f71ab3a",
+    "path": "Assets/ithappy/Casino_Free/Meshes/Assets/Slot_Machine_02.fbx"
+  },
+  {
+    "guid": "f96b58fa53fa4a238e43fc334eca21e7",
+    "path": "Assets/ithappy/Casino_Free/Icons/Neon_Sign_01.png"
+  },
+  {
+    "guid": "f97d826b6f412c34287b6fb4bc4a0b16",
+    "path": "Assets/ithappy/Casino_Free/Scenes/Built-In_Scenes"
+  },
+  {
+    "guid": "fa0fc5dec52a4fbdbc62472265460466",
+    "path": "Assets/ithappy/Casino_Free/Scripts/Character_Controller/PlayerCamera.cs"
+  },
+  {
+    "guid": "fa20669945aa49c2abee5bc9b4f9cd44",
+    "path": "Assets/ithappy/Casino_Free/Prefabs/Characters/Senior_Male_Shoes_06.prefab"
+  },
+  {
+    "guid": "fa2daebf466544a9b1b1b32b575e4835",
+    "path": "Assets/ithappy/Casino_Free/Icons/Mouse_01.png"
+  },
+  {
+    "guid": "fae9d55e9f9d44fd9fd4492f338e7884",
+    "path": "Assets/ithappy/Casino_Free/Animations/Plus-Size/Plus-sizeAdult_Walk.anim"
+  },
+  {
+    "guid": "fb3bf28f3fa34e95b8c4d0a13d61604d",
+    "path": "Assets/ithappy/Casino_Free/Scripts/Editor/SavedSlot.cs"
+  },
+  {
+    "guid": "fb7685b55cfd416c852aa7aae2c29433",
+    "path": "Assets/ithappy/Casino_Free/Prefabs/Assets/Neon_Sign_01.prefab"
+  },
+  {
+    "guid": "fbfe7186e6734f6887b36ef7561785f3",
+    "path": "Assets/ithappy/Casino_Free/Prefabs/Characters/Adult_Female_Hat_Hairstyle_05.prefab"
+  },
+  {
+    "guid": "fc5651dc84e945659a39a96700280426",
+    "path": "Assets/ithappy/Casino_Free/Scripts/Editor/Randomizer/Steps/Impl/BodyStep.cs"
+  },
+  {
+    "guid": "fc9b413377e545c1a00bf7811d5c151d",
+    "path": "Assets/ithappy/Casino_Free/Meshes/Assets/Fence_09.fbx"
+  },
+  {
+    "guid": "fd14d36cf4f94c188085055b92e95aeb",
+    "path": "Assets/ithappy/Casino_Free/Meshes/Assets/Slot_Machine_Aquarium_Fish_01.fbx"
+  },
+  {
+    "guid": "fdd791dbbff54004b62da749ea8cca23",
+    "path": "Assets/ithappy/Casino_Free/Prefabs/Games/Slot_03.prefab"
+  },
+  {
+    "guid": "fe67ac8a899d4de48491735c6c1801b5",
+    "path": "Assets/ithappy/Casino_Free/Meshes/AC_Animations.fbx"
+  },
+  {
+    "guid": "fe68485b616747dba99111247976dcbf",
+    "path": "Assets/ithappy/Casino_Free/Meshes/Characters/Adult_Male_Jacket_12.fbx"
+  },
+  {
+    "guid": "fe6f47a1c3f54cdabfcbbc0640377526",
+    "path": "Assets/ithappy/Casino_Free/Meshes/Characters/Adult_Female_Cashier_Shirt.fbx"
+  },
+  {
+    "guid": "fea76e79a2754528aed7f966f4d0ad09",
+    "path": "Assets/ithappy/Casino_Free/Scripts/Character_Controller/Moving"
+  }
+]

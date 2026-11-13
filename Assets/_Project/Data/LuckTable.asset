@@ -1,0 +1,75 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b7e9766b5773ce4faf58eda4362e396, type: 3}
+  m_Name: LuckTable
+  m_EditorClassIdentifier: HollowSeven.Runtime::HollowSeven.LuckTable
+  entries:
+  - value: 3
+    tag: 1
+    delta: 1
+    codexBlurb: 'Third time lucky: a lucky number in many folk traditions.'
+  - value: 7
+    tag: 1
+    delta: 1
+    codexBlurb: Lucky in Western traditions and the classic slot-machine symbol.
+  - value: 8
+    tag: 1
+    delta: 1
+    codexBlurb: In Chinese, its sound resembles the word for prosperity.
+  - value: 9
+    tag: 1
+    delta: 1
+    codexBlurb: In Chinese, its sound resembles the word for long-lasting.
+  - value: 77
+    tag: 2
+    delta: 2
+    codexBlurb: 'Double sevens: fortune twice over.'
+  - value: 88
+    tag: 2
+    delta: 2
+    codexBlurb: Double prosperity in Chinese numerology.
+  - value: 108
+    tag: 3
+    delta: 3
+    codexBlurb: Sacred in Hinduism and Buddhism; prayer strings commonly have 108 beads.
+  - value: 777
+    tag: 3
+    delta: 3
+    codexBlurb: The classic slot-machine jackpot.
+  - value: 786
+    tag: 3
+    delta: 3
+    codexBlurb: In South Asian Islamic numerology, associated with the opening words of the Bismillah.
+  - value: 888
+    tag: 3
+    delta: 3
+    codexBlurb: Triple prosperity in Chinese numerology.
+  - value: 4
+    tag: 4
+    delta: -1
+    codexBlurb: In parts of East Asia, its sound resembles the word for death.
+  - value: 13
+    tag: 4
+    delta: -1
+    codexBlurb: 'Triskaidekaphobia: unlucky in many Western traditions.'
+  - value: 17
+    tag: 4
+    delta: -1
+    codexBlurb: 'In Italy, XVII rearranges to VIXI: I have lived.'
+  - value: 49
+    tag: 4
+    delta: -1
+    codexBlurb: In Japanese, 4 and 9 can be read as to suffer.
+  - value: 666
+    tag: 5
+    delta: -3
+    codexBlurb: In Christian tradition, linked with the Number of the Beast.

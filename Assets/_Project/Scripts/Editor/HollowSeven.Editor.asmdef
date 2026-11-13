@@ -1,0 +1,6 @@
+{
+  "name": "HollowSeven.Editor",
+  "rootNamespace": "HollowSeven.Editor",
+  "references": ["HollowSeven.Runtime", "Unity.InputSystem", "Unity.TextMeshPro", "UnityEngine.UI", "Unity.RenderPipelines.Universal.Runtime", "Unity.RenderPipelines.Core.Runtime"],
+  "includePlatforms": ["Editor"]
+}

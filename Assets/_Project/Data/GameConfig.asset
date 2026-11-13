@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a8cdbce655a878040b70176ccc341e5f, type: 3}
+  m_Name: GameConfig
+  m_EditorClassIdentifier: HollowSeven.Runtime::HollowSeven.GameConfig
+  startLuck: 0
+  firstRunBonus: 15
+  luckMin: -15
+  luckMax: 15
+  blessedThreshold: 10
+  brinkThreshold: -10
+  hauntThreshold: -6
+  postDreamLuck: 2
+  timeoutLuck: -3
+  hintLuckCost: 2
+  winLuckBase: 1
+  winLuckSpeed: 2
+  timerCursedPerLuck: 0.03
+  timerBlessedMult: 0.85
+  baseTime: 15
+  perStepTime: 10
+  grace: 2
+  streakStep: 0.1
+  defianceLuck: 2
+  defianceScoreMult: 2
+  secondSightIdleSeconds: 6
+  streakMax: 10
+  windfallScore: 500
+  valueCap: 9999
+  genNodeBudget: 150000
+  liveNodeBudget: 40000
+  windfallLuck: 5
+  endlessCurseStep: 0.05
+  endlessCurseCap: 2
+  roundIntroSeconds: 1.1
+  resolveSeconds: 1.1
+  targetRollSeconds: 0.5
+  mergeSeconds: 0.3
+  dealSeconds: 0.25
+  dealStagger: 0.06
+  panelSeconds: 4
+  hintSeconds: 4
+  captionSeconds: 3
+  cameraSway: 0.35
+  generatorAttempts: 400
+  seed: 7102026

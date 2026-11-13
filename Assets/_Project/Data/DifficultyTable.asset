@@ -1,0 +1,105 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03c84c33ba566644bbc92fad6d075db3, type: 3}
+  m_Name: DifficultyTable
+  m_EditorClassIdentifier: HollowSeven.Runtime::HollowSeven.DifficultyTable
+  tiers:
+  - firstRound: 1
+    chipsMin: 3
+    chipsMax: 3
+    stepsMin: 2
+    stepsMax: 2
+    targetMin: 8
+    targetMax: 30
+    minSafeLength: 2
+    bigsMax: 0
+    poolMax: 10
+    basePoints: 5
+    penaltyPerSecond: 0.25
+    operators: 000000000100000002000000i
+    fallbackChips: 030000000600000008000000i
+    fallbackTarget: 30
+  - firstRound: 5
+    chipsMin: 4
+    chipsMax: 4
+    stepsMin: 2
+    stepsMax: 3
+    targetMin: 15
+    targetMax: 150
+    minSafeLength: 2
+    bigsMax: 0
+    poolMax: 10
+    basePoints: 7
+    penaltyPerSecond: 0.3
+    operators: 000000000100000002000000i
+    fallbackChips: 04000000050000000200000006000000i
+    fallbackTarget: 16
+  - firstRound: 10
+    chipsMin: 4
+    chipsMax: 5
+    stepsMin: 3
+    stepsMax: 4
+    targetMin: 20
+    targetMax: 300
+    minSafeLength: 3
+    bigsMax: 0
+    poolMax: 12
+    basePoints: 9
+    penaltyPerSecond: 0.35
+    operators: 00000000010000000200000003000000i
+    fallbackChips: 02000000060000000a00000008000000i
+    fallbackTarget: 168
+  - firstRound: 16
+    chipsMin: 5
+    chipsMax: 5
+    stepsMin: 3
+    stepsMax: 4
+    targetMin: 50
+    targetMax: 500
+    minSafeLength: 3
+    bigsMax: 1
+    poolMax: 12
+    basePoints: 11
+    penaltyPerSecond: 0.4
+    operators: 00000000010000000200000003000000i
+    fallbackChips: 640000000a000000030000000a00000004000000i
+    fallbackTarget: 170
+  - firstRound: 23
+    chipsMin: 6
+    chipsMax: 6
+    stepsMin: 4
+    stepsMax: 5
+    targetMin: 100
+    targetMax: 999
+    minSafeLength: 3
+    bigsMax: 2
+    poolMax: 12
+    basePoints: 13
+    penaltyPerSecond: 0.45
+    operators: 00000000010000000200000003000000i
+    fallbackChips: 4b0000000a0000000800000006000000050000000c000000i
+    fallbackTarget: 201
+  - firstRound: 31
+    chipsMin: 6
+    chipsMax: 6
+    stepsMin: 4
+    stepsMax: 5
+    targetMin: 100
+    targetMax: 999
+    minSafeLength: 3
+    bigsMax: 2
+    poolMax: 12
+    basePoints: 15
+    penaltyPerSecond: 0.5
+    operators: 00000000010000000200000003000000i
+    fallbackChips: 4b0000000a0000000800000006000000050000000c000000i
+    fallbackTarget: 201

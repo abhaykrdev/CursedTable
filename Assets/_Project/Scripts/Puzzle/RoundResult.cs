@@ -1,0 +1,1 @@
+namespace HollowSeven { public readonly struct RoundResult {public readonly float Time,Score,WinLuck;public readonly int Streak;public RoundResult(float time,float score,float luck,int streak){Time=time;Score=score;WinLuck=luck;Streak=streak;}} }

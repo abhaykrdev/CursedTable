@@ -1,0 +1,2 @@
+FAIL tier 7 seed 1: System.IndexOutOfRangeException: Index was outside the bounds of the array.
+  at HollowSeven.Editor.SolverSelfTest.Tick () [0x00000] in D:\Projects\CursedTable\CursedTable\Assets\_Project\Scripts\Editor\SolverSelfTest.cs:17 
