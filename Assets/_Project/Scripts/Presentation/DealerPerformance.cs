@@ -1,7 +1,7 @@
 using UnityEngine;
 
 namespace HollowSeven {
-// Subtitle-paced acting, not voice lip sync. All motion returns to the captured rest pose.
+// Gestures follow the dialogue duration and return to the captured rest pose.
 public sealed class DealerPerformance : MonoBehaviour {
     private Transform _head,_mouth,_leftEye,_rightEye,_leftHand,_rightHand,_leftArm,_rightArm;
     private Vector3 _mouthScale,_eyeLScale,_eyeRScale,_handLRest,_handRRest;

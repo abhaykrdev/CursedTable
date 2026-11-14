@@ -1,9 +1,9 @@
 ## Source page 1
-Lucky Number: The Cursed Table — Game
+Cursed Table — Game
 Design Document
 Nov 10, 2026  ·  @Naughty
 1. Agent rules, locked decisions and pitch
-This document is the only source of truth for building The Hollow Seven, a Unity 6 WebGL
+This document is the only source of truth for building Cursed Table, a Unity 6 WebGL
 puzzle game for the 2026 Unity Game Jam (theme: Lucky Number). Follow it literally.
 Where it is silent, take the simplest option and log the choice in
 Docs/OPEN_QUESTIONS.md . Priority tags: [MUST] the game is broken without it,
@@ -30,7 +30,7 @@ silently.
 Application.Quit  (hide Quit on WebGL), long work runs in coroutines that yield,
 saves use PlayerPrefs only. Audio starts only after the first click on the Click to Enter
 screen.
-Lucky Number: The Cursed Table — Game Design Document
+Cursed Table — Game Design Document
 Page 1 of 62
 
 ## Source page 2
@@ -63,7 +63,7 @@ Stay), endless mode
 Art and audio Placeholders now, named slots for real assets later
 Saves PlayerPrefs
 Language English only
-Lucky Number: The Cursed Table — Game Design Document
+Cursed Table — Game Design Document
 Page 2 of 62
 
 ## Source page 3
@@ -85,7 +85,7 @@ change with luck.
 minutes.
 1.5 Theme and voting mapping
 Topic Decision
-Working title The Hollow Seven (also the name of the casino)
+Working title Cursed Table (also the name of the casino)
 Jam asks for Delivered by
 Number with cultural, religious or symbolic
 meaning
@@ -98,7 +98,7 @@ can see
 processing and mask by luck
 ...in sound Three music stems crossfaded by luck,
 heartbeat in the red zone (section 9)
-Lucky Number: The Cursed Table — Game Design Document
+Cursed Table — Game Design Document
 Page 3 of 62
 
 ## Source page 4
@@ -135,7 +135,7 @@ Never named. Always referred to
 as 'she'.
 The other man Tall, dark coat. Face is never shown: back to
 camera or cropped by the frame.
-Lucky Number: The Cursed Table — Game Design Document
+Cursed Table — Game Design Document
 Page 4 of 62
 
 ## Source page 5
@@ -196,7 +196,7 @@ heartbeat, glass
 clink
 'I loved her...
 unconditionally.'
-Lucky Number: The Cursed Table — Game Design Document
+Cursed Table — Game Design Document
 Page 5 of 62
 
 ## Source page 6
@@ -218,7 +218,7 @@ s
 Panel Door: hero from
 behind stumbling
 toward a neon sign THE
-HOLLOW SEVEN where
+CURSED TABLE where
 the 7 flickers and one
 letter is dead; he pushes
 the door
@@ -265,7 +265,7 @@ room tone, low
 drone
 dealer lines D1 and
 D2 (section 2.5)
-Lucky Number: The Cursed Table — Game Design Document
+Cursed Table — Game Design Document
 Page 6 of 62
 
 ## Source page 7
@@ -297,7 +297,7 @@ Death 'The house always collects.'
 After dream beat 6 'You are not what I feed on any more.'
 Whispers (Haunts and low Luck) 'Stay.' / 'Sit. Rest. Let the wheel decide.' / 'You do
 not have to carry this.' / 'One more spin.'
-Lucky Number: The Cursed Table — Game Design Document
+Cursed Table — Game Design Document
 Page 7 of 62
 
 ## Source page 8
@@ -392,7 +392,7 @@ his own ring and
 does not reach out
 'This does not
 hurt less.'
-Lucky Number: The Cursed Table — Game Design Document
+Cursed Table — Game Design Document
 Page 8 of 62
 
 ## Source page 9
@@ -426,7 +426,7 @@ combines two chips with an operator. The two chips are removed and one result ch
 is appended at the right end of the hand.
 3. The round is won the moment any chip in the hand equals the target.
 4. The round is lost when the timer reaches 0 (timeout) or the player quits.
-Lucky Number: The Cursed Table — Game Design Document
+Cursed Table — Game Design Document
 Page 9 of 62
 
 ## Source page 10
@@ -465,7 +465,7 @@ Click chip A again Ignored
 Nothing Click an operator Ignored; operator button shakes 0.15 s
 Anything Right-click or Esc Clear selection (Esc pauses only if nothing is
 selected)
-Lucky Number: The Cursed Table — Game Design Document
+Cursed Table — Game Design Document
 Page 10 of 62
 
 ## Source page 11
@@ -497,7 +497,7 @@ Divide larger ÷ smaller smaller is not 1 and larger mod smaller = 0
 Value Tag Luck Codex blurb (shown once on first spend, 3 s card)
 3 Lucky +1 Third time lucky: a lucky number in many folk
 traditions.
-Lucky Number: The Cursed Table — Game Design Document
+Cursed Table — Game Design Document
 Page 11 of 62
 
 ## Source page 12
@@ -529,7 +529,7 @@ lived'.
 49 Cursed −1 In Japanese, 4 and 9 can be read as 'to suffer'.
 666 Doom −3 In Christian tradition, linked with the Number of
 the Beast.
-Lucky Number: The Cursed Table — Game Design Document
+Cursed Table — Game Design Document
 Page 12 of 62
 
 ## Source page 13
@@ -563,7 +563,7 @@ Hint used −2
 Defiance +2
 Dream finished Luck is set to 2
 Tutorial finished (first run only) start Luck 5
-Lucky Number: The Cursed Table — Game Design Document
+Cursed Table — Game Design Document
 Page 13 of 62
 
 ## Source page 14
@@ -582,7 +582,7 @@ Boot app start Click to Enter screen,
 audio unlock, load save
 MainMenu
 MainMenu Boot, Death, Ending Play, Memories, Codex,
-Settings, Credits
+Settings
 Prologue, Tutorial,
 RoundIntro
 Prologue Play when not seen Script from section 2.2 Tutorial
@@ -607,7 +607,7 @@ MainMenu
 Ending after beat 6 Section 2.8 MainMenu,
 RoundIntro
 (Endless)
-Lucky Number: The Cursed Table — Game Design Document
+Cursed Table — Game Design Document
 Page 14 of 62
 
 ## Source page 15
@@ -664,7 +664,7 @@ up
 6 100-
 999
 all four as tier 5 4-5 3 15 0.50
-Lucky Number: The Cursed Table — Game Design Document
+Cursed Table — Game Design Document
 Page 15 of 62
 
 ## Source page 16
@@ -704,7 +704,7 @@ Level Generate(int roundIndex, Random rng):
       if no operator worked: continue outer loop (next attempt)
     target = the last r added
     reject if target < tier.targetMin OR target > tier.targetMax
-Lucky Number: The Cursed Table — Game Design Document
+Cursed Table — Game Design Document
 Page 16 of 62
 
 ## Source page 17
@@ -743,7 +743,7 @@ Step[] Search(int[] chips, int target, bool avoidCursed):
     if Dfs(sorted copy of chips, depth, 0): return path[0 .. foundLength)
     if nodes > nodeBudget: return null
   return null
-Lucky Number: The Cursed Table — Game Design Document
+Cursed Table — Game Design Document
 Page 17 of 62
 
 ## Source page 18
@@ -779,7 +779,7 @@ winLuck = 1 + 2s
 streakMult = 1 + 0.1 \cdot \min(\text{streak},\, 10)
 total = roundScore \cdot streakMult \cdot defianceMult \qquad displayed = 
 \operatorname{round}(100 \cdot total)
-Lucky Number: The Cursed Table — Game Design Document
+Cursed Table — Game Design Document
 Page 18 of 62
 
 ## Source page 19
@@ -796,7 +796,7 @@ penalty = 0.30 × (12 − 2) = 3.0, so roundScore = 7 − 3.0 = 4.0
 s = 1 − 10 / 43 = 0.767, so winLuck = 1 + 2 × 0.767 = 2.53
 streakMult = 1.3, total = 4.0 × 1.3 = 5.2, displayed score 520
 4.7 Self-test (required before milestone M2 ends)
-An Editor menu item Hollow Seven/Run Solver Self Test  generates 500 levels per tier
+An Editor menu item Cursed Table/Run Solver Self Test  generates 500 levels per tier
 with seeds 1 to 500 and prints a table to the Console. It must assert:
 1. No exception and no null SafeSolution .
 2. Replaying SafeSolution  from StartChips  with Operation.TryApply  reproduces
@@ -812,7 +812,7 @@ So the tutorial is seven short forced lessons, about 2.5 minutes in total, deliv
 Dealer as 'the rules of the house'. Each lesson introduces exactly one idea and reveals
 HUD elements gradually. Lessons use hand-written levels from TutorialLesson  assets,
 so they are never random.
-Lucky Number: The Cursed Table — Game Design Document
+Cursed Table — Game Design Document
 Page 19 of 62
 
 ## Source page 20
@@ -849,7 +849,7 @@ L2 Results become chips 2, 5, 6 32 same off off
 L3 Dead ends and Undo 11, 5, 2 27 adds Undo off off
 L4 Subtract and divide 60, 12, 5 10 same off off
 L5 Luck chips 7, 5, 2 37 adds Luck meter off on
-Lucky Number: The Cursed Table — Game Design Document
+Cursed Table — Game Design Document
 Page 20 of 62
 
 ## Source page 21
@@ -890,7 +890,7 @@ Hint
 60 s, no
 penalty
 on
-Lucky Number: The Cursed Table — Game Design Document
+Cursed Table — Game Design Document
 Page 21 of 62
 
 ## Source page 22
@@ -924,7 +924,7 @@ times 2, then plus 6.' Otherwise 'A safe route. The house notices nothing.'
 L7 The clock and the Hint
 1. 'Now the clock matters. Faster wins give more Luck and more points.' Highlight
 Timer . Action: Continue.
-Lucky Number: The Cursed Table — Game Design Document
+Cursed Table — Game Design Document
 Page 22 of 62
 
 ## Source page 23
@@ -964,7 +964,7 @@ Canvas_Overlay Screen Space -
 Overlay
 30 Boot, main menu, pause, death, end
 card, fade-to-black
-Lucky Number: The Cursed Table — Game Design Document
+Cursed Table — Game Design Document
 Page 23 of 62
 
 ## Source page 24
@@ -986,7 +986,7 @@ F1 to F6 (Editor and Development builds
 only)
 F1 force win, F2 Luck +5, F3 Luck −5, F4 arm
 dream, F5 kill (Luck −15), F6 skip tutorial
-Lucky Number: The Cursed Table — Game Design Document
+Cursed Table — Game Design Document
 Page 24 of 62
 
 ## Source page 25
@@ -1034,7 +1034,7 @@ Dark 55 percent panel with brass
 border. 'TARGET' 30 pt at the top,
 value 120 pt bold below it (auto-
 size, minimum 80 pt)
-Lucky Number: The Cursed Table — Game Design Document
+Cursed Table — Game Design Document
 Page 25 of 62
 
 ## Source page 26
@@ -1110,7 +1110,7 @@ VignetteOverlay stretch 0.5,
 red alpha 0.35 × clamp01(−Luck /
 15) when cursed; green alpha 0.10
 when Luck above 10
-Lucky Number: The Cursed Table — Game Design Document
+Cursed Table — Game Design Document
 Page 26 of 62
 
 ## Source page 27
@@ -1142,7 +1142,7 @@ Curse red #E0243C Luck below 0, cursed markers
 Blessed green #3DDC84 Luck above 10, lucky markers
 Dealer gold #E8C26A Dealer text
 Whisper #D9D2C0 Hero whispers
-Lucky Number: The Cursed Table — Game Design Document
+Cursed Table — Game Design Document
 Page 27 of 62
 
 ## Source page 28
@@ -1203,19 +1203,19 @@ or timeout
 Positional shake ±0.04
 m
 0.25 s decaying
-Lucky Number: The Cursed Table — Game Design Document
+Cursed Table — Game Design Document
 Page 28 of 62
 
 ## Source page 29
 6.8 Full-screen screens
 Screen Layout
-Boot Black. 'THE HOLLOW SEVEN' 120 pt at (0, 80) from
+Boot Black. 'CURSED TABLE' 120 pt at (0, 80) from
 centre; 'Click to Enter' 40 pt pulsing at (0, −120);
 content note footer 24 pt, 40 px from the bottom
 Main menu Static dark background with slow fog drift. Buttons
 at the centre (0, −40), each 420 × 80, spacing 20, in
 this order: Play, Memories [SHOULD], Codex
-[SHOULD], Settings, Credits. Content note footer
+[SHOULD], Settings. Content note footer
 as on Boot
 Pause Black 70 percent overlay; Resume, Settings
 (Master, Music, SFX sliders 0 to 1 and a Mute
@@ -1237,7 +1237,7 @@ at (−220, −200) and (220, −200) from the centre:
 Leave, Stay
 End card Black. 'THE END' 120 pt, final score, rounds, rank,
 buttons Play Again and Main Menu
-Lucky Number: The Cursed Table — Game Design Document
+Cursed Table — Game Design Document
 Page 29 of 62
 
 ## Source page 30
@@ -1293,7 +1293,7 @@ WheelBase Cylinder 0, 0.99, 0.4 0, 0, 0 1.2,
 0.04,
 1.2
 M_Wood_Mahogany
-Lucky Number: The Cursed Table — Game Design Document
+Cursed Table — Game Design Document
 Page 30 of 62
 
 ## Source page 31
@@ -1374,7 +1374,7 @@ text
 SEVEN', magenta
 emission, the 7 flickers,
 the letter L is dead (dark)
-Lucky Number: The Cursed Table — Game Design Document
+Cursed Table — Game Design Document
 Page 31 of 62
 
 ## Source page 32
@@ -1423,7 +1423,7 @@ Material Base colour Metallic Smoothness Emission
 M_Floor_Carpet #2B0D12 0 0.15 none
 M_Wall_Velvet #1B0A10 0 0.05 none
 M_Ceiling #0E070B 0 0.05 none
-Lucky Number: The Cursed Table — Game Design Document
+Cursed Table — Game Design Document
 Page 32 of 62
 
 ## Source page 33
@@ -1460,7 +1460,7 @@ Parameter Neutral Cursed (−15) Blessed (+15)
 SpotTable intensity (×
 baseline)
 ×1.0 ×0.35 ×1.35
-Lucky Number: The Cursed Table — Game Design Document
+Cursed Table — Game Design Document
 Page 33 of 62
 
 ## Source page 34
@@ -1499,7 +1499,7 @@ Colour filter #FFFFFF #FFB0B0 #FFF1C8
 Bloom intensity (threshold
 1.0, scatter 0.6)
 0.6 0.4 1.2
-Lucky Number: The Cursed Table — Game Design Document
+Cursed Table — Game Design Document
 Page 34 of 62
 
 ## Source page 35
@@ -1532,7 +1532,7 @@ after beat 6)
 Heartbeat off from Luck −5: volume 0 to
 0.8, 60 to 120 BPM at −15
 off
-Lucky Number: The Cursed Table — Game Design Document
+Cursed Table — Game Design Document
 Page 35 of 62
 
 ## Source page 36
@@ -1562,7 +1562,7 @@ and settles in a random pocket at t = 2.3 s with a
 drop sound. The target number roll starts at t = 1.7 s
 Win SpotTable intensity ×1.5 for 0.3 s
 Timeout Rotor stops in 0.2 s, mask Grin for 1.5 s
-Lucky Number: The Cursed Table — Game Design Document
+Cursed Table — Game Design Document
 Page 36 of 62
 
 ## Source page 37
@@ -1596,7 +1596,7 @@ before it plays; call
 Resources.UnloadUnusedAssets  after it ends
 Memory budget Never more than 12 story textures alive at once (a
 dream has 3 panels with at most 4 layers each)
-Lucky Number: The Cursed Table — Game Design Document
+Cursed Table — Game Design Document
 Page 37 of 62
 
 ## Source page 38
@@ -1634,7 +1634,7 @@ tint none Full-screen colour multiply: beats 1
 to 3 #FFE8D0 at alpha 0.15 (warm),
 beats 4 to 6 #C8D8FF at alpha 0.15
 (cool)
-Lucky Number: The Cursed Table — Game Design Document
+Cursed Table — Game Design Document
 Page 38 of 62
 
 ## Source page 39
@@ -1673,7 +1673,7 @@ hero_hand_ring, subject_2
 hero_bottle
 Push-in 1.00 to 1.12. Bottle wobble
 ±2° over 1.2 s
-Lucky Number: The Cursed Table — Game Design Document
+Cursed Table — Game Design Document
 Page 39 of 62
 
 ## Source page 40
@@ -1718,7 +1718,7 @@ characters per s, then backspace at
 8 characters per s. Cursor blinks at
 1 Hz
 D3C window with rain, wife_sit Rain UV scroll 2.5 per s. Breathing
-Lucky Number: The Cursed Table — Game Design Document
+Cursed Table — Game Design Document
 Page 40 of 62
 
 ## Source page 41
@@ -1757,7 +1757,7 @@ Street
 sky gradient, hero_back hero_back walks away and shrinks
 1.0 to 0.7 over 6 s. Additive flare
 grows. No rain. Fade to the end card
-Lucky Number: The Cursed Table — Game Design Document
+Cursed Table — Game Design Document
 Page 41 of 62
 
 ## Source page 42
@@ -1804,7 +1804,7 @@ UI Only on events (section 6.7); the
 timer ring and the luck pointer are
 the only constant motion
 Frames, labels, buttons at rest
-Lucky Number: The Cursed Table — Game Design Document
+Cursed Table — Game Design Document
 Page 42 of 62
 
 ## Source page 43
@@ -1839,7 +1839,7 @@ drums, distant room
 1 − 0.4 × tCurse
 MUS_Tension Detuned drone, low strings, irregular pulse tCurse
 MUS_Shimmer Warm pad, bell tones, high strings tBless
-Lucky Number: The Cursed Table — Game Design Document
+Cursed Table — Game Design Document
 Page 43 of 62
 
 ## Source page 44
@@ -1872,7 +1872,7 @@ SFX_TargetRoll Target number rolls Fast ticking, 0.8 s
 SFX_WheelSpin RoundIntro Rotor whirr, loop, fades with speed
 SFX_BallRattle RoundIntro Ball on track, loop for 2.3 s
 SFX_BallDrop Ball settles Single bounce and settle
-Lucky Number: The Cursed Table — Game Design Document
+Cursed Table — Game Design Document
 Page 44 of 62
 
 ## Source page 45
@@ -1905,7 +1905,7 @@ SFX_Screech D4B Tyre screech, cut to silence
 SFX_UIClick  /
 SFX_UIHover
 Menu buttons Neutral clicks
-Lucky Number: The Cursed Table — Game Design Document
+Cursed Table — Game Design Document
 Page 45 of 62
 
 ## Source page 46
@@ -1936,7 +1936,7 @@ Risk against reward The shortest route may spend a cursed number;
 the safe route is longer. Lucky numbers give a
 bigger payout for a longer route
 MUST
-Lucky Number: The Cursed Table — Game Design Document
+Cursed Table — Game Design Document
 Page 46 of 62
 
 ## Source page 47
@@ -1976,7 +1976,7 @@ neon sign, two haunts, the Dealer
 3:30 to 6:30 First rounds starting at Luck 5; the player reaches
 +15 after about four good rounds and sees dream
 beat 1
-Lucky Number: The Cursed Table — Game Design Document
+Cursed Table — Game Design Document
 Page 47 of 62
 
 ## Source page 48
@@ -2009,7 +2009,7 @@ Time What the player experiences
 brush with the red zone is likely
 9:00 onward Beats 2 to 6 about every 3 to 4 minutes. A full story
 playthrough is about 20 minutes
-Lucky Number: The Cursed Table — Game Design Document
+Cursed Table — Game Design Document
 Page 48 of 62
 
 ## Source page 49
@@ -2041,7 +2041,7 @@ Rounds won in the run Title
 45 or more Unbreakable
 Chose Leave Walked Away (special title, always shown on the
 Leave end card)
-Lucky Number: The Cursed Table — Game Design Document
+Cursed Table — Game Design Document
 Page 49 of 62
 
 ## Source page 50
@@ -2084,7 +2084,7 @@ LuckTests ScoreTests
 DealerLines.asset
                  StoryData.asset  Tutorial/L1..L7.asset  
 Story/Beat1..Beat6.asset
-Lucky Number: The Cursed Table — Game Design Document
+Cursed Table — Game Design Document
 Page 50 of 62
 
 ## Source page 51
@@ -2125,7 +2125,7 @@ public int Streak; }
 OperationCommitted;
     public static event System.Action                       UndoPerformed;
     public static event System.Action<RoundResult>          RoundWon;
-Lucky Number: The Cursed Table — Game Design Document
+Cursed Table — Game Design Document
 Page 51 of 62
 
 ## Source page 52
@@ -2168,7 +2168,7 @@ int left, out int right);
   public static class LevelGenerator {
     public static Level Generate(int roundIndex, System.Random rng);   // 
 section 4.3
-Lucky Number: The Cursed Table — Game Design Document
+Cursed Table — Game Design Document
 Page 52 of 62
 
 ## Source page 53
@@ -2206,7 +2206,7 @@ captions, then returns control
 PrologueController , EndingController ,
 HauntController
 Section 2 sequences, driven by data
-Lucky Number: The Cursed Table — Game Design Document
+Cursed Table — Game Design Document
 Page 53 of 62
 
 ## Source page 54
@@ -2245,7 +2245,7 @@ SolverSelfTest , ProjectSetup  (Editor)
 Placeholder PNGs, the self test of section
 4.7, and a menu command that sets Player
 and quality settings from section 12.3
-Lucky Number: The Cursed Table — Game Design Document
+Cursed Table — Game Design Document
 Page 54 of 62
 
 ## Source page 55
@@ -2281,7 +2281,7 @@ ln_volVoice , ln_volAmb
 float Bus volumes
 ln_muted , ln_quality int Mute flag, quality level (0 low, 1
 normal)
-Lucky Number: The Cursed Table — Game Design Document
+Cursed Table — Game Design Document
 Page 55 of 62
 
 ## Source page 56
@@ -2311,7 +2311,7 @@ after Luck drops
 ScoreTests Section 4.6 example gives displayed score 520 and
 winLuck 2.53 (±0.01). With t = g the winLuck is 3.
 With t = T it is 1
-Lucky Number: The Cursed Table — Game Design Document
+Cursed Table — Game Design Document
 Page 56 of 62
 
 ## Source page 57
@@ -2362,7 +2362,7 @@ stays armed after Luck drops.
 Timer drain matches ×1.45 at
 −15 and ×0.85 above 10
 (measure over 10 s)
-Lucky Number: The Cursed Table — Game Design Document
+Cursed Table — Game Design Document
 Page 57 of 62
 
 ## Source page 58
@@ -2421,7 +2421,7 @@ remains
 Each item is switchable off and
 the game still passes M5 and
 M6 tests
-Lucky Number: The Cursed Table — Game Design Document
+Cursed Table — Game Design Document
 Page 58 of 62
 
 ## Source page 59
@@ -2451,10 +2451,10 @@ Thursday 12 Nov, 00:00 All MUST items done (jam's recommended finish)
 Thursday 12 Nov M7, M8 (SHOULD items), real art and audio if
 available
 Friday 13 Nov M9 build and browser tests, M10 itch page and
-submission, AI-use disclosure
+submission
 Saturday 14 Nov Fixes only. No new features. Final upload no later
 than 12:00 IST to leave a margin
-Lucky Number: The Cursed Table — Game Design Document
+Cursed Table — Game Design Document
 Page 59 of 62
 
 ## Source page 60
@@ -2485,11 +2485,7 @@ packs) and the team members.
 Mark the WebGL build as playable in the browser. WebGL is also required for prize
 eligibility. Upload as a ZIP (preferred), under 1 GB. All files needed to play are inside
 the build.
-Generative AI: describe on the submission page how AI was used (an AI agent
-through Unity MCP wrote the project code and scaffolding from a design document,
-and any AI-generated art or audio). Failing to disclose disqualifies the entry from the
-prize categories.
-Lucky Number: The Cursed Table — Game Design Document
+Cursed Table — Game Design Document
 Page 60 of 62
 
 ## Source page 61
@@ -2525,7 +2521,7 @@ sound
 The agent drifts from the design Rules in 1.1, one milestone at a time,
 acceptance tests, deviations logged in
 CHANGELOG.md
-Lucky Number: The Cursed Table — Game Design Document
+Cursed Table — Game Design Document
 Page 61 of 62
 
 ## Source page 62
@@ -2536,5 +2532,5 @@ and retry in under 2 s, and can finish all six dreams and the ending in about 20
 with the room visibly and audibly reacting to Luck all the way.
 Risk Mitigation
 Scope growth Priority tags and the cut order above
-Lucky Number: The Cursed Table — Game Design Document
+Cursed Table — Game Design Document
 Page 62 of 62

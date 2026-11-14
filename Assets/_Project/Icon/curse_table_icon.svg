@@ -1,0 +1,270 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024" xmlns:c2pa="http://c2pa.org/manifest">
+<defs>
+  <radialGradient id="bg" cx="50%" cy="30%" r="80%">
+    <stop offset="0" stop-color="#55101c"/><stop offset="0.5" stop-color="#1c0a13"/><stop offset="1" stop-color="#05040a"/>
+  </radialGradient>
+  <radialGradient id="haze" cx="50%" cy="50%" r="50%"><stop offset="0" stop-color="#ff2a3a" stop-opacity=".30"/><stop offset="1" stop-color="#ff2a3a" stop-opacity="0"/></radialGradient>
+  <radialGradient id="glow" cx="50%" cy="50%" r="50%"><stop offset="0" stop-color="#e8b84a" stop-opacity=".38"/><stop offset="1" stop-color="#e8b84a" stop-opacity="0"/></radialGradient>
+  <linearGradient id="cone" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ffd98a" stop-opacity=".22"/><stop offset="1" stop-color="#ffd98a" stop-opacity="0"/></linearGradient>
+  <linearGradient id="torso" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#0c0c13"/><stop offset=".72" stop-color="#0c0c13" stop-opacity=".95"/><stop offset="1" stop-color="#0c0c13" stop-opacity="0"/></linearGradient>
+  <linearGradient id="lapel" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#2a2a3a"/><stop offset="1" stop-color="#101018"/></linearGradient>
+  <radialGradient id="mask" cx="40%" cy="30%" r="80%"><stop offset="0" stop-color="#fffaf0"/><stop offset=".6" stop-color="#e9e1d3"/><stop offset="1" stop-color="#aa9f8f"/></radialGradient>
+  <linearGradient id="shade" x1="0" y1="0" x2="1" y2="0"><stop offset=".4" stop-color="#2a1a14" stop-opacity="0"/><stop offset="1" stop-color="#2a1a14" stop-opacity=".26"/></linearGradient>
+  <linearGradient id="glove" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#fbf8f1"/><stop offset="1" stop-color="#c9c1b3"/></linearGradient>
+  <linearGradient id="bar" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#f0c368"/><stop offset=".5" stop-color="#c0903f"/><stop offset="1" stop-color="#7d5521"/></linearGradient>
+  <linearGradient id="coat" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#9a97a6"/><stop offset="1" stop-color="#6a6776"/></linearGradient>
+  <radialGradient id="eyeglow" cx="50%" cy="50%" r="50%"><stop offset="0" stop-color="#ff5a3a" stop-opacity="1"/><stop offset=".4" stop-color="#ff3b2f" stop-opacity=".55"/><stop offset="1" stop-color="#ff3b2f" stop-opacity="0"/></radialGradient>
+  <linearGradient id="mouth" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#3a060f"/><stop offset="1" stop-color="#12020a"/></linearGradient>
+  <linearGradient id="vig" x1="0" y1="0" x2="0" y2="1"><stop offset=".7" stop-color="#000" stop-opacity="0"/><stop offset="1" stop-color="#000" stop-opacity=".7"/></linearGradient>
+  <radialGradient id="vigr" cx="50%" cy="50%" r="72%"><stop offset=".62" stop-color="#000" stop-opacity="0"/><stop offset="1" stop-color="#000" stop-opacity=".6"/></radialGradient>
+  <pattern id="lattice" width="64" height="64" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+    <path d="M0 0H64M0 0V64" stroke="#d9a93c" stroke-width="1" opacity=".07"/>
+  </pattern>
+  <filter id="blur6" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="6"/></filter>
+  <filter id="blur3" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="3"/></filter>
+  <filter id="grain"><feTurbulence type="fractalNoise" baseFrequency=".85" numOctaves="2" seed="4"/><feColorMatrix type="saturate" values="0"/></filter>
+  <clipPath id="mouthclip"><path d="M452 268 Q512 318 572 268 Q512 290 452 268 Z"/></clipPath>
+</defs>
+
+<!-- ============ BACKGROUND ============ -->
+<rect width="1024" height="1024" fill="url(#bg)"/>
+<rect width="1024" height="1024" fill="url(#lattice)"/>
+<polygon points="512,-40 -341,941 -158,1074" fill="#ffd98a" opacity="0.05"/><polygon points="512,-40 -58,1128 198,1221" fill="#ffd98a" opacity="0.06"/><polygon points="512,-40 275,1238 478,1260" fill="#ffd98a" opacity="0.05"/><polygon points="512,-40 603,1257 870,1210" fill="#ffd98a" opacity="0.06"/><polygon points="512,-40 978,1174 1182,1074" fill="#ffd98a" opacity="0.05"/><polygon points="512,-40 1276,1012 1415,895" fill="#ffd98a" opacity="0.04"/>
+<circle cx="512" cy="260" r="330" fill="url(#haze)"/>
+<polygon points="440,520 584,520 760,1010 264,1010" fill="url(#cone)"/>
+<circle cx="512" cy="800" r="310" fill="url(#glow)"/>
+
+<!-- roulette wheel halo -->
+<g>
+  <circle cx="512" cy="222" r="214" fill="none" stroke="#d9a93c" stroke-width="5" opacity=".55"/>
+  <circle cx="512" cy="222" r="190" fill="none" stroke="#0a0206" stroke-width="34" opacity=".6"/>
+  <circle cx="512" cy="222" r="190" fill="none" stroke="#9a1428" stroke-width="34" stroke-dasharray="31.4 31.4" opacity=".6"/>
+  <circle cx="512" cy="222" r="173" fill="none" stroke="#d9a93c" stroke-width="3" opacity=".6"/>
+  <circle cx="512" cy="222" r="207" fill="none" stroke="#d9a93c" stroke-width="3" stroke-dasharray="2 29.4" opacity=".5"/>
+  <circle cx="512" cy="222" r="170" fill="#09040a" opacity=".55"/>
+</g>
+
+<!-- ============ DEALER BODY ============ -->
+<path d="M130 610 L130 520 Q150 412 300 376 L430 350 L594 350 L724 376 Q874 412 894 520 L894 610 Z" fill="url(#torso)"/>
+<!-- satin lapels -->
+<path d="M430 350 L472 362 L512 428 L470 548 L388 452 Z" fill="url(#lapel)" stroke="#44445a" stroke-width="2.5" opacity=".95"/>
+<path d="M594 350 L552 362 L512 428 L554 548 L636 452 Z" fill="url(#lapel)" stroke="#44445a" stroke-width="2.5" opacity=".95"/>
+<path d="M300 376 L430 350 L388 452" fill="none" stroke="#4a4a60" stroke-width="2.5" opacity=".8"/>
+<path d="M724 376 L594 350 L636 452" fill="none" stroke="#4a4a60" stroke-width="2.5" opacity=".8"/>
+<!-- shirt, collar, bow tie -->
+<polygon points="470,356 554,356 512,430" fill="#ebe5da"/>
+<polygon points="470,356 554,356 512,430" fill="none" stroke="#b9b1a3" stroke-width="2"/>
+<polygon points="478,346 500,360 470,372" fill="#f4efe6" stroke="#b9b1a3" stroke-width="1.5"/>
+<polygon points="546,346 524,360 554,372" fill="#f4efe6" stroke="#b9b1a3" stroke-width="1.5"/>
+<polygon points="512,386 458,362 458,410" fill="#b3182c"/>
+<polygon points="512,386 566,362 566,410" fill="#b3182c"/>
+<path d="M512 386 L458 362 L458 372 Z M512 386 L566 362 L566 372 Z" fill="#e0384b" opacity=".7"/>
+<path d="M512 386 L470 398 M512 386 L554 398" stroke="#7d0f1f" stroke-width="2" opacity=".8"/>
+<rect x="500" y="372" width="24" height="28" rx="6" fill="#8c1121"/>
+<rect x="505" y="375" width="6" height="22" rx="3" fill="#e0384b" opacity=".6"/>
+<!-- pocket square and lapel pin -->
+<polygon points="352,446 392,438 396,456 356,462" fill="#f1ebe0"/>
+<polygon points="360,446 372,436 384,444 392,438" fill="#d0c8ba" opacity=".9"/>
+<circle cx="448" cy="408" r="5" fill="#f0c45a"/><circle cx="446.5" cy="406.5" r="1.8" fill="#fff6d0"/>
+
+<!-- neck shadow -->
+<path d="M478 300 L478 352 L546 352 L546 300 Z" fill="#08080d"/>
+
+<!-- ============ SECOND HAND (left), pinching a string ============ -->
+<path d="M236 428 L250 536 L326 584" fill="none" stroke="#3a3a50" stroke-width="70" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M236 428 L250 536 L326 584" fill="none" stroke="#14141c" stroke-width="64" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="318" y="548" width="18" height="72" rx="4" fill="#ebe5da" stroke="#b9b1a3" stroke-width="2" transform="rotate(32 327 584)"/>
+<circle cx="322" cy="580" r="4.5" fill="#f0c45a" stroke="#8a5f26" stroke-width="1.2"/>
+<g>
+  <!-- palm / back of hand -->
+  <path d="M334 574 Q360 566 376 580 Q384 598 368 610 Q348 616 334 604 Z" fill="url(#glove)" stroke="#9f968a" stroke-width="2"/>
+  <path d="M346 582 Q360 578 370 586 M346 594 Q358 592 368 598" fill="none" stroke="#a69d8f" stroke-width="1.8" stroke-linecap="round"/>
+  <!-- long curled fingers underneath -->
+  <path d="M340 606 Q352 624 370 620" fill="none" stroke="#9f968a" stroke-width="11" stroke-linecap="round"/>
+  <path d="M340 606 Q352 624 370 620" fill="none" stroke="#e6dfd2" stroke-width="8" stroke-linecap="round"/>
+  <path d="M352 612 Q364 628 380 622" fill="none" stroke="#9f968a" stroke-width="10" stroke-linecap="round"/>
+  <path d="M352 612 Q364 628 380 622" fill="none" stroke="#d8d0c2" stroke-width="7" stroke-linecap="round"/>
+  <!-- thumb (top) and index finger (bottom) pinching the string -->
+  <path d="M368 578 Q384 566 397 580" fill="none" stroke="#9f968a" stroke-width="11" stroke-linecap="round"/>
+  <path d="M368 578 Q384 566 397 580" fill="none" stroke="#f7f3ea" stroke-width="8" stroke-linecap="round"/>
+  <path d="M372 600 Q394 604 398 588" fill="none" stroke="#9f968a" stroke-width="11" stroke-linecap="round"/>
+  <path d="M372 600 Q394 604 398 588" fill="none" stroke="#efe9dd" stroke-width="8" stroke-linecap="round"/>
+  <polygon points="394,576 406,583 396,588" fill="#0b0b10"/>
+  <polygon points="395,594 406,586 396,582" fill="#0b0b10"/>
+</g>
+
+<!-- ============ STRINGS ============ -->
+<g stroke="#f0c45a" stroke-width="3" stroke-linecap="round" fill="none">
+  <path d="M492 507 L501.2 641.8"/><path d="M532 507 L522.8 641.8"/>
+  <path d="M440 507 L463.4 739"/><path d="M584 507 L560.6 739"/>
+  <path d="M402 507 L386 724.6"/><path d="M622 507 L634.4 722.8"/>
+</g>
+<g stroke="#f0c45a" stroke-width="10" stroke-linecap="round" fill="none" opacity=".16" filter="url(#blur3)">
+  <path d="M492 507 L501.2 641.8"/><path d="M532 507 L522.8 641.8"/>
+  <path d="M440 507 L463.4 739"/><path d="M584 507 L560.6 739"/>
+  <path d="M402 507 L386 724.6"/><path d="M622 507 L634.4 722.8"/>
+</g>
+
+<!-- ============ MAIN ARM AND GLOVED HAND ============ -->
+<path d="M786 426 L758 528 L646 492" fill="none" stroke="#3a3a50" stroke-width="80" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M786 426 L758 528 L646 492" fill="none" stroke="#14141c" stroke-width="74" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M740 430 L770 520" stroke="#2a2a3a" stroke-width="3" opacity=".7"/>
+<!-- cuff with gold cufflink -->
+<rect x="623" y="448" width="22" height="84" rx="5" fill="#ebe5da" stroke="#b9b1a3" stroke-width="2" transform="rotate(18 634 490)"/>
+<circle cx="632" cy="492" r="5.5" fill="#f0c45a" stroke="#8a5f26" stroke-width="1.5"/>
+
+<!-- control bar and grip -->
+<rect x="384" y="493" width="256" height="16" rx="8" fill="url(#bar)" stroke="#5e3e17" stroke-width="1.5"/>
+<g fill="#f0c45a"><circle cx="402" cy="501" r="4"/><circle cx="440" cy="501" r="4"/><circle cx="492" cy="501" r="4"/><circle cx="532" cy="501" r="4"/><circle cx="584" cy="501" r="4"/><circle cx="622" cy="501" r="4"/></g>
+<rect x="498" y="404" width="28" height="126" rx="12" fill="url(#bar)" stroke="#5e3e17" stroke-width="1.5"/>
+<circle cx="512" cy="406" r="14" fill="url(#bar)" stroke="#5e3e17" stroke-width="1.5"/>
+
+<!-- the hand: back of hand, four curled fingers with talons, thumb -->
+<g>
+  <path d="M552 438 C592 424 630 440 642 472 C646 492 636 504 622 508 L562 508 C538 488 538 462 552 438 Z" fill="url(#glove)" stroke="#9f968a" stroke-width="2"/>
+  <path d="M552 438 C592 424 630 440 642 472 C646 492 636 504 622 508 L600 508 C620 490 616 456 552 438 Z" fill="#8a8070" opacity=".18"/>
+  <g stroke="#a69d8f" stroke-width="1.8" fill="none" stroke-linecap="round" opacity=".8">
+    <path d="M568 452 Q598 454 624 466"/><path d="M566 470 Q596 474 628 484"/>
+  </g>
+  <!-- fingers (slightly fanned and tapered) -->
+  <g stroke="#9f968a" stroke-width="2" fill="url(#glove)">
+    <rect x="472" y="427" width="94" height="19" rx="9.5" transform="rotate(-3 519 437)"/>
+    <rect x="464" y="446" width="102" height="19" rx="9.5" transform="rotate(-1 515 456)"/>
+    <rect x="468" y="465" width="98" height="19" rx="9.5" transform="rotate(1.5 517 475)"/>
+    <rect x="480" y="484" width="84" height="17" rx="8.5" transform="rotate(4 522 492)"/>
+  </g>
+  <g fill="#7f7565" opacity=".35">
+    <rect x="474" y="441" width="90" height="4" rx="2" transform="rotate(-3 519 437)"/>
+    <rect x="466" y="460" width="98" height="4" rx="2" transform="rotate(-1 515 456)"/>
+    <rect x="470" y="479" width="94" height="4" rx="2" transform="rotate(1.5 517 475)"/>
+    <rect x="482" y="496" width="80" height="4" rx="2" transform="rotate(4 522 492)"/>
+  </g>
+  <g stroke="#b2a999" stroke-width="2" stroke-linecap="round">
+    <path d="M524 430 V443"/><path d="M520 449 V462"/><path d="M522 468 V481"/><path d="M524 487 V498"/>
+  </g>
+  <!-- talons -->
+  <g fill="#0b0b10">
+    <polygon points="474,428 450,437 473,446"/>
+    <polygon points="466,447 442,457 466,466"/>
+    <polygon points="470,466 446,477 470,485"/>
+    <polygon points="482,486 462,496 483,502"/>
+  </g>
+  <!-- knuckles -->
+  <g fill="#fffdf6" stroke="#b2a999" stroke-width="1.5">
+    <circle cx="558" cy="437" r="6"/><circle cx="560" cy="456" r="6"/><circle cx="560" cy="475" r="6"/><circle cx="554" cy="494" r="5.5"/>
+  </g>
+  <!-- thumb wrapped over the fingers -->
+  <path d="M600 456 C584 430 550 418 520 422 C502 424 500 438 516 440 C540 444 566 454 584 472 Z" fill="url(#glove)" stroke="#9f968a" stroke-width="2"/>
+  <path d="M540 428 Q566 436 584 456" fill="none" stroke="#a69d8f" stroke-width="1.8" stroke-linecap="round" opacity=".8"/>
+  <polygon points="512,419 490,427 512,436" fill="#0b0b10"/>
+</g>
+
+<!-- ============ HERO PUPPET ============ -->
+<g transform="translate(51.2 94.6) scale(0.9)">
+  <!-- shadows under body -->
+  <!-- legs -->
+  <path d="M492 856 L474 910 L488 962" fill="none" stroke="#2c2c3d" stroke-width="28" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M534 856 L560 902 L548 954" fill="none" stroke="#2c2c3d" stroke-width="28" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M470 884 L486 890 M556 878 L540 884" stroke="#4a4a60" stroke-width="3" stroke-linecap="round" opacity=".8"/>
+  <path d="M486 856 L478 900" stroke="#40405a" stroke-width="2.5" opacity=".7"/>
+  <ellipse cx="490" cy="972" rx="23" ry="10" fill="#101016" stroke="#4a4a60" stroke-width="2"/>
+  <ellipse cx="546" cy="964" rx="23" ry="10" fill="#101016" stroke="#4a4a60" stroke-width="2"/>
+  <path d="M474 968 Q488 962 504 968" stroke="#6a6a80" stroke-width="2" fill="none" opacity=".8"/>
+  <path d="M530 960 Q544 954 560 960" stroke="#6a6a80" stroke-width="2" fill="none" opacity=".8"/>
+  <!-- arms (sleeves with creases) -->
+  <path d="M462 730 Q420 764 384 718" fill="none" stroke="#8a8796" stroke-width="25" stroke-linecap="round"/>
+  <path d="M562 730 Q604 764 642 716" fill="none" stroke="#6f6c7c" stroke-width="25" stroke-linecap="round"/>
+  <path d="M430 752 Q418 748 410 740 M594 752 Q606 748 614 740" stroke="#58556a" stroke-width="2.5" fill="none" opacity=".8"/>
+  <!-- hands, shirt cuffs, ring -->
+  <rect x="368" y="716" width="20" height="9" rx="3" fill="#ece6da" transform="rotate(-48 378 720)"/>
+  <rect x="636" y="714" width="20" height="9" rx="3" fill="#ece6da" transform="rotate(48 646 718)"/>
+  <circle cx="378" cy="708" r="13" fill="#dccfbd"/><circle cx="648" cy="706" r="13" fill="#dccfbd"/>
+  <circle cx="652" cy="716" r="7" fill="none" stroke="#f0c45a" stroke-width="3.5"/>
+  <polygon points="654,708 658,704 659,709" fill="#fff3b8"/>
+  <!-- wrist loops of string -->
+  <circle cx="378" cy="708" r="17" fill="none" stroke="#f0c45a" stroke-width="2.2" opacity=".85"/>
+  <circle cx="648" cy="706" r="17" fill="none" stroke="#f0c45a" stroke-width="2.2" opacity=".85"/>
+  <!-- torso: coat, lapels, shirt, tie, buttons -->
+  <path d="M450 712 L574 712 Q590 786 568 862 L456 862 Q434 786 450 712 Z" fill="url(#coat)"/>
+  <path d="M512 712 L574 712 Q590 786 568 862 L512 862 Z" fill="#5a5768" opacity=".45"/>
+  <polygon points="494,708 530,708 512,748" fill="#ece6da"/>
+  <path d="M470 712 L512 790 L554 712" fill="none" stroke="#5e5b6c" stroke-width="3.5" stroke-linejoin="round"/>
+  <path d="M502 744 L522 744 L526 830 L512 846 L498 830 Z" fill="#4b4858" opacity=".95"/>
+  <circle cx="512" cy="812" r="3.5" fill="#2a2834"/><circle cx="512" cy="836" r="3.5" fill="#2a2834"/>
+  <path d="M470 808 L490 806 M538 800 L556 804" stroke="#58556a" stroke-width="2.5" opacity=".8"/>
+  <path d="M458 770 Q470 800 466 850 M566 770 Q556 800 560 850" stroke="#5a5768" stroke-width="2" fill="none" opacity=".7"/>
+  <!-- neck and head (tilted, slumped) -->
+  <rect x="500" y="684" width="26" height="30" rx="8" fill="#cdbfad"/>
+  <g transform="rotate(-13 512 652)">
+    <ellipse cx="512" cy="652" rx="37" ry="43" fill="#dccfbd"/>
+    <ellipse cx="476" cy="656" rx="5" ry="9" fill="#d0c2b0"/><ellipse cx="548" cy="656" rx="5" ry="9" fill="#d0c2b0"/>
+    <path d="M475 646 Q474 606 512 606 Q550 606 549 646 Q534 622 512 622 Q490 622 475 646 Z" fill="#17120f"/>
+    <path d="M488 618 Q500 610 514 614 M520 614 Q534 612 544 624" stroke="#3a2f27" stroke-width="2" fill="none" opacity=".8"/>
+    <g fill="none" stroke="#3e3730" stroke-linecap="round">
+      <path d="M494 658 Q501 664 508 658" stroke-width="3.2"/>
+      <path d="M516 658 Q523 664 530 658" stroke-width="3.2"/>
+      <path d="M505 680 Q512 678 519 680" stroke-width="2.8"/>
+      <path d="M512 664 L510 672 Q512 674 515 672" stroke-width="2" opacity=".6"/>
+    </g>
+    <ellipse cx="500" cy="666" rx="7" ry="3" fill="#7a5a52" opacity=".18"/><ellipse cx="526" cy="666" rx="7" ry="3" fill="#7a5a52" opacity=".18"/>
+  </g>
+</g>
+<!-- string knots on the puppet -->
+<g fill="#f0c45a">
+  <circle cx="501.2" cy="641.8" r="4.5"/><circle cx="522.8" cy="641.8" r="4.5"/>
+  <circle cx="463.4" cy="739" r="4.5"/><circle cx="560.6" cy="739" r="4.5"/>
+  <circle cx="386" cy="724.6" r="4.5"/><circle cx="634.4" cy="722.8" r="4.5"/>
+</g>
+
+<!-- ============ CASINO CHIPS AT THE BOTTOM ============ -->
+<g opacity=".92">
+  <path d="M162 962 L162 976 A52 17 0 0 0 266 976 L266 962 Z" fill="#8e1224" stroke="#000" stroke-opacity=".5" stroke-width="1.5"/><ellipse cx="214" cy="962" rx="52" ry="17" fill="#8e1224" stroke="#000" stroke-opacity=".45" stroke-width="1.5"/><ellipse cx="214" cy="962" rx="43" ry="13.8" fill="none" stroke="#f2eadb" stroke-width="3" stroke-dasharray="10 8"/><ellipse cx="214" cy="962" rx="30" ry="9" fill="none" stroke="#f2eadb" stroke-width="2" opacity=".8"/><path d="M162 948 L162 962 A52 17 0 0 0 266 962 L266 948 Z" fill="#8e1224" stroke="#000" stroke-opacity=".5" stroke-width="1.5"/><ellipse cx="214" cy="948" rx="52" ry="17" fill="#8e1224" stroke="#000" stroke-opacity=".45" stroke-width="1.5"/><ellipse cx="214" cy="948" rx="43" ry="13.8" fill="none" stroke="#f2eadb" stroke-width="3" stroke-dasharray="10 8"/><ellipse cx="214" cy="948" rx="30" ry="9" fill="none" stroke="#f2eadb" stroke-width="2" opacity=".8"/><path d="M162 934 L162 948 A52 17 0 0 0 266 948 L266 934 Z" fill="#8e1224" stroke="#000" stroke-opacity=".5" stroke-width="1.5"/><ellipse cx="214" cy="934" rx="52" ry="17" fill="#8e1224" stroke="#000" stroke-opacity=".45" stroke-width="1.5"/><ellipse cx="214" cy="934" rx="43" ry="13.8" fill="none" stroke="#f2eadb" stroke-width="3" stroke-dasharray="10 8"/><ellipse cx="214" cy="934" rx="30" ry="9" fill="none" stroke="#f2eadb" stroke-width="2" opacity=".8"/>
+  <path d="M760 972 L760 986 A52 17 0 0 0 864 986 L864 972 Z" fill="#14141c" stroke="#000" stroke-opacity=".5" stroke-width="1.5"/><ellipse cx="812" cy="972" rx="52" ry="17" fill="#14141c" stroke="#000" stroke-opacity=".45" stroke-width="1.5"/><ellipse cx="812" cy="972" rx="43" ry="13.8" fill="none" stroke="#d9a93c" stroke-width="3" stroke-dasharray="10 8"/><ellipse cx="812" cy="972" rx="30" ry="9" fill="none" stroke="#d9a93c" stroke-width="2" opacity=".8"/><path d="M760 958 L760 972 A52 17 0 0 0 864 972 L864 958 Z" fill="#14141c" stroke="#000" stroke-opacity=".5" stroke-width="1.5"/><ellipse cx="812" cy="958" rx="52" ry="17" fill="#14141c" stroke="#000" stroke-opacity=".45" stroke-width="1.5"/><ellipse cx="812" cy="958" rx="43" ry="13.8" fill="none" stroke="#d9a93c" stroke-width="3" stroke-dasharray="10 8"/><ellipse cx="812" cy="958" rx="30" ry="9" fill="none" stroke="#d9a93c" stroke-width="2" opacity=".8"/><path d="M760 944 L760 958 A52 17 0 0 0 864 958 L864 944 Z" fill="#14141c" stroke="#000" stroke-opacity=".5" stroke-width="1.5"/><ellipse cx="812" cy="944" rx="52" ry="17" fill="#14141c" stroke="#000" stroke-opacity=".45" stroke-width="1.5"/><ellipse cx="812" cy="944" rx="43" ry="13.8" fill="none" stroke="#d9a93c" stroke-width="3" stroke-dasharray="10 8"/><ellipse cx="812" cy="944" rx="30" ry="9" fill="none" stroke="#d9a93c" stroke-width="2" opacity=".8"/><path d="M760 930 L760 944 A52 17 0 0 0 864 944 L864 930 Z" fill="#14141c" stroke="#000" stroke-opacity=".5" stroke-width="1.5"/><ellipse cx="812" cy="930" rx="52" ry="17" fill="#14141c" stroke="#000" stroke-opacity=".45" stroke-width="1.5"/><ellipse cx="812" cy="930" rx="43" ry="13.8" fill="none" stroke="#d9a93c" stroke-width="3" stroke-dasharray="10 8"/><ellipse cx="812" cy="930" rx="30" ry="9" fill="none" stroke="#d9a93c" stroke-width="2" opacity=".8"/>
+  <path d="M832 954 L832 968 A52 17 0 0 0 936 968 L936 954 Z" fill="#8e1224" stroke="#000" stroke-opacity=".5" stroke-width="1.5"/><ellipse cx="884" cy="954" rx="52" ry="17" fill="#8e1224" stroke="#000" stroke-opacity=".45" stroke-width="1.5"/><ellipse cx="884" cy="954" rx="43" ry="13.8" fill="none" stroke="#f2eadb" stroke-width="3" stroke-dasharray="10 8"/><ellipse cx="884" cy="954" rx="30" ry="9" fill="none" stroke="#f2eadb" stroke-width="2" opacity=".8"/>
+</g>
+<circle cx="421" cy="597" r="2.6" fill="#f0c45a" opacity="0.25"/><circle cx="164" cy="940" r="1.2" fill="#f0c45a" opacity="0.55"/><circle cx="686" cy="549" r="1.6" fill="#f0c45a" opacity="0.25"/><circle cx="178" cy="742" r="2.6" fill="#f0c45a" opacity="0.25"/><circle cx="336" cy="566" r="2.6" fill="#f0c45a" opacity="0.25"/><circle cx="669" cy="583" r="1.6" fill="#f0c45a" opacity="0.25"/><circle cx="680" cy="819" r="2.6" fill="#f0c45a" opacity="0.25"/><circle cx="316" cy="543" r="1.6" fill="#f0c45a" opacity="0.55"/><circle cx="519" cy="593" r="1.2" fill="#f0c45a" opacity="0.55"/><circle cx="663" cy="937" r="1.6" fill="#f0c45a" opacity="0.25"/><circle cx="685" cy="812" r="1.6" fill="#f0c45a" opacity="0.55"/><circle cx="189" cy="800" r="1.2" fill="#f0c45a" opacity="0.25"/><circle cx="723" cy="625" r="2.6" fill="#f0c45a" opacity="0.7"/><circle cx="885" cy="680" r="2.6" fill="#f0c45a" opacity="0.7"/><circle cx="460" cy="673" r="1.6" fill="#f0c45a" opacity="0.4"/><circle cx="805" cy="919" r="1.6" fill="#f0c45a" opacity="0.25"/><circle cx="678" cy="673" r="2.6" fill="#f0c45a" opacity="0.55"/><circle cx="836" cy="749" r="2" fill="#f0c45a" opacity="0.25"/><circle cx="210" cy="782" r="2.6" fill="#f0c45a" opacity="0.4"/><circle cx="865" cy="695" r="1.6" fill="#f0c45a" opacity="0.7"/><circle cx="521" cy="540" r="1.2" fill="#f0c45a" opacity="0.55"/><circle cx="438" cy="875" r="2" fill="#f0c45a" opacity="0.7"/><circle cx="683" cy="928" r="2.6" fill="#f0c45a" opacity="0.25"/><circle cx="185" cy="658" r="2.6" fill="#f0c45a" opacity="0.25"/><circle cx="152" cy="894" r="2" fill="#f0c45a" opacity="0.7"/><circle cx="381" cy="886" r="2.6" fill="#f0c45a" opacity="0.55"/><circle cx="113" cy="756" r="2" fill="#f0c45a" opacity="0.4"/><circle cx="715" cy="579" r="2.6" fill="#f0c45a" opacity="0.25"/><circle cx="313" cy="913" r="2" fill="#f0c45a" opacity="0.4"/><circle cx="846" cy="646" r="2.6" fill="#f0c45a" opacity="0.7"/><circle cx="598" cy="561" r="1.6" fill="#f0c45a" opacity="0.7"/><circle cx="501" cy="801" r="2" fill="#f0c45a" opacity="0.4"/><circle cx="928" cy="740" r="2" fill="#f0c45a" opacity="0.7"/><circle cx="457" cy="869" r="2.6" fill="#f0c45a" opacity="0.4"/>
+
+<!-- ============ THE DEALER'S FACE ============ -->
+<!-- cold shadow cast down the chest -->
+<ellipse cx="512" cy="362" rx="84" ry="18" fill="#000" opacity=".45" filter="url(#blur6)"/>
+<!-- mask -->
+<path d="M512 108 C580 108 604 160 602 206 C600 262 566 306 512 336 C458 306 424 262 422 206 C420 160 444 108 512 108 Z" fill="url(#mask)" stroke="#8d8374" stroke-width="2"/>
+<path d="M512 108 C580 108 604 160 602 206 C600 262 566 306 512 336 C458 306 424 262 422 206 C420 160 444 108 512 108 Z" fill="url(#shade)"/>
+<ellipse cx="474" cy="160" rx="32" ry="13" fill="#fff" opacity=".35" transform="rotate(-20 474 160)"/>
+<!-- cheek hollows and nose -->
+<path d="M438 240 Q462 252 480 276 Q456 272 440 256 Z" fill="#000" opacity=".16"/>
+<path d="M586 240 Q562 252 544 276 Q568 272 584 256 Z" fill="#000" opacity=".16"/>
+<path d="M512 212 L504 256 Q512 264 520 256 Z" fill="#000" opacity=".12"/>
+<path d="M500 254 Q512 262 524 254" stroke="#5a4e40" stroke-width="2.4" fill="none" opacity=".7"/>
+<!-- hair: slicked back, widow's peak, sharp sideburns -->
+<path d="M420 214 C414 118 460 88 512 88 C564 88 610 118 604 214 L598 246 L590 202 C580 164 556 146 540 156 L512 186 L484 156 C468 146 444 164 434 202 L426 246 Z" fill="#09080c"/>
+<path d="M452 120 Q470 100 500 98 M524 98 Q556 100 574 122 M442 150 Q460 124 490 118 M534 118 Q566 124 582 150" stroke="#4a4658" stroke-width="2.2" fill="none" opacity=".8" stroke-linecap="round"/>
+<!-- brows: sharp and angry -->
+<path d="M444 186 Q480 196 508 214 L500 223 Q476 207 446 200 Z" fill="#09080c"/>
+<path d="M580 186 Q544 196 516 214 L524 223 Q548 207 578 200 Z" fill="#09080c"/>
+<!-- eye sockets and glowing eyes -->
+<path d="M458 216 Q482 200 508 222 Q482 234 458 216 Z" fill="#12040a"/>
+<path d="M566 216 Q542 200 516 222 Q542 234 566 216 Z" fill="#12040a"/>
+<circle cx="486" cy="217" r="17" fill="url(#eyeglow)"/>
+<circle cx="538" cy="217" r="17" fill="url(#eyeglow)"/>
+<circle cx="486" cy="217" r="5.5" fill="#ffd14a"/><circle cx="538" cy="217" r="5.5" fill="#ffd14a"/>
+<ellipse cx="486" cy="217" rx="1.8" ry="5.2" fill="#12040a"/><ellipse cx="538" cy="217" rx="1.8" ry="5.2" fill="#12040a"/>
+<!-- grin -->
+<path d="M446 258 Q452 268 452 268 Q512 322 572 268 Q578 258 578 258" fill="none" stroke="#5a4e40" stroke-width="2.2" opacity=".7" stroke-linecap="round"/>
+<path d="M452 268 Q512 318 572 268 Q512 290 452 268 Z" fill="url(#mouth)"/>
+<g clip-path="url(#mouthclip)"><polygon points="462.4,272.5 472.8,272.5 467.6,283.5" fill="#f4efe4"/><polygon points="473.5,275.1 483.9,275.1 478.7,286.1" fill="#f4efe4"/><polygon points="484.6,277.0 495.0,277.0 489.8,288.0" fill="#f4efe4"/><polygon points="495.7,278.1 506.1,278.1 500.9,289.1" fill="#f4efe4"/><polygon points="506.8,278.5 517.2,278.5 512.0,289.5" fill="#f4efe4"/><polygon points="517.9,278.1 528.3,278.1 523.1,289.1" fill="#f4efe4"/><polygon points="529.0,277.0 539.4,277.0 534.2,288.0" fill="#f4efe4"/><polygon points="540.1,275.1 550.5,275.1 545.3,286.1" fill="#f4efe4"/><polygon points="551.2,272.5 561.6,272.5 556.4,283.5" fill="#f4efe4"/><polygon points="468.0,281.6 476.8,281.6 472.4,274.6" fill="#d9d2c4"/><polygon points="479.3,286.9 488.1,286.9 483.7,279.9" fill="#d9d2c4"/><polygon points="490.6,290.5 499.4,290.5 495.0,283.5" fill="#d9d2c4"/><polygon points="501.8,292.3 510.6,292.3 506.2,285.3" fill="#d9d2c4"/><polygon points="513.1,292.3 521.9,292.3 517.5,285.3" fill="#d9d2c4"/><polygon points="524.4,290.5 533.2,290.5 528.8,283.5" fill="#d9d2c4"/><polygon points="535.7,287.0 544.5,287.0 540.1,280.0" fill="#d9d2c4"/><polygon points="547.0,281.7 555.8,281.7 551.4,274.7" fill="#d9d2c4"/></g>
+<path d="M452 268 Q512 318 572 268 Q512 290 452 268 Z" fill="none" stroke="#2a0409" stroke-width="2.5" stroke-linejoin="round"/>
+<path d="M452 268 Q444 262 446 252 M572 268 Q580 262 578 252" fill="none" stroke="#5a4e40" stroke-width="2.4" stroke-linecap="round" opacity=".8"/>
+<!-- kintsugi cracks -->
+<g fill="none" stroke="#f0c45a" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M584 158 L592 182 L582 206 L590 232 L582 252" stroke-width="3"/>
+  <path d="M584 158 L592 182 L582 206 L590 232 L582 252" stroke-width="10" opacity=".22" filter="url(#blur3)"/>
+  <path d="M500 334 L494 314 L506 302 L500 292" stroke-width="2.4"/>
+  <path d="M580 160 L566 150 M582 206 L570 214" stroke-width="1.8"/>
+</g>
+
+<!-- ============ FINISHING ============ -->
+<rect width="1024" height="1024" fill="url(#vig)"/>
+<rect width="1024" height="1024" fill="url(#vigr)"/>
+<rect width="1024" height="1024" filter="url(#grain)" opacity=".10" style="mix-blend-mode:overlay"/>
+<metadata><c2pa:manifest>AAAWgmp1bWIAAAAeanVtZGMycGEAEQAQgAAAqgA4m3EDYzJwYQAAABZcanVtYgAAAEdqdW1kYzJtYQARABCAAACqADibcQN1cm46YzJwYTowNTQzODAzMy1iNmE3LTRiMWItOTNkZi1kMDU2ODFmYjQ0ZTgAAAADl2p1bWIAAAApanVtZGMyYXMAEQAQgAAAqgA4m3EDYzJwYS5hc3NlcnRpb25zAAAAALxqdW1iAAAARGp1bWRjYm9yABEAEIAAAKoAOJtxE2MycGEuaW5ncmVkaWVudC52MwAAAAAYYzJzaFxzLlSSEtCqHMxK8eQCtiQAAABwY2JvcqNpZGM6Zm9ybWF0bWltYWdlL3N2Zyt4bWxqaW5zdGFuY2VJRHgseG1wOmlpZDo3ZGM4NDNiZC1lYmViLTQ2YWItYWZiNy00MTFmYmRlYzliMWVscmVsYXRpb25zaGlwaHBhcmVudE9mAAAB4mp1bWIAAABBanVtZGNib3IAEQAQgAAAqgA4m3ETYzJwYS5hY3Rpb25zLnYyAAAAABhjMnNogzxYED4BZ5lXT436earjHgAAAZljYm9yomdhY3Rpb25zgqJmYWN0aW9ua2MycGEub3BlbmVkanBhcmFtZXRlcnOha2luZ3JlZGllbnRzgaJjdXJseC1zZWxmI2p1bWJmPWMycGEuYXNzZXJ0aW9ucy9jMnBhLmluZ3JlZGllbnQudjNkaGFzaFggRC3ZztwnJ+W2YyMuA0D0E09hu7YSpD2M+dscSx/K42ekZmFjdGlvbngdY29tLmFudGhyb3BpYy5jbGF1ZGUucHJvdmlkZWRqcGFyYW1ldGVyc6F4H2NvbS5hbnRocm9waWMub3JpZ2luLWNvbmZpZGVuY2VndW5rbm93bmtkZXNjcmlwdGlvbnhmQ2xhdWRlIHByb3ZpZGVkIHRoaXMgZmlsZSBhdCB0aGUgcmVxdWVzdCBvZiBhIHVzZXIgYW5kIG1heSBoYXZlIGNyZWF0ZWQgb3IgbW9kaWZpZWQgdGhlIGZpbGUgY29udGVudHMubXNvZnR3YXJlQWdlbnShZG5hbWVmQ2xhdWRlcmFsbEFjdGlvbnNJbmNsdWRlZPUAAADIanVtYgAAAEBqdW1kY2JvcgARABCAAACqADibcRNjMnBhLmhhc2guZGF0YQAAAAAYYzJzaCU+auJqj711uf69ljfP3ZkAAACAY2JvcqVjYWxnZnNoYTI1NmNwYWRMAAAAAAAAAAAAAAAAZGhhc2hYIAs1y0nYfU0D3addsAL3lKvUPeyp5xtQJSLuMwqDPxA3ZG5hbWVuanVtYmYgbWFuaWZlc3RqZXhjbHVzaW9uc4GiZXN0YXJ0GW10Zmxlbmd0aBkeBAAAAj5qdW1iAAAAJ2p1bWRjMmNsABEAEIAAAKoAOJtxA2MycGEuY2xhaW0udjIAAAACD2Nib3KlY2FsZ2ZzaGEyNTZpc2lnbmF0dXJleE1zZWxmI2p1bWJmPS9jMnBhL3VybjpjMnBhOjA1NDM4MDMzLWI2YTctNGIxYi05M2RmLWQwNTY4MWZiNDRlOC9jMnBhLnNpZ25hdHVyZWppbnN0YW5jZUlEeCx4bXA6aWlkOjE3ZjVhYWQ3LWM2OWQtNGIwZC1iNGJjLTM4NGU5NWIzMzk5OHJjcmVhdGVkX2Fzc2VydGlvbnODomN1cmx4LXNlbGYjanVtYmY9YzJwYS5hc3NlcnRpb25zL2MycGEuaW5ncmVkaWVudC52M2RoYXNoWCBELdnO3Ccn5bZjIy4DQPQTT2G7thKkPYz52xxLH8rjZ6JjdXJseCpzZWxmI2p1bWJmPWMycGEuYXNzZXJ0aW9ucy9jMnBhLmFjdGlvbnMudjJkaGFzaFggA9TOg0QPEg/6qbjgwgiMFCCUTVihO+kT4aUKdAyLPieiY3VybHgpc2VsZiNqdW1iZj1jMnBhLmFzc2VydGlvbnMvYzJwYS5oYXNoLmRhdGFkaGFzaFggmPkstGqvSyxU+b7Wmqr6xarxBCIIzw91Bf7kEOnyuJZ0Y2xhaW1fZ2VuZXJhdG9yX2luZm+jZG5hbWVvQW50aHJvcGljIEZpbGVzZ3ZlcnNpb25lMS4wLjBrc3BlY1ZlcnNpb25lMi40LjAAABA4anVtYgAAAChqdW1kYzJjcwARABCAAACqADibcQNjMnBhLnNpZ25hdHVyZQAAABAIY2JvctKEWQISogEmGCFZAgowggIGMIIBjaADAgECAhRA5aAK7sI50L64g/oGQgU9Z1UTADAKBggqhkjOPQQDAzBJMRcwFQYDVQQKEw5BbnRocm9waWMsIFBCQzEuMCwGA1UEAxMlQW50aHJvcGljIENvbnRlbnQgQ3JlZGVudGlhbHMgUm9vdCBDQTAeFw0yNjA4MDcxODQzNTZaFw0yODA4MDYxOTQzNTZaMEQxFzAVBgNVBAoTDkFudGhyb3BpYywgUEJDMSkwJwYDVQQDEyBBbnRocm9waWMgQ2xhdWRlIENvbnRlbnQgU2lnbmluZzBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABJh6CmvLUBgFFNU0vUKlOVtE6djd17L5SuwX0LemFisBM3dkd/3cyjxFA3Qo5S46fX0/ihY0VZ7mfb9KF703t5OjWDBWMA4GA1UdDwEB/wQEAwIHgDAVBgNVHSUEDjAMBgorBgEEAYPoXgIBMAwGA1UdEwEB/wQCMAAwHwYDVR0jBBgwFoAUzlHiBIFOZFsj+OPEz5o+nMHXXMIwCgYIKoZIzj0EAwMDZwAwZAIwMXMdFJ4BetLLVY7ORuE9noqbbAZOZn/aArXyTwFAZfKrPzxF2vPoJNf1+UCdg1XGAjBwX1zd9WGqYkqmL5SFqw1QySjr1zJfpJM9+1rdDwSPLMOPOjKuiXjoU/pUUeG9RwmhY3BhZFkNngAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPZYQDEQjWDq0b76KC3iLH2mdzS9b2DYMhOV9BoVb0k9KA0UkkrgmE8Zl3iW5h/yZt19f4qebywPBwnZp151oY4IYFw=</c2pa:manifest></metadata></svg>

@@ -1,4 +1,4 @@
-# Build log — The Hollow Seven
+# Build log — Cursed Table
 
 ## 2026-11-10 — Foundation and puzzle verification
 
@@ -42,3 +42,24 @@ Offline runtime compilation and 1,000 generated-level checks passed. Unity refre
 Integrated all 60 user-supplied MP3s through a serialized voice library without moving or replacing originals. One non-looping source owns speech, rejects overlapping/repeated requests and ducks music/ambience. Story clicks reveal text without replaying/cutting voice; transitions wait for completion. Tutorial chip/operator stages no longer repeat the instruction. Round/rule announcements, first reward/warning, ending and death/retry now respect voice duration. Explicit skips and menu exits cancel playback. Pause resumes from the same sample; mute retains timing. Dealer gesture duration follows the recording.
 
 Dedicated normal-speed voice QA passed 134 assertions, including every story recording under repeated Continue input and all 60 assets decoding successfully. Existing editor test scripts were left unchanged; the new VoicePlaybackChecks file contains voice-specific regression checks. See voice validation reports for subsequent transition/build results.
+
+Final voice verification: 134 playback assertions + 15 transition assertions + caption-ownership check passed; existing EditMode suite 11/11. Final WindowsVoiceReview build succeeded with zero errors/warnings and all 60 voice files packed. See VOICE_INTEGRATION.md.
+
+## 2026-11-13 � Cursed Table title and comment cleanup
+Changed visible titles, casino signs, opening captions, product name, current documentation titles and editor menu labels to Cursed Table. Internal namespace/assembly names and historical build paths remain stable. Removed seven descriptive/history comments and shortened three technical comments using the unslop rewrite checks. Kept comments explaining solver safety, shadows and layout. No gameplay logic or test assertions changed.
+
+The supplied opening line 07 needs a new recording of the updated title; see VOICE_REPLACEMENTS.md. Original recordings were preserved.
+
+Renamed Windows build: Builds/Cursed Table/Cursed Table.exe, successful with zero errors. Existing 11 editor tests passed. Build reported 497 package/shader warnings. Spoken opening title replacement remains pending.
+
+Final renamed build: build-3edf34bcc3, zero errors, 496 package/shader warnings. Pending-compilation warning resolved after refresh and rebuild.
+
+Removed the Credits menu and page-draft attribution sections. Replay Opening moves up to fill the menu gap. Submission-page credits will be supplied manually.
+
+Credits removal verified in the live menu and compiled runtime assembly. Build build-85819cab54 succeeded with zero errors and zero warnings.
+
+Added menu hover/click thumps: 140 ms soft hover and 240 ms deeper click, with an 80 ms hover cooldown. Menu buttons own one click trigger; gameplay operators retain their existing selection sound. Disabled buttons do not play hover audio. Waveform bounds and fades checked, and live menu event check passed (one click sound; disabled hover silent). Included in the next build from this project.
+
+Integrated amb_room_tone.wav as one looping casino ambience source referenced by Game.unity. Fades out during memories/exteriors, ducks under voice, lowers during pause, and follows Master/Sound Effects/Mute. Reduced synthesized background stems to make room for the quiet supplied recording. Verified clip decoding, a single source after repeated unlock, looping playback, memory fade-out and voice ducking in Play mode. Included in the next build.
+
+Fixed audio settings: invisible 48px pointer areas accept track clicks and dragging; 4px track/fill and smaller diamond handles retain a slim appearance. Added percentages. Volume changes update active sounds, and zero silences the appropriate channels immediately. Music now controls casino/rain ambience; Sound Effects controls voice and gameplay/UI effects. Live pointer/raycast tests passed for all three sliders; master/effects/music zero checks passed. Assigned the supplied PNG as the default application icon and added Web build favicon copying/linking, verified with a generated HTML fixture. Changes are ready for the next build.

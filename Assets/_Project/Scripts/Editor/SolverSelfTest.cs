@@ -6,7 +6,7 @@ using UnityEngine;
 namespace HollowSeven.Editor {
 public static class SolverSelfTest {
     private static int _tier,_seed,_fallbacks;private static double _total,_max;private static GameConfig _config;private static DifficultyTable _table;private static StringBuilder _report;
-    [MenuItem("Hollow Seven/Run Solver Self Test")]
+    [MenuItem("Cursed Table/Run Solver Self Test")]
     public static void Run(){
         EditorApplication.update-=Tick;_config=ScriptableObject.CreateInstance<GameConfig>();_table=ScriptableObject.CreateInstance<DifficultyTable>();LevelGenerator.Configure(_table,_config);
         _tier=0;_seed=1;_fallbacks=0;_total=0;_max=0;_report=new StringBuilder("# Solver verification\n\n500 seeds per tier; all routes replayed with allowed operators and no cursed operands.\n\n");

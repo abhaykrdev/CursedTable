@@ -12,9 +12,9 @@ public static class StoryScript {
         new StoryShot("P2","This afternoon I saw her again. The man with the flowers was her new boyfriend—the man she had left me for.","TODAY, AFTERNOON  /  OUTSIDE A CAFÉ","HERO"),
         new StoryShot("P2","They looked happy. I couldn't bring myself to speak to her. I stood across the street until they were gone.","TODAY, AFTERNOON  /  OUTSIDE A CAFÉ","HERO"),
         new StoryShot("P3","By night, I'd been drinking. I didn't want to go back to the empty house. I wanted somewhere I could stop thinking about them.","TONIGHT  /  WALKING ALONE","HERO"),
-        new StoryShot("P0","I stopped in the alley behind a casino: The Hollow Seven. I was still deciding whether to go in when a voice came through the door.","TONIGHT  /  BEHIND THE CASINO","HERO"),
+        new StoryShot("P0","I stopped in the alley behind a casino: Cursed Table. I was still deciding whether to go in when a voice came through the door.","TONIGHT  /  BEHIND THE CASINO","HERO"),
         new StoryShot("P0","Still wearing your wedding ring? Come inside. There are things about her new life you haven't seen.","TONIGHT  /  THE CASINO'S REAR ENTRANCE","A VOICE BEHIND THE DOOR"),
-        new StoryShot("P4","The door opened before I touched it. I should have walked away. Instead, I followed the voice to a roulette table.","MOMENTS LATER  /  ENTERING THE HOLLOW SEVEN","HERO"),
+        new StoryShot("P4","The door opened before I touched it. I should have walked away. Instead, I followed the voice to a roulette table.","MOMENTS LATER  /  ENTERING CURSED TABLE","HERO"),
         new StoryShot("P8","Money isn't what you want. You want to know whether leaving you made her happy. My table can show you.","AT THE ROULETTE TABLE","THE DEALER"),
         new StoryShot("P8","Combine the numbered chips to reach my target. Lucky numbers fill the meter; cursed numbers drain it. Reach +15 and I'll reveal a memory.","AT THE ROULETTE TABLE","THE DEALER",10),
         new StoryShot("P8","A memory of her? Then deal. I want to see what happened after she walked away from me.","THE FIRST HAND","HERO")

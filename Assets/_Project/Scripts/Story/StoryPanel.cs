@@ -30,7 +30,7 @@ public sealed class StoryPanel:MonoBehaviour {
         bool boyfriend=name.Contains("Boyfriend")||name.Contains("OtherMan")||name.Contains("LeavingMan");
         string skin=female?"BA9380":boyfriend?"B58E77":"A88876",shade=female?"927263":"78635B",hair=boyfriend?"3C302E":"171D28";
         Ellipse(r,"GroundShadow",0,-284,160,18,"0A111C",.35f);
-        // Articulated, tapered limbs and a fitted jacket replace the old triangular silhouettes.
+
         Poly(r,"LegL",-25,-204,45,164,"1B2330",new Vector2(-.46f,.5f),new Vector2(.5f,.5f),new Vector2(.32f,-.5f),new Vector2(-.28f,-.5f));
         Poly(r,"LegR",26,-204,45,164,"111A26",new Vector2(-.5f,.5f),new Vector2(.46f,.5f),new Vector2(.28f,-.5f),new Vector2(-.32f,-.5f));
         Line(r,"TrouserCreaseL",-25,-205,1.5f,129,0,"445061",.4f);Line(r,"TrouserCreaseR",26,-205,1.5f,129,0,"445061",.25f);
@@ -94,7 +94,7 @@ public sealed class StoryPanel:MonoBehaviour {
         Poly(_stage,"CasinoRearWall",80,0,1740,760,"26303B",new Vector2(-.5f,.42f),new Vector2(.5f,.5f),new Vector2(.5f,-.5f),new Vector2(-.5f,-.5f));
         for(int row=0;row<11;row++){float y=-340+row*65;Line(_stage,"Mortar_"+row,70,y,1720,1,0,"47505B",.35f);for(int brick=0;brick<13;brick++)Line(_stage,"Joint_"+row+"_"+brick,-780+brick*140+row%2*70,y+32,1,64,0,"47505B",.25f);}
         Box(_stage,"ServiceDoorFrame",370,-10,350,580,"8F714B");Box(_stage,"ServiceDoor",370,-14,326,562,"111824");Box(_stage,"LightUnderDoor",370,-292,326,4,"F4BD79");Line(_stage,"DoorLightLeak",530,-15,3,556,0,"E8B57B",.7f);Box(_stage,"Handle",485,-55,9,66,"C6A578");
-        UIFactory.Text(_stage,"CasinoBackSign","THE HOLLOW SEVEN",325,342,920,100,57,C("DBB27C"));UIFactory.Text(_stage,"RearEntranceSign","R E A R   E N T R A N C E",370,235,420,52,17,C("9B927E"));
+        UIFactory.Text(_stage,"CasinoBackSign","CURSED TABLE",325,342,920,100,57,C("DBB27C"));UIFactory.Text(_stage,"RearEntranceSign","R E A R   E N T R A N C E",370,235,420,52,17,C("9B927E"));
         Line(_stage,"ServicePipe",-635,15,18,720,0,"171F2B");Line(_stage,"PipeClamp",-635,220,34,10,0,"5C6468");Line(_stage,"PipeClampLower",-635,-130,34,10,0,"5C6468");
         Box(_near,"Ground",0,-360,1920,110,"101B28");
         Poly(_stage,"DoorGlowOnPaving",460,-345,650,100,"70513E",new Vector2(-.38f,.5f),new Vector2(.1f,.5f),new Vector2(.5f,-.5f),new Vector2(-.5f,-.5f));

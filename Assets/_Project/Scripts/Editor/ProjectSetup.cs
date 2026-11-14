@@ -9,7 +9,7 @@ using UnityEngine.UI;
 namespace HollowSeven.Editor {
 public static class ProjectSetup {
     public const string Root = "Assets/_Project";
-    [MenuItem("Hollow Seven/Setup Foundation")]
+    [MenuItem("Cursed Table/Setup Foundation")]
     public static void Foundation() {
         foreach (var folder in new[]{"Scenes","Scripts/Core","Scripts/Puzzle","Scripts/Luck","Scripts/Story","Scripts/Tutorial","Scripts/UI","Scripts/Presentation","Scripts/Audio","Scripts/Input","Scripts/Tests/EditMode","Data/Tutorial","Data/Story","Prefabs/UI","Prefabs/Story","Resources/Story","Art/Placeholders","Art/Fonts","Art/Sprites","Audio/Music","Audio/Sfx","Audio/Ambience","Audio/Voice","Materials","Settings"}) Directory.CreateDirectory(Root+"/"+folder);
         Directory.CreateDirectory("Docs/screens");
@@ -26,7 +26,7 @@ public static class ProjectSetup {
         new GameObject("EventSystem",typeof(EventSystem),typeof(InputSystemUIInputModule));
         EditorSceneManager.SaveScene(scene,Root+"/Scenes/Game.unity");
         AssetDatabase.SaveAssets();
-        Debug.Log("Hollow Seven M0 foundation created. Web settings left to user.");
+        Debug.Log("Cursed Table M0 foundation created. Web settings left to user.");
     }
 }
 }

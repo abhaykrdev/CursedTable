@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.UI;
 namespace HollowSeven {
-// Native vector geometry: every ring and chip remains an editable UI object.
+// Draws UI shapes as editable vector geometry.
 [RequireComponent(typeof(CanvasRenderer))]
 public sealed class ShapeGraphic:MaskableGraphic {
     public enum Shape {Disc,Ring,Frame,Diamond,Polygon}

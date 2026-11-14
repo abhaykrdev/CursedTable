@@ -1,6 +1,6 @@
 using UnityEngine;
 namespace HollowSeven {
-[CreateAssetMenu(menuName="Hollow Seven/Difficulty Table")]
+[CreateAssetMenu(menuName="Cursed Table/Difficulty Table")]
 public sealed class DifficultyTable : ScriptableObject {
     [System.Serializable] public sealed class Tier {
         public int firstRound,chipsMin,chipsMax,stepsMin,stepsMax,targetMin,targetMax,minSafeLength,bigsMax,poolMax;public float basePoints,penaltyPerSecond;public OpKind[] operators;public int[] fallbackChips;public int fallbackTarget;

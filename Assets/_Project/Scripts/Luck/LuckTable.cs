@@ -1,6 +1,6 @@
 using UnityEngine;
 namespace HollowSeven {
-[CreateAssetMenu(menuName="Hollow Seven/Luck Table")]
+[CreateAssetMenu(menuName="Cursed Table/Luck Table")]
 public sealed class LuckTable : ScriptableObject {
     [System.Serializable] public struct Entry {public int value; public LuckTag tag; public float delta; public string codexBlurb; public Entry(int v,LuckTag t,float d,string text){value=v;tag=t;delta=d;codexBlurb=text;}}
     public Entry[] entries={

@@ -12,6 +12,7 @@ public sealed class GameManager : MonoBehaviour {
     public LuckTable LuckTable;
     public TMP_FontAsset Font;
     public AudioClip HeroLaughVoice;
+    public AudioClip CasinoAmbience;
     public Canvas HudCanvas, StoryCanvas, OverlayCanvas;
     public GameObject Casino;
     public CasinoDirector Director;
@@ -42,7 +43,7 @@ public sealed class GameManager : MonoBehaviour {
         LevelGenerator.Configure(Difficulty, Config);
         Luck = gameObject.AddComponent<LuckManager>(); Luck.Configure(Config, LuckTable);
         Round = gameObject.AddComponent<RoundController>(); Round.Game = this;
-        Audio = gameObject.AddComponent<AudioManager>(); Audio.Game = this;
+        Audio = gameObject.AddComponent<AudioManager>(); Audio.Game = this; Audio.AMB_RoomTone=CasinoAmbience;
         UIFactory.Sound = Audio.PlaySfx;
         Hud = HudCanvas.gameObject.AddComponent<HudController>(); Hud.Build(this, Font);
         Story = StoryCanvas.gameObject.AddComponent<StoryPanel>(); Story.Game = this;
@@ -74,24 +75,24 @@ public sealed class GameManager : MonoBehaviour {
         return _menu;
     }
     private Button MenuButton(string name,string label,float y,Action action) {
-        return UIFactory.Button(_menu,name,label,0,y,440,62,()=>{ Audio.PlaySfx(SfxId.SFX_UIClick); action(); });
+        return UIFactory.Button(_menu,name,label,0,y,440,62,()=>action());
     }
     private void Focus(Button button) { if (EventSystem.current != null) EventSystem.current.SetSelectedGameObject(button.gameObject); }
     private void ContentNote() { UIFactory.Text(_menu,"ContentNote","This game deals with heartbreak, drinking and despair.\nIf you are struggling, please talk to someone you trust.",0,-474,1500,60,20,UIFactory.Hex("9B9292")); }
     public void ShowBoot() {
-        ChangeState(GameState.Boot); Menu("THE HOUSE HAS BEEN EXPECTING YOU","THE HOLLOW SEVEN","Win a hand. See what she never told you.");
+        ChangeState(GameState.Boot); Menu("THE HOUSE HAS BEEN EXPECTING YOU","CURSED TABLE","Win a hand. See what she never told you.");
         Focus(MenuButton("Enter","TAKE A SEAT",-90,Enter)); ContentNote();
     }
     public void Enter() { Audio.Unlock(); if (!SaveService.PrologueSeen) StartPrologue(); else MainMenu(); }
     public void MainMenu() {
         _rewardPopup=false; _inSubmenu=false; CancelFlow(); Tutorial.Stop(); Round.Stop(); Paused=false; Time.timeScale=1;
         Hud.Visible(false); Story.Hide(); ChangeState(GameState.MainMenu);
-        Menu("THE HOUSE IS WAITING","THE HOLLOW SEVEN","BEST  "+PlayerPrefs.GetInt("ln_highScore").ToString("00000")+"     /     "+SaveService.Rank(PlayerPrefs.GetInt("ln_bestRounds")));
+        Menu("THE HOUSE IS WAITING","CURSED TABLE","BEST  "+PlayerPrefs.GetInt("ln_highScore").ToString("00000")+"     /     "+SaveService.Rank(PlayerPrefs.GetInt("ln_bestRounds")));
         Focus(MenuButton("Play",SaveService.EndingSeen?"STORY REPLAY":"SIT AT THE TABLE",-10,()=>{if(SaveService.EndingSeen)SaveService.Set("ln_beatsSeen",0);StartStoryRun();}));
         float y=-100;
         if(SaveService.EndingSeen) { MenuButton("Endless","ENDLESS",y,()=>StartRun(false,true)); y-=70; }
         MenuButton("Memories","MEMORIES & CODEX",y,ShowCollection); MenuButton("Settings","SETTINGS",y-70,ShowSettings);
-        MenuButton("Credits","CREDITS",y-140,ShowCredits); MenuButton("Opening","REPLAY OPENING",y-210,StartPrologue);
+        MenuButton("Opening","REPLAY OPENING",y-140,StartPrologue);
         UIFactory.Button(_menu,"NewGame","NEW GAME",-650,-360,290,62,ConfirmNewGame);ContentNote();
     }
     private void ConfirmNewGame(){
@@ -234,17 +235,23 @@ public sealed class GameManager : MonoBehaviour {
     }
     public void Continue(){if(Paused||_inSubmenu)return;ContinueCount++;if(State==GameState.Death&&!Audio.VoiceBusy)StartRun(false,Endless);}
     public void ShowSettings() {
-        _inSubmenu=true;Menu("MAKE YOURSELF COMFORTABLE","SETTINGS","Audio begins after your first click.");
+        _inSubmenu=true;Menu("MAKE YOURSELF COMFORTABLE","SETTINGS","Music includes casino ambience. Sound Effects includes dialogue.");
         SettingsSlider("MASTER",10,Audio.Master,Audio.SetMaster);SettingsSlider("MUSIC",-80,Audio.Music,Audio.SetMusic);SettingsSlider("SOUND EFFECTS",-170,Audio.Sfx,Audio.SetSfx);
         MenuButton("Mute",Audio.Muted?"UNMUTE [M]":"MUTE [M]",-280,()=>{Audio.ToggleMute();ShowSettings();});MenuButton("Back","BACK",-380,BackFromSubmenu);
     }
     private void SettingsSlider(string label,float y,float value,Action<float> changed) {
-        UIFactory.Text(_menu,label,label,-280,y,260,50,24,UIFactory.Bone);var r=UIFactory.Rect(_menu,label+"Slider",160,y,420,35);var slider=r.gameObject.AddComponent<Slider>();
-        UIFactory.Panel(r,"Track",0,0,420,8,UIFactory.Brass);var handle=UIFactory.Shape(r,"Handle",0,0,24,34,ShapeGraphic.Shape.Diamond,UIFactory.Gold);handle.raycastTarget=true;
-        slider.handleRect=handle.rectTransform;slider.targetGraphic=handle;slider.minValue=0;slider.maxValue=1;slider.value=value;slider.onValueChanged.AddListener(v=>changed(v));
+        UIFactory.Text(_menu,label,label,-280,y,260,50,24,UIFactory.Bone);
+        var hit=UIFactory.Panel(_menu,label+"Slider",160,y,420,48,Color.clear);hit.raycastTarget=true;
+        var r=hit.rectTransform;var slider=r.gameObject.AddComponent<Slider>();
+        UIFactory.Panel(r,"Track",0,0,420,4,UIFactory.Brass);
+        var fillArea=UIFactory.Rect(r,"FillArea",0,0,420,4);
+        var fill=UIFactory.Panel(fillArea,"Fill",0,0,0,0,UIFactory.Gold);slider.fillRect=fill.rectTransform;
+        var handle=UIFactory.Shape(r,"Handle",0,0,16,26,ShapeGraphic.Shape.Diamond,UIFactory.Gold);handle.raycastTarget=true;
+        slider.handleRect=handle.rectTransform;slider.targetGraphic=handle;slider.minValue=0;slider.maxValue=1;slider.value=value;
+        var percentage=UIFactory.Text(_menu,label+"Value",Mathf.RoundToInt(value*100)+"%",440,y,110,48,24,UIFactory.Bone);
+        slider.onValueChanged.AddListener(v=>{changed(v);percentage.text=Mathf.RoundToInt(v*100)+"%";});
     }
     private void BackFromSubmenu(){_inSubmenu=false;if(Paused){Paused=false;Time.timeScale=1;TogglePause();}else MainMenu();}
-    private void ShowCredits(){_inSubmenu=true;Menu("MADE FOR LUCKY NUMBER","CREDITS","Game design: Naughty\nImplementation & procedural geometry: Codex through Unity MCP\nTypography: Liberation Sans / TextMeshPro\nOriginal procedural audio. Casino props: ITHappy, Casino Free.");MenuButton("Back","BACK",-160,BackFromSubmenu);}
     private void ShowCollection() {
         _inSubmenu=true;Menu("WHAT THE HOUSE REMEMBERS","MEMORIES & CODEX","Dreams seen: "+SaveService.BeatCount()+" / 6");int mask=PlayerPrefs.GetInt("ln_codexMask");string content="";
         for(int i=0;i<LuckTable.entries.Length;i++)if((mask&(1<<i))!=0)content+=LuckTable.entries[i].value+"  —  "+LuckTable.entries[i].codexBlurb+"\n";

@@ -21,18 +21,18 @@ namespace HollowSeven.Editor { public static class CasinoBuilder {
     private static Light Light(string name,LightType type,Vector3 pos,Color colour,float intensity,float range){var go=new GameObject(name,typeof(Light));go.transform.SetParent(_room,false);go.transform.localPosition=pos;var l=go.GetComponent<Light>();l.type=type;l.color=colour;l.intensity=intensity;l.range=range;return l;}
     private static TextMeshPro Label(string name,string text,Vector3 position,float size,Color colour,Transform parent=null){var go=new GameObject(name,typeof(TextMeshPro));go.transform.SetParent(parent??_room,false);go.transform.localPosition=position;var t=go.GetComponent<TextMeshPro>();t.font=UIFactory.Font;t.text=text;t.fontSize=size;t.color=colour;t.alignment=TextAlignmentOptions.Center;t.rectTransform.sizeDelta=new Vector2(9,2);return t;}
     private static T Data<T>(string name) where T:ScriptableObject {string path=Root+"/Data/"+name+".asset";var asset=AssetDatabase.LoadAssetAtPath<T>(path);if(asset==null){asset=ScriptableObject.CreateInstance<T>();AssetDatabase.CreateAsset(asset,path);}return asset;}
-    [MenuItem("Hollow Seven/Build Playable Casino")]
+    [MenuItem("Cursed Table/Build Playable Casino")]
     public static void Build(){
         if(EditorApplication.isPlaying)throw new System.InvalidOperationException("Stop Play mode before rebuilding.");
         ProjectSetup.Foundation();_meshId=0;var font=AssetDatabase.LoadAssetAtPath<TMP_FontAsset>("Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset");UIFactory.Font=font;
         _room=GameObject.Find("Casino3D").transform;
         _brass=Mat("M_Brass","B08D3C",.8f,.65f);_wood=Mat("M_Wood_Mahogany","3B1F14",0,.65f);_velvet=Mat("M_Wall_Velvet","250C18");_black=Mat("M_Ceiling","09070D");_ivory=Mat("M_Mask","E9E1CE",.05f,.4f);_felt=Mat("M_Felt","0F2A22",0,.1f);_amber=Mat("M_Emissive_Amber","FFB86B",0,.3f,"FFB86B");_red=Mat("M_Pocket_Red","8F1932",0,.5f);_green=Mat("M_Pocket_Green","16674C");_cloth=Mat("M_Dealer_Cloth","12101B");
         var carpet=Mat("M_Floor_Carpet","260F1A",0,.15f);Box("Floor",0,-.05f,3,16,.1f,16,carpet);Box("WallBack",0,2.5f,8,16,5,.2f,_velvet);Box("WallLeft",-8,2.5f,3,.2f,5,16,_velvet);Box("WallRight",8,2.5f,3,.2f,5,16,_velvet);Box("Ceiling",0,5.1f,3,16,.2f,16,_black);
-        // Architectural panelling is individual geometry, not a texture.
+
         for(int i=-4;i<=4;i++){float x=i*1.65f;Box("WallPanel_"+i,x,2.2f,7.82f,1.4f,3.6f,.08f,_black);Box("PanelTrimL_"+i,x-.7f,2.2f,7.73f,.025f,3.6f,.03f,_brass);Box("PanelTrimR_"+i,x+.7f,2.2f,7.73f,.025f,3.6f,.03f,_brass);Box("PanelTrimTop_"+i,x,4,7.73f,1.4f,.025f,.03f,_brass);Box("Wainscot_"+i,x,.7f,7.7f,1.4f,1.3f,.12f,_wood);}
         Box("CrownMoulding",0,4.55f,7.7f,16,.1f,.22f,_brass);Box("ChairRail",0,1.4f,7.65f,16,.04f,.08f,_brass);
         foreach(float x in new[]{-4f,4f}){Cylinder("Pillar",new Vector3(x,2.5f,5),new Vector3(.8f,2.5f,.8f),_wood);Cylinder("PillarBase",new Vector3(x,.15f,5),new Vector3(1,.15f,1),_brass);Cylinder("PillarCapital",new Vector3(x,4.6f,5),new Vector3(1,.12f,1),_brass);for(int n=0;n<8;n++){float a=n*Mathf.PI/4;Box("PillarFlute",x+Mathf.Cos(a)*.4f,2.5f,5+Mathf.Sin(a)*.4f,.025f,4.2f,.025f,_brass);}}
-        // The table: turned wood, brass inlays and a plush felt playing surface.
+
         Cylinder("TableBase",new Vector3(0,.46f,.4f),new Vector3(.9f,.46f,.9f),_wood);Cylinder("TableTop",new Vector3(0,.92f,.4f),new Vector3(3.5f,.065f,3.5f),_wood);Cylinder("Felt",new Vector3(0,.992f,.4f),new Vector3(3.18f,.008f,3.18f),_felt);
         Ring("TableOuterRail",new Vector3(0,.98f,.4f),1.70f,.045f,_brass);Ring("TableInnerInlay",new Vector3(0,1.005f,.4f),1.54f,.008f,_brass);
         Cylinder("WheelBase",new Vector3(0,1.02f,.4f),new Vector3(1.28f,.035f,1.28f),_wood);Ring("WheelRim",new Vector3(0,1.06f,.4f),.6f,.025f,_brass);Ring("BallTrackOuter",new Vector3(0,1.075f,.4f),.53f,.009f,_brass);
@@ -40,7 +40,7 @@ namespace HollowSeven.Editor { public static class CasinoBuilder {
         for(int i=0;i<37;i++){float a=i*360f/37;MeshObject("Pocket_"+i.ToString("00"),Sector(.24f,.46f,a+.8f,a+360f/37-.8f),new Vector3(0,.017f,0),i==0?_green:i%2==0?_black:_red,rotor);float angle=a*Mathf.Deg2Rad;var divider=Box("PocketDivider_"+i,Mathf.Cos(angle)*.35f,.024f,Mathf.Sin(angle)*.35f,.22f,.012f,.006f,_brass,rotor);divider.transform.localRotation=Quaternion.Euler(0,-a,0);}
         Ring("RotorInnerRing",new Vector3(0,.025f,0),.23f,.012f,_brass,rotor);Cylinder("HubBase",new Vector3(0,.03f,0),new Vector3(.32f,.03f,.32f),_brass,rotor);Sphere("WheelHub",new Vector3(0,.10f,0),new Vector3(.16f,.15f,.16f),_brass,rotor);Box("HubCross",0,.15f,0,.35f,.025f,.025f,_brass,rotor);Box("HubCross2",0,.15f,0,.025f,.025f,.35f,_brass,rotor);
         var ball=Sphere("Ball",new Vector3(.4f,1.09f,.4f),Vector3.one*.035f,_ivory).transform;
-        // Dealer silhouette. Face details and mask are meshes, independently replaceable.
+
         var dealer=new GameObject("Dealer").transform;dealer.SetParent(_room,false);
         Primitive("Body",PrimitiveType.Capsule,new Vector3(0,.8f,2.5f),new Vector3(.5f,.8f,.35f),_cloth,dealer);Sphere("Head",new Vector3(0,1.7f,2.5f),new Vector3(.28f,.32f,.28f),_cloth,dealer);
         var mask=Sphere("Mask",new Vector3(0,1.7f,2.37f),new Vector3(.24f,.30f,.075f),_ivory,dealer);
@@ -51,13 +51,13 @@ namespace HollowSeven.Editor { public static class CasinoBuilder {
         var left=Primitive("ArmL",PrimitiveType.Capsule,new Vector3(-.3f,1.13f,2.3f),new Vector3(.12f,.28f,.12f),_cloth,dealer);left.transform.localRotation=Quaternion.Euler(-35,0,-20);
         var right=Primitive("ArmR",PrimitiveType.Capsule,new Vector3(.3f,1.13f,2.3f),new Vector3(.12f,.28f,.12f),_cloth,dealer);right.transform.localRotation=Quaternion.Euler(-35,0,20);
         Sphere("GloveL",new Vector3(-.39f,.96f,2.12f),new Vector3(.13f,.08f,.16f),_ivory,dealer);Sphere("GloveR",new Vector3(.39f,.96f,2.12f),new Vector3(.13f,.08f,.16f),_ivory,dealer);
-        // Chip stacks and a drink on the table remain distinct, movable props.
+
         for(int stack=0;stack<3;stack++)for(int n=0;n<4+stack;n++){var chip=Cylinder("TableChip_"+stack+"_"+n,new Vector3(-1+stack*.15f,1.02f+n*.025f,.35f),new Vector3(.12f,.011f,.12f),stack==1?_red:_brass);}
         Cylinder("GlassBase",new Vector3(1.08f,1.01f,.55f),new Vector3(.13f,.01f,.13f),_brass);Cylinder("GlassStem",new Vector3(1.08f,1.1f,.55f),new Vector3(.025f,.09f,.025f),_brass);Sphere("DrinkBowl",new Vector3(1.08f,1.21f,.55f),new Vector3(.13f,.13f,.13f),_amber);
-        // Distant slot-machine silhouettes and sconces provide depth.
+
         for(int i=0;i<6;i++){float x=new[]{-6.5f,-5,-2.6f,2.6f,5,6.5f}[i];Box("SlotSilhouette_"+i,x,1,7.1f,.7f,2,.55f,_wood);Box("SlotScreen_"+i,x,1.4f,6.8f,.5f,.65f,.025f,i%2==0?_green:_red);Box("SlotMarquee_"+i,x,2.12f,7,.65f,.16f,.55f,_brass);}
         foreach(float x in new[]{-2.4f,2.4f}){Box("SconceStem",x,2.9f,7.5f,.04f,.65f,.1f,_brass);Sphere("SconceGlobe",new Vector3(x,3.2f,7.4f),Vector3.one*.23f,_amber);}
-        Label("NeonSign_HollowSeven","T H E   H O L L O W   S E V E N",new Vector3(0,3.65f,7.6f),6,C("D9AD61"));Label("SignSubline","EST.  19  /  77",new Vector3(0,3.2f,7.59f),2.5f,C("89723F"));
+        Label("NeonSign_CursedTable","C U R S E D   T A B L E",new Vector3(0,3.65f,7.6f),6,C("D9AD61"));Label("SignSubline","EST.  19  /  77",new Vector3(0,3.2f,7.59f),2.5f,C("89723F"));
         Box("ExitFrame",5,1.5f,7.65f,1.5f,3,.15f,_brass);var exit=Box("ExitGlow",5,1.5f,7.5f,1.3f,2.8f,.04f,_amber);exit.SetActive(false);
         Cylinder("ChandelierStem",new Vector3(0,4.5f,.6f),new Vector3(.045f,.6f,.045f),_brass);Ring("ChandelierRing",new Vector3(0,3.9f,.6f),.7f,.025f,_brass);for(int i=0;i<6;i++){float a=i*Mathf.PI/3;Sphere("ChandelierBulb_"+i,new Vector3(Mathf.Cos(a)*.7f,3.9f,.6f+Mathf.Sin(a)*.7f),Vector3.one*.12f,_amber);}
         var spot=Light("SpotTable",LightType.Spot,new Vector3(0,3.4f,.4f),C("FFC77A"),5,7);spot.transform.rotation=Quaternion.Euler(90,0,0);spot.spotAngle=70;spot.innerSpotAngle=40;spot.shadows=LightShadows.Hard;
@@ -70,17 +70,17 @@ namespace HollowSeven.Editor { public static class CasinoBuilder {
         var manager=GameObject.Find("_Managers").AddComponent<GameManager>();manager.Config=Data<GameConfig>("GameConfig");manager.Difficulty=Data<DifficultyTable>("DifficultyTable");manager.LuckTable=Data<LuckTable>("LuckTable");manager.Font=font;manager.HudCanvas=GameObject.Find("Canvas_HUD").GetComponent<Canvas>();manager.StoryCanvas=GameObject.Find("Canvas_Story").GetComponent<Canvas>();manager.OverlayCanvas=GameObject.Find("Canvas_Overlay").GetComponent<Canvas>();manager.Casino=_room.gameObject;manager.Director=director;
         Polish();EditorSceneManager.SaveScene(EditorSceneManager.GetActiveScene());AssetDatabase.SaveAssets();Debug.Log("Playable casino built with individual geometry; no external art imported.");
     }
-    [MenuItem("Hollow Seven/Polish Existing Casino")]
+    [MenuItem("Cursed Table/Polish Existing Casino")]
     public static void Polish(){
         _room=GameObject.Find("Casino3D").transform;_meshId=300;_brass=Mat("M_Brass","A38950",.7f,.43f);_black=Mat("M_Ceiling","09070D");_cloth=Mat("M_Dealer_Cloth","12101B");_wood=Mat("M_Wood_Mahogany","291A19",0,.4f);_velvet=Mat("M_Wall_Velvet","250C18");_ivory=Mat("M_Mask","CEC6B3",.05f,.3f);
         var old=_room.Find("ArtPolish");if(old!=null)Object.DestroyImmediate(old.gameObject);var root=new GameObject("ArtPolish").transform;root.SetParent(_room,false);
-        var sign=_room.Find("NeonSign_HollowSeven");if(sign!=null)sign.gameObject.SetActive(false);var sub=_room.Find("SignSubline");if(sub!=null)sub.gameObject.SetActive(false);
+        var sign=_room.Find("NeonSign_CursedTable");if(sign!=null)sign.gameObject.SetActive(false);var sub=_room.Find("SignSubline");if(sub!=null)sub.gameObject.SetActive(false);
         var curtain=Mat("M_Curtain","290D22",0,.18f);foreach(float side in new[]{-1f,1f}){for(int i=0;i<9;i++)Cylinder("VelvetFold_"+side+"_"+i,new Vector3(side*(4.55f+i*.23f),2.7f,7.52f+(i%2)*.06f),new Vector3(.34f,2.1f,.18f),curtain,root);Box("CurtainRail",side*5.5f,4.8f,7.4f,2.4f,.07f,.12f,_brass,root);
             var diamond=Box("DecoDiamond",side*2.35f,2.65f,7.65f,.6f,.6f,.025f,_brass,root);diamond.transform.localRotation=Quaternion.Euler(0,0,45);var inset=Box("DecoDiamondInset",side*2.35f,2.65f,7.61f,.56f,.56f,.025f,_black,root);inset.transform.localRotation=Quaternion.Euler(0,0,45);
             Cylinder("FarTable",new Vector3(side*5,.7f,4.8f),new Vector3(2.2f,.05f,2.2f),_wood,root);Cylinder("FarTablePedestal",new Vector3(side*5,.35f,4.8f),new Vector3(.3f,.35f,.3f),_wood,root);
         }
         var dealer=_room.Find("Dealer");var shirt=dealer.Find("ShirtFront");shirt.localScale=new Vector3(.12f,.28f,.015f);var tie=dealer.Find("Tie");tie.localScale=new Vector3(.022f,.2f,.02f);
-        // Sculpt the coat silhouette with separate shoulder and lapel pieces.
+
         Sphere("ShoulderL",new Vector3(-.19f,1.37f,2.47f),new Vector3(.22f,.18f,.28f),_cloth,root);Sphere("ShoulderR",new Vector3(.19f,1.37f,2.47f),new Vector3(.22f,.18f,.28f),_cloth,root);
         foreach(float side in new[]{-1f,1f}){var lapel=Box("Lapel",side*.085f,1.33f,2.29f,.075f,.25f,.025f,_black,root);lapel.transform.localRotation=Quaternion.Euler(0,0,side*18);}
         var grin=new GameObject("Mask_Grin").transform;grin.SetParent(dealer,false);for(int i=0;i<12;i++){float x=-.04f+i*.08f/11;float y=1.625f+x*x*12;var piece=Box("Smile_"+i,x,y,2.326f,.008f,.006f,.008f,_black,grin);piece.transform.localRotation=Quaternion.Euler(0,0,x*1000);}

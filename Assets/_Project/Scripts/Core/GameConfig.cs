@@ -1,6 +1,6 @@
 using UnityEngine;
 namespace HollowSeven {
-[CreateAssetMenu(menuName="Hollow Seven/Game Config")]
+[CreateAssetMenu(menuName="Cursed Table/Game Config")]
 public sealed class GameConfig : ScriptableObject {
     public float startLuck=0, firstRunBonus=15, luckMin=-15, luckMax=15, blessedThreshold=10, brinkThreshold=-10, hauntThreshold=-6, postDreamLuck=2;
     public float timeoutLuck=-3, hintLuckCost=2, winLuckBase=1, winLuckSpeed=2, timerCursedPerLuck=.03f, timerBlessedMult=.85f;

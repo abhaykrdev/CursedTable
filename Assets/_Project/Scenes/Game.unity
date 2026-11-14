@@ -17203,7 +17203,7 @@ GameObject:
   - component: {fileID: 1156570866}
   - component: {fileID: 1156570865}
   m_Layer: 0
-  m_Name: NeonSign_HollowSeven
+  m_Name: NeonSign_CursedTable
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -17248,7 +17248,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: T H E   H O L L O W   S E V E N
+  m_text: C U R S E D   T A B L E
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -27497,6 +27497,8 @@ MonoBehaviour:
   Difficulty: {fileID: 11400000, guid: 66bae753e408d924baa04aeab50eb818, type: 2}
   LuckTable: {fileID: 11400000, guid: d4c8bac84fd43d34686842d5e7f2a0c0, type: 2}
   Font: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  HeroLaughVoice: {fileID: 0}
+  CasinoAmbience: {fileID: 8300000, guid: 1b9ee9f29e69ede42af28b2c650e6ee6, type: 3}
   HudCanvas: {fileID: 1318901811}
   StoryCanvas: {fileID: 623414498}
   OverlayCanvas: {fileID: 2136914138}

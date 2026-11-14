@@ -1,4 +1,4 @@
-# The Hollow Seven — implementation decisions
+# Cursed Table — implementation decisions
 
 2026-11-10. Source: the user's 62-page game design document and subsequent chat decisions.
 
