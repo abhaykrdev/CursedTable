@@ -1,7 +1,5 @@
 <div align="center">
 
-<img src="docs/icon.png" alt="The Cursed Table" width="200"/>
-
 # THE CURSED TABLE
 
 ### *Win a hand. See what she never told you.*
